@@ -20,17 +20,4 @@ The source code is structured into major analytical components:
 
 ---
 
-## Repository Structure
-
-QuintHorizon/
-│
-├── data/
-│   └── hip_main_safe.csv      # Static backup input catalog (Tier 4 Fallback)
-│
-├── outputs/
-│   ├── total_results.txt        # Compiled data across all 7 epochs & Multi-epoch integrated anchor roster
-│
-├── QuintHorizon.txt           # Main computational pipeline script (Python)
-├── LICENSE                    # MIT Open-Security/Academic License
-├── .gitignore                 # Python and environment exclusion rules
-└── README.md                  # Project documentation
+The complete computational execution log, including epoch-specific geometric grids, JHA weight-sensitivity evaluations, and 10,000-iteration permutation test results across all seven sites, is available in outputs/QuintHorizon_Full_Compilation_Report.md.
