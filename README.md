@@ -20,4 +20,4 @@ The source code is structured into major analytical components:
 
 ---
 
-The complete computational execution log, including epoch-specific geometric grids, JHA weight-sensitivity evaluations, and 10,000-iteration permutation test results across all seven sites, is available in outputs/QuintHorizon_Full_Compilation_Report.md.
+The complete computational execution log, including epoch-specific geometric grids, weight-sensitivity evaluations, and 10,000-iteration permutation test results across all seven sites, is available in outputs/QuintHorizon_Full_Compilation_Report.md.
