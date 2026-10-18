@@ -1,0 +1,3408 @@
+﻿DETAILED OUTPUT FOR San Lorenzo (1400 BCE)
+=====================================================================================
+
+
+GEOMETRIC GRID POOL (PANORAMIC CANDIDATES: UP TO 5 STARS PER SUB-SECTOR | Vmag < 2.5)
+-------------------------------------------------------------------------------------
+
+
+==================== QUINTANT 1 ====================
+
+
+--- SOUTHEAST ---
+  [HIP 24436] Rigel                  | V Base: 0.18 | Culm Alt:  54.4° | Culm V_App: 0.46  | Rise Az: 108.82°        | H_Vis: 1.9°
+
+
+--- EAST ---
+  [HIP 21421] Aldebaran              | V Base: 0.87 | Culm Alt:  76.0° | Culm V_App: 1.11  | Rise Az: 86.09°         | H_Vis: 2.3°
+  [HIP 25336] Bellatrix              | V Base: 1.64 | Culm Alt:  69.1° | Culm V_App: 1.89  | Rise Az: 93.33°         | H_Vis: 3.3°
+  [HIP 25930] Mintaka                | V Base: 2.25 | Culm Alt:  63.2° | Culm V_App: 2.51  | Rise Az: 99.55°         | H_Vis: 4.3°
+
+
+--- NORTHEAST ---
+  [HIP 25428] Elnath                 | V Base: 1.65 | Culm Alt:  89.4° | Culm V_App: 1.88  | Rise Az: 70.62°         | H_Vis: 3.3°
+
+
+--- NORTH ---
+  [HIP 24608] Capella                | V Base: 0.08 | Culm Alt:  73.3° | Culm V_App: 0.32  | Rise Az: 53.38°         | H_Vis: 1.8°
+  [HIP 36850] Castor                 | V Base: 1.58 | Culm Alt:  77.0° | Culm V_App: 1.82  | Rise Az: 57.40°         | H_Vis: 3.2°
+  [HIP 28360] Menkalinan             | V Base: 1.90 | Culm Alt:  72.0° | Culm V_App: 2.14  | Rise Az: 52.01°         | H_Vis: 3.6°
+
+
+--- NORTHWEST ---
+  [HIP 37826] Pollux                 | V Base: 1.16 | Culm Alt:  79.7° | Culm V_App: 1.39  | Rise Az: 60.29°         | H_Vis: 2.8°
+
+
+--- WEST ---
+  [HIP 37279] Procyon                | V Base: 0.40 | Culm Alt:  79.4° | Culm V_App: 0.63  | Rise Az: 82.55°         | H_Vis: 1.8°
+  [HIP 27989] Betelgeuse             | V Base: 0.45 | Culm Alt:  72.2° | Culm V_App: 0.69  | Rise Az: 90.07°         | H_Vis: 2.0°
+  [HIP 26311] Alnilam                | V Base: 1.69 | Culm Alt:  62.6° | Culm V_App: 1.95  | Rise Az: 100.14°        | H_Vis: 3.4°
+  [HIP 26727] Alnitak                | V Base: 1.74 | Culm Alt:  62.3° | Culm V_App: 2.00  | Rise Az: 100.55°        | H_Vis: 3.4°
+  [HIP 31681] Alhena                 | V Base: 1.93 | Culm Alt:  84.0° | Culm V_App: 2.16  | Rise Az: 77.65°         | H_Vis: 3.6°
+
+
+--- SOUTHWEST ---
+  [HIP 32349] Sirius                 | V Base: -1.44 | Culm Alt:  54.4° | Culm V_App: -1.16 | Rise Az: 108.80°        | H_Vis: 1.0°
+  [HIP 33579] Adhara                 | V Base: 1.50 | Culm Alt:  42.8° | Culm V_App: 1.84  | Rise Az: 121.19°        | H_Vis: 3.2°
+  [HIP 34444] Wezen                  | V Base: 1.83 | Culm Alt:  45.9° | Culm V_App: 2.15  | Rise Az: 117.80°        | H_Vis: 3.3°
+  [HIP 30324] Mirzam                 | V Base: 1.98 | Culm Alt:  50.2° | Culm V_App: 2.28  | Rise Az: 113.24°        | H_Vis: 3.6°
+  [HIP 27366] Saiph                  | V Base: 2.07 | Culm Alt:  55.4° | Culm V_App: 2.35  | Rise Az: 107.78°        | H_Vis: 3.9°
+
+
+==================== QUINTANT 2 ====================
+
+
+--- SOUTHEAST ---
+  [HIP 35904] Aludra                 | V Base: 2.45 | Culm Alt:  44.5° | Culm V_App: 2.78  | Rise Az: 119.37°        | H_Vis: 4.6°
+
+
+--- EAST ---
+  [HIP 46390] Alphard                | V Base: 1.99 | Culm Alt:  73.2° | Culm V_App: 2.23  | Rise Az: 89.06°         | H_Vis: 3.7°
+
+
+--- NORTHEAST ---
+  [HIP 49669] Regulus                | V Base: 1.36 | Culm Alt:  84.3° | Culm V_App: 1.59  | Rise Az: 65.17°         | H_Vis: 3.1°
+
+
+--- NORTH ---
+  [HIP 62956] Alioth                 | V Base: 1.76 | Culm Alt:  33.7° | Culm V_App: 2.17  | Rise Az: CIRCUMPOLAR    | H_Vis: N/A
+  [HIP 54061] Merak                  | V Base: 1.81 | Culm Alt:  34.6° | Culm V_App: 2.21  | Rise Az: CIRCUMPOLAR    | H_Vis: N/A
+  [HIP 50583] Algieba                | V Base: 2.01 | Culm Alt:  76.0° | Culm V_App: 2.25  | Rise Az: 56.29°         | H_Vis: 4.0°
+  [HIP 57632] Denebola               | V Base: 2.14 | Culm Alt:  76.4° | Culm V_App: 2.38  | Rise Az: 56.72°         | H_Vis: 4.2°
+  [HIP 58001] Phecda                 | V Base: 2.41 | Culm Alt:  38.3° | Culm V_App: 2.78  | Rise Az: 10.09°         | H_Vis: 4.4°
+
+
+--- SOUTH ---
+  [HIP 30438] Canopus                | V Base: -0.62 | Culm Alt:  18.6° | Culm V_App: 0.10  | Rise Az: 147.83°        | H_Vis: 1.3°
+  [HIP 60718] Acrux                  | V Base: 0.77 | Culm Alt:  27.5° | Culm V_App: 1.27  | Rise Az: 137.73°        | H_Vis: 2.3°
+  [HIP 61084] Gacrux                 | V Base: 1.59 | Culm Alt:  33.7° | Culm V_App: 2.00  | Rise Az: 130.90°        | H_Vis: 3.3°
+  [HIP 45238] Avior                  | V Base: 1.67 | Culm Alt:  15.3° | Culm V_App: 2.54  | Rise Az: 151.75°        | H_Vis: 3.3°
+  [HIP 39953] Gamma Velorum          | V Base: 1.75 | Culm Alt:  31.3° | Culm V_App: 2.19  | Rise Az: 133.59°        | H_Vis: 3.3°
+
+
+==================== QUINTANT 3 ====================
+
+
+--- SOUTHEAST ---
+  [HIP 68933] Menkent                | V Base: 2.06 | Culm Alt:  54.8° | Culm V_App: 2.34  | Rise Az: 108.38°        | H_Vis: 4.0°
+  [HIP 71860] Alpha Lupi             | V Base: 2.30 | Culm Alt:  42.9° | Culm V_App: 2.64  | Rise Az: 121.08°        | H_Vis: 4.3°
+  [HIP 71352] Eta Centauri           | V Base: 2.33 | Culm Alt:  48.2° | Culm V_App: 2.64  | Rise Az: 115.41°        | H_Vis: 4.3°
+
+
+--- EAST ---
+  [HIP 65474] Spica                  | V Base: 0.98 | Culm Alt:  79.8° | Culm V_App: 1.21  | Rise Az: 82.10°         | H_Vis: 2.3°
+
+
+--- NORTH ---
+  [HIP 69673] Arcturus               | V Base: -0.05 | Culm Alt:  68.8° | Culm V_App: 0.20  | Rise Az: 48.48°         | H_Vis: 1.6°
+  [HIP 67301] Mizar                  | V Base: 1.85 | Culm Alt:  40.1° | Culm V_App: 2.21  | Rise Az: 13.34°         | H_Vis: 3.4°
+  [HIP 76267] Alphecca               | V Base: 2.22 | Culm Alt:  65.8° | Culm V_App: 2.47  | Rise Az: 45.25°         | H_Vis: 4.3°
+  [HIP 65378] Porrima                | V Base: 2.23 | Culm Alt:  34.3° | Culm V_App: 2.64  | Rise Az: CIRCUMPOLAR    | H_Vis: N/A
+  [HIP 72105] Izar                   | V Base: 2.35 | Culm Alt:  63.5° | Culm V_App: 2.61  | Rise Az: 42.71°         | H_Vis: 4.5°
+
+
+--- WEST ---
+  [HIP 80763] Antares                | V Base: 1.06 | Culm Alt:  59.6° | Culm V_App: 1.33  | Rise Az: 103.38°        | H_Vis: 2.4°
+  [HIP 78401] Dschubba               | V Base: 2.29 | Culm Alt:  64.7° | Culm V_App: 2.54  | Rise Az: 97.95°         | H_Vis: 4.2°
+  [HIP 84012] Sabik                  | V Base: 2.43 | Culm Alt:  67.5° | Culm V_App: 2.68  | Rise Az: 95.09°         | H_Vis: 4.5°
+
+
+--- SOUTHWEST ---
+  [HIP 85927] Shaula                 | V Base: 1.62 | Culm Alt:  45.6° | Culm V_App: 1.94  | Rise Az: 118.15°        | H_Vis: 3.1°
+  [HIP 82396] Larawag                | V Base: 2.29 | Culm Alt:  50.9° | Culm V_App: 2.59  | Rise Az: 112.52°        | H_Vis: 4.3°
+  [HIP 86670] Kaus Borealis          | V Base: 2.39 | Culm Alt:  43.2° | Culm V_App: 2.73  | Rise Az: 120.69°        | H_Vis: 4.5°
+
+
+--- SOUTH ---
+  [HIP 71683] Alpha Centauri A       | V Base: -0.01 | Culm Alt:  28.7° | Culm V_App: 0.47  | Rise Az: 136.37°        | H_Vis: 1.6°
+  [HIP 68702] Hadar                  | V Base: 0.61 | Culm Alt:  30.5° | Culm V_App: 1.06  | Rise Az: 134.45°        | H_Vis: 2.0°
+  [HIP 62434] Mimosa                 | V Base: 1.25 | Culm Alt:  31.1° | Culm V_App: 1.69  | Rise Az: 133.74°        | H_Vis: 2.7°
+  [HIP 71681] Alpha Centauri B       | V Base: 1.35 | Culm Alt:  28.3° | Culm V_App: 1.84  | Rise Az: 136.85°        | H_Vis: 2.8°
+  [HIP 86228] Sargas                 | V Base: 1.86 | Culm Alt:  39.8° | Culm V_App: 2.22  | Rise Az: 124.36°        | H_Vis: 3.6°
+
+
+==================== QUINTANT 4 ====================
+
+
+--- SOUTHEAST ---
+  [HIP 90185] Kaus Australis         | V Base: 1.79 | Culm Alt:  44.8° | Culm V_App: 2.12  | Rise Az: 118.96°        | H_Vis: 3.3°
+  [HIP 92855] Nunki                  | V Base: 2.05 | Culm Alt:  50.1° | Culm V_App: 2.35  | Rise Az: 113.39°        | H_Vis: 4.0°
+
+
+--- EAST ---
+  [HIP 97649] Altair                 | V Base: 0.76 | Culm Alt:  78.7° | Culm V_App: 0.99  | Rise Az: 83.26°         | H_Vis: 2.1°
+
+
+--- NORTHEAST ---
+  [HIP 86032] Rasalhague             | V Base: 2.08 | Culm Alt:  87.0° | Culm V_App: 2.31  | Rise Az: 67.95°         | H_Vis: 3.9°
+
+
+--- NORTH ---
+  [HIP 91262] Vega                   | V Base: 0.03 | Culm Alt:  67.6° | Culm V_App: 0.28  | Rise Az: 47.24°         | H_Vis: 1.8°
+  [HIP 102098] Deneb                  | V Base: 1.25 | Culm Alt:  70.8° | Culm V_App: 1.49  | Rise Az: 50.71°         | H_Vis: 2.7°
+  [HIP 72607] Kochab                 | V Base: 2.07 | Culm Alt:  24.6° | Culm V_App: 2.62  | Rise Az: CIRCUMPOLAR    | H_Vis: N/A
+  [HIP 100453] Sadr                   | V Base: 2.23 | Culm Alt:  74.2° | Culm V_App: 2.47  | Rise Az: 54.30°         | H_Vis: 4.2°
+  [HIP 87833] Rastaban               | V Base: 2.24 | Culm Alt:  52.9° | Culm V_App: 2.53  | Rise Az: 30.65°         | H_Vis: 4.2°
+
+
+--- NORTHWEST ---
+  [HIP 102488] Gienah                 | V Base: 2.48 | Culm Alt:  81.9° | Culm V_App: 2.71  | Rise Az: 62.59°         | H_Vis: 5.0°
+
+
+--- WEST ---
+  [HIP 107315] Enif                   | V Base: 2.38 | Culm Alt:  71.6° | Culm V_App: 2.62  | Rise Az: 90.78°         | H_Vis: 4.6°
+
+
+--- SOUTH ---
+  [HIP 113368] Fomalhaut              | V Base: 1.17 | Culm Alt:  29.1° | Culm V_App: 1.64  | Rise Az: 135.98°        | H_Vis: 2.5°
+  [HIP 109268] Alnair                 | V Base: 1.73 | Culm Alt:  16.1° | Culm V_App: 2.55  | Rise Az: 150.71°        | H_Vis: 3.3°
+  [HIP 100751] Peacock                | V Base: 1.94 | Culm Alt:  15.7° | Culm V_App: 2.79  | Rise Az: 151.24°        | H_Vis: 3.6°
+  [HIP 112122] Tiaki                  | V Base: 2.07 | Culm Alt:  13.6° | Culm V_App: 3.04  | Rise Az: 153.80°        | H_Vis: 3.8°
+
+
+==================== QUINTANT 5 ====================
+
+
+--- EAST ---
+  [HIP 677  ] Alpheratz              | V Base: 2.07 | Culm Alt:  84.0° | Culm V_App: 2.30  | Rise Az: 77.74°         | H_Vis: 3.8°
+  [HIP 113881] Scheat                 | V Base: 2.44 | Culm Alt:  84.9° | Culm V_App: 2.67  | Rise Az: 76.80°         | H_Vis: 4.6°
+  [HIP 113963] Markab                 | V Base: 2.49 | Culm Alt:  72.3° | Culm V_App: 2.73  | Rise Az: 89.98°         | H_Vis: 4.6°
+
+
+--- NORTH ---
+  [HIP 15863] Mirfak                 | V Base: 1.79 | Culm Alt:  74.8° | Culm V_App: 2.03  | Rise Az: 55.00°         | H_Vis: 3.4°
+  [HIP 11767] Polaris                | V Base: 1.97 | Culm Alt:  37.2° | Culm V_App: 2.35  | Rise Az: 7.30°          | H_Vis: 3.5°
+  [HIP 4427 ] Tiansi                 | V Base: 2.15 | Culm Alt:  65.6° | Culm V_App: 2.40  | Rise Az: 45.03°         | H_Vis: 3.9°
+  [HIP 3179 ] Schedar                | V Base: 2.24 | Culm Alt:  69.6° | Culm V_App: 2.49  | Rise Az: 49.39°         | H_Vis: 4.1°
+  [HIP 746  ] Caph                   | V Base: 2.28 | Culm Alt:  66.3° | Culm V_App: 2.53  | Rise Az: 45.83°         | H_Vis: 4.1°
+
+
+--- NORTHWEST ---
+  [HIP 5447 ] Mirach                 | V Base: 2.07 | Culm Alt:  89.5° | Culm V_App: 2.30  | Rise Az: 71.88°         | H_Vis: 3.9°
+  [HIP 14576] Algol                  | V Base: 2.09 | Culm Alt:  84.1° | Culm V_App: 2.32  | Rise Az: 64.89°         | H_Vis: 3.8°
+  [HIP 9640 ] Almach                 | V Base: 2.10 | Culm Alt:  83.9° | Culm V_App: 2.33  | Rise Az: 64.70°         | H_Vis: 4.0°
+
+
+--- WEST ---
+  [HIP 9884 ] Hamal                  | V Base: 2.01 | Culm Alt:  77.6° | Culm V_App: 2.25  | Rise Az: 84.44°         | H_Vis: 3.8°
+
+
+--- SOUTH ---
+  [HIP 3419 ] Diphda                 | V Base: 2.04 | Culm Alt:  36.2° | Culm V_App: 2.43  | Rise Az: 128.27°        | H_Vis: 3.7°
+  [HIP 2081 ] Ankaa                  | V Base: 2.40 | Culm Alt:  12.8° | Culm V_App: 3.43  | Rise Az: 154.76°        | H_Vis: 4.4°
+
+
+FINAL REFINED ANCHOR LIST [Primary Anchor per Active Sub-Quadrant | Sorted by: DECLINATION]:
+Q  | SECTOR     | HIP ID  | STAR NAME              | V BASE | DEC (EPOCH) | CULM ALT  | CULM V_APP | CALCULATED RISE AZ
+-------------------------------------------------------------------------------------
+2  | NORTH      | HIP 62956 | Alioth                 | 1.76   | 74.148     ° | 33.7     ° | 2.17       | CIRCUMPOLAR
+4  | NORTH      | HIP 91262 | Vega                   | 0.03   | 40.223     ° | 67.6     ° | 0.28       | 47.24°
+3  | NORTH      | HIP 69673 | Arcturus               | -0.05  | 39.087     ° | 68.8     ° | 0.20       | 48.48°
+1  | NORTH      | HIP 24608 | Capella                | 0.08   | 34.556     ° | 73.3     ° | 0.32       | 53.38°
+5  | NORTH      | HIP 15863 | Mirfak                 | 1.79   | 33.050     ° | 74.8     ° | 2.03       | 55.00°
+1  | NORTHWEST  | HIP 37826 | Pollux                 | 1.16   | 28.107     ° | 79.7     ° | 1.39       | 60.29°
+4  | NORTHWEST  | HIP 102488 | Gienah                 | 2.48   | 25.951     ° | 81.9     ° | 2.71       | 62.59°
+2  | NORTHEAST  | HIP 49669 | Regulus                | 1.36   | 23.514     ° | 84.3     ° | 1.59       | 65.17°
+4  | NORTHEAST  | HIP 86032 | Rasalhague             | 2.08   | 20.896     ° | 87.0     ° | 2.31       | 67.95°
+1  | NORTHEAST  | HIP 25428 | Elnath                 | 1.65   | 18.364     ° | 89.4     ° | 1.88       | 70.62°
+5  | NORTHWEST  | HIP 5447  | Mirach                 | 2.07   | 17.176     ° | 89.5     ° | 2.30       | 71.88°
+5  | EAST       | HIP 677   | Alpheratz              | 2.07   | 11.615     ° | 84.0     ° | 2.30       | 77.74°
+3  | EAST       | HIP 65474 | Spica                  | 0.98   | 7.469      ° | 79.8     ° | 1.21       | 82.10°
+1  | WEST       | HIP 37279 | Procyon                | 0.40   | 7.037      ° | 79.4     ° | 0.63       | 82.55°
+4  | EAST       | HIP 97649 | Altair                 | 0.76   | 6.368      ° | 78.7     ° | 0.99       | 83.26°
+5  | WEST       | HIP 9884  | Hamal                  | 2.01   | 5.241      ° | 77.6     ° | 2.25       | 84.44°
+1  | EAST       | HIP 21421 | Aldebaran              | 0.87   | 3.669      ° | 76.0     ° | 1.11       | 86.09°
+2  | EAST       | HIP 46390 | Alphard                | 1.99   | 0.841      ° | 73.2     ° | 2.23       | 89.06°
+4  | WEST       | HIP 107315 | Enif                   | 2.38   | -0.796     ° | 71.6     ° | 2.62       | 90.78°
+3  | WEST       | HIP 80763 | Antares                | 1.06   | -12.786    ° | 59.6     ° | 1.33       | 103.38°
+3  | SOUTHEAST  | HIP 68933 | Menkent                | 2.06   | -17.534    ° | 54.8     ° | 2.34       | 108.38°
+1  | SOUTHWEST  | HIP 32349 | Sirius                 | -1.44  | -17.929    ° | 54.4     ° | -1.16      | 108.80°
+1  | SOUTHEAST  | HIP 24436 | Rigel                  | 0.18   | -17.952    ° | 54.4     ° | 0.46       | 108.82°
+3  | SOUTHWEST  | HIP 85927 | Shaula                 | 1.62   | -26.752    ° | 45.6     ° | 1.94       | 118.15°
+4  | SOUTHEAST  | HIP 90185 | Kaus Australis         | 1.79   | -27.515    ° | 44.8     ° | 2.12       | 118.96°
+2  | SOUTHEAST  | HIP 35904 | Aludra                 | 2.45   | -27.906    ° | 44.5     ° | 2.78       | 119.37°
+5  | SOUTH      | HIP 3419  | Diphda                 | 2.04   | -36.207    ° | 36.2     ° | 2.43       | 128.27°
+4  | SOUTH      | HIP 113368 | Fomalhaut              | 1.17   | -43.285    ° | 29.1     ° | 1.64       | 135.98°
+3  | SOUTH      | HIP 71683 | Alpha Centauri A       | -0.01  | -43.651    ° | 28.7     ° | 0.47       | 136.37°
+2  | SOUTH      | HIP 30438 | Canopus                | -0.62  | -53.810    ° | 18.6     ° | 0.10       | 147.83°
+-------------------------------------------------------------------------------------
+Total Active Refined Anchors Identified: 30 Stars across 5 Quintants
+
+
+INTER-QUINTANT GEOMETRICAL RE-CANDIDATE SHORTLIST (Observable horizon constraint: Quintant midpoint +/-80°)
+
+
+Primary equatorial band: +/-16°, Fallback equatorial band: +/-30°
+
+
+Pair ranking: Brightness=40% | Symmetry=35% | Equatorial centrality=25%
+-------------------------------------------------------------------------------------
+Q    | CENTRAL REFERENCE  | WEST         |        ΔW | EAST         |        ΔE |    SYM. |  SCORE
+-------------------------------------------------------------------------------------
+Q1   | Mintaka (-0.0°)    | Hamal        |  -53.553° | Alphard      |  +58.652° |  5.098° | 0.9524
+Q2   | Regulus (-8.8°)    | Procyon      |  -43.037° | Spica        |  +44.977° |  1.940° | 0.9311
+Q3   | Dschubba (+8.7°)   | NONE         |     +nan° | NONE         |     +nan° |    nan° |    nan
+Q4   | Altair (-0.8°)     | Antares      |  -57.580° | Alpheratz    |  +63.834° |  6.254° | 0.8710
+Q5   | Mirach (+5.6°)     | Altair       |  -72.750° | Betelgeuse   |  +75.306° |  2.556° | 0.9618
+
+
+NORTH / SOUTH MERIDIONAL GEOMETRICAL RE-CANDIDATE SHORTLIST (Quintant midpoint meridian +/-18° RA)
+Q     |  MIDPOINT | NORTH                  |        ΔN |     DEC N | SOUTH                  |        ΔS |     DEC S
+-------------------------------------------------------------------------------------
+Q1    |    36.000° | Menkalinan             |   -8.419° |  +35.827° | None                   |       N/A |       N/A
+Q2    |   108.000° | Algieba                |   -8.749° |  +31.848° | Gamma Velorum          |  -16.657° |  -41.114°
+Q3    |   180.000° | Arcturus               |  -10.622° |  +39.087° | Alpha Centauri A       |   -9.963° |  -43.651°
+Q4    |   252.000° | Vega                   |   -5.995° |  +40.223° | None                   |       N/A |       N/A
+Q5    |   324.000° | Schedar                |   +1.234° |  +38.238° | Diphda                 |   -3.734° |  -36.207°
+
+
+=====================================================================================
+WEIGHT-SENSITIVITY & FRAMEWORK-ROTATION PERMUTATION ANALYSIS
+=====================================================================================
+RNG Seeds: Horizon=2026 | Bootstrap=2027 | Framework=2028
+Weight grid: 0.10 intervals | 66 admissible combinations
+Rotational null: Δθ ~ U[-36°, +36°) | N=10,000
+
+
+1. ORIGINAL CANDIDATE-RANKING MODEL
+   Weights: Brightness=0.40 | Symmetry=0.35 | Declination=0.25
+   Observed framework score: 4.7489
+
+
+2. WEIGHT-SPACE ROBUSTNESS
+   ≥90% identity retention: 10/66 (15.2%)
+   Median identity retention: 82.4%
+   Minimum identity retention: 52.9%
+   Median positional retention: 82.4%
+   Minimum positional retention: 52.9%
+
+
+3. WEIGHT-SPACE STELLAR CANDIDATE STABILITY
+   Candidate                         P(selection)   Class
+   Arcturus                             1.000        Core Anchor
+   Hamal                                1.000        Core Anchor
+   Alnair                               1.000        Core Anchor
+   Alpha Centauri A                     1.000        Core Anchor
+   Algieba                              1.000        Core Anchor
+   Vega                                 1.000        Core Anchor
+   Polaris                              1.000        Core Anchor
+   Castor                               1.000        Core Anchor
+   Diphda                               1.000        Core Anchor
+   Betelgeuse                           0.879        Stable Candidate
+   Alsephina                            0.833        Stable Candidate
+   Alphard                              0.682        Stable Candidate
+   Altair                               0.606        Stable Candidate
+   Markab                               0.576        Stable Candidate
+   Spica                                0.485        Weight-Sensitive
+   Sabik                                0.485        Weight-Sensitive
+   Antares                              0.439        Weight-Sensitive
+   Dschubba                             0.424        Weight-Sensitive
+   Sirius                               0.424        Weight-Sensitive
+   Alpheratz                            0.409        Weight-Sensitive
+   Enif                                 0.394        Weight-Sensitive
+   Regulus                              0.318        Weight-Sensitive
+   Aldebaran                            0.288        Weight-Sensitive
+   Avior                                0.167        Weight-Sensitive
+   Eta Centauri                         0.091        Weight-Sensitive
+   Larawag                              0.076        Weight-Sensitive
+   Alhena                               0.061        Weight-Sensitive
+   Rigel                                0.045        Weight-Sensitive
+   Alnilam                              0.015        Weight-Sensitive
+   Aludra                               0.015        Weight-Sensitive
+   Procyon                              0.015        Weight-Sensitive
+   Mirach                               0.015        Weight-Sensitive
+
+
+4. FRAMEWORK-ROTATION PERMUTATION
+   Completed rotations 1-250/10,000
+   Completed rotations 251-500/10,000
+   Completed rotations 501-750/10,000
+   Completed rotations 751-1,000/10,000
+   Completed rotations 1,001-1,250/10,000
+   Completed rotations 1,251-1,500/10,000
+   Completed rotations 1,501-1,750/10,000
+   Completed rotations 1,751-2,000/10,000
+   Completed rotations 2,001-2,250/10,000
+   Completed rotations 2,251-2,500/10,000
+   Completed rotations 2,501-2,750/10,000
+   Completed rotations 2,751-3,000/10,000
+   Completed rotations 3,001-3,250/10,000
+   Completed rotations 3,251-3,500/10,000
+   Completed rotations 3,501-3,750/10,000
+   Completed rotations 3,751-4,000/10,000
+   Completed rotations 4,001-4,250/10,000
+   Completed rotations 4,251-4,500/10,000
+   Completed rotations 4,501-4,750/10,000
+   Completed rotations 4,751-5,000/10,000
+   Completed rotations 5,001-5,250/10,000
+   Completed rotations 5,251-5,500/10,000
+   Completed rotations 5,501-5,750/10,000
+   Completed rotations 5,751-6,000/10,000
+   Completed rotations 6,001-6,250/10,000
+   Completed rotations 6,251-6,500/10,000
+   Completed rotations 6,501-6,750/10,000
+   Completed rotations 6,751-7,000/10,000
+   Completed rotations 7,001-7,250/10,000
+   Completed rotations 7,251-7,500/10,000
+   Completed rotations 7,501-7,750/10,000
+   Completed rotations 7,751-8,000/10,000
+   Completed rotations 8,001-8,250/10,000
+   Completed rotations 8,251-8,500/10,000
+   Completed rotations 8,501-8,750/10,000
+   Completed rotations 8,751-9,000/10,000
+   Completed rotations 9,001-9,250/10,000
+   Completed rotations 9,251-9,500/10,000
+   Completed rotations 9,501-9,750/10,000
+   Completed rotations 9,751-10,000/10,000
+
+
+5. PRIMARY MODEL & CONTROL MODELS
+
+
+   Original 40/35/25
+      Weights: 0.40/0.35/0.25
+      Observed score: 4.7489
+      Random mean ± SD: 5.1922 ± 0.4636
+      Empirical p: 0.72873 | MC SE: ±0.00445
+      Observed percentile: 27.13%
+
+
+   Geometry (.0/.5/.5)
+      Weights: 0.00/0.50/0.50
+      Observed score: 3.7077
+      Random mean ± SD: 4.1480 ± 0.3491
+      Empirical p: 0.78872 | MC SE: ±0.00408
+      Observed percentile: 21.13%
+
+
+   Brightness (1/0/0)
+      Weights: 1.00/0.00/0.00
+      Observed score: 5.5129
+      Random mean ± SD: 5.8018 ± 0.5975
+      Empirical p: 0.65823 | MC SE: ±0.00474
+      Observed percentile: 34.18%
+
+
+   Symmetry (0/1/0)
+      Weights: 0.00/1.00/0.00
+      Observed score: 3.9933
+      Random mean ± SD: 4.6071 ± 0.4024
+      Empirical p: 0.72943 | MC SE: ±0.00444
+      Observed percentile: 27.06%
+
+
+   Declination (0/0/1)
+      Weights: 0.00/0.00/1.00
+      Observed score: 3.6748
+      Random mean ± SD: 4.1419 ± 0.3332
+      Empirical p: 0.86461 | MC SE: ±0.00342
+      Observed percentile: 13.54%
+
+
+   Equal Weights (1/3,1/3,1/3)
+      Observed score: 4.6430
+      Random mean ± SD: 5.0866 ± 0.4433
+      Empirical p: 0.75802
+
+
+6. DESCRIPTIVE HORIZON STATISTIC: ANGULAR CONCENTRATION
+   - Resultant-length concentration statistic (R): 0.8855
+
+
+   SUPPLEMENTARY BASELINE HORIZON NULL: MONTE CARLO AZIMUTH SIMULATION
+   * Status: Baseline horizon diagnostic (Not primary evidence for the fivefold framework).
+   * Null Model: Uniform random emergence across eastern horizon (Ai ~ U(0°, 180°)).
+   - Independent Seed: rng_horizon (Seed 2026)
+   - Iterations (N): 10,000
+   - Exceedances (k >= R): 0
+   - Empirical P-Value: 0.00010 [(k + 1) / (N + 1)]
+
+
+   SUPPLEMENTARY DIAGNOSTIC A: BOOTSTRAP AZIMUTH RESAMPLING (N = 5,000)
+   * Status: Secondary descriptive confidence check (Demoted from primary inference)
+   - Independent Seed: rng_boot (Seed 2027)
+   - Observed Mean Azimuth: 90.10°
+   - Nonparametric 95% CI: [80.19°, 100.36°]
+
+
+   SUPPLEMENTARY DIAGNOSTIC B: ILLUSTRATIVE FALSE-MATCH BASELINE
+   * Status: Illustrative upper-bound diagnostic (Permissive analytic model)
+   - Expected Accidental Alignments: 58.00 stars
+   - Probability of >= 1 Accidental Match: 1.0000 (100.00%)
+
+
+7. INFERENTIAL METRIC: E/W STRUCTURAL EFFICIENCY
+Executing 10,000 geometrical spatial randomizations [-36°, +36°)...
+  - Observed E/W Structural Score:         3.6633
+  - Mean Simulated E/W Score:              4.1431 (±0.3512)
+  - Exceedances (k >= Observed Score):     8122
+  - Primary Empirical P-Value:             0.81222 [(k + 1) / (N + 1)]
+
+
+8. SECONDARY DESCRIPTIVE BRIGHTNESS CHARACTERIZATION:
+  * Status: Post-selection descriptive characterization (Not an inferential test).
+  - Observed Candidates Mean V_app:        2.12 mag
+  - Simulated Candidates Mean V_app:       2.06 mag
+  - Delta Magnitude (Observed - Random):   +0.06 mag
+  - Interpretation:                        The geometrically selected candidates are, on average,
+                                           0.06 mag FAINTER than candidates selected
+                                           under randomized framework rotations.
+  - Scientific Synthesis:                  Provides no independent brightness enhancement/advantage.
+
+
+9. SECONDARY DIAGNOSTIC: SEQUENCE IDENTITY RECURRENCE
+  * Status: Descriptive identity-recurrence diagnostic. NOT the pre-specified primary test statistic.
+  - Full-Sequence Recurrence Count:         The exact 20-star identity sequence was reproduced in
+                                           207 of 10,000 randomized orientations (2.07%).
+  - Descriptive Interpretation:            Exact full-sequence recurrence occurred in 2.07% of randomized
+                                           orientations, demonstrating that sequence identity is not unique to one rotation.
+
+
+10. MODEL ROBUSTNESS: STAGE-II INTEGRATED VISIBILITY SENSITIVITY
+   * Pipeline: Strict rerun of true first-emergence visibility procedure across shifted thresholds.
+   - Naked-Eye Limit Shifted to 4.5 mag:
+     -> Identity Retention:                  17 / 17 unique stars (100.0%)
+     -> Exact Positional Identity Retention: 17 / 17 exact positional slots (100.0%)
+   - Naked-Eye Limit Shifted to 5.5 mag:
+     -> Identity Retention:                  17 / 17 unique stars (100.0%)
+     -> Exact Positional Identity Retention: 17 / 17 exact positional slots (100.0%)
+
+
+SYNTHESIS & INTERPRETATION:
+  * Result: The observed framework did not significantly exceed the geometric efficiency
+    produced by equivalent random framework rotations (p = 0.812).
+  * Conclusion: The proposed framework provides a deterministic and reproducible procedure
+    for prioritizing stellar candidates within a visibility-constrained fivefold celestial geometry.
+    Its geometric efficiency, however, is not statistically exceptional relative to equivalent
+    rotations of the same reconstructed stellar population (p = 0.812). The robustness analysis
+    indicates that the resulting candidate configuration is insensitive to moderate changes in the
+    adopted apparent-visibility threshold, while post-selection brightness does not show an
+    enhancement relative to randomized orientations. Exact recurrence of the stellar identity sequence
+    is relatively uncommon (2.07%) but not unique to the proposed orientation.
+________________
+DETAILED OUTPUT FOR Aguada Fénix (1000 BCE)
+=====================================================================================
+
+
+GEOMETRIC GRID POOL (PANORAMIC CANDIDATES: UP TO 5 STARS PER SUB-SECTOR | Vmag < 2.5)
+-------------------------------------------------------------------------------------
+
+
+==================== QUINTANT 1 ====================
+
+
+--- SOUTHEAST ---
+  [HIP 24436] Rigel                  | V Base: 0.18 | Culm Alt:  56.1° | Culm V_App: 0.43  | Rise Az: 107.04°        | H_Vis: 1.6°
+
+
+--- EAST ---
+  [HIP 21421] Aldebaran              | V Base: 0.87 | Culm Alt:  78.0° | Culm V_App: 1.08  | Rise Az: 83.98°         | H_Vis: 2.1°
+  [HIP 25336] Bellatrix              | V Base: 1.64 | Culm Alt:  70.8° | Culm V_App: 1.86  | Rise Az: 91.52°         | H_Vis: 2.6°
+  [HIP 25930] Mintaka                | V Base: 2.25 | Culm Alt:  64.8° | Culm V_App: 2.48  | Rise Az: 97.83°         | H_Vis: 3.8°
+
+
+--- NORTHEAST ---
+  [HIP 25428] Elnath                 | V Base: 1.65 | Culm Alt:  87.7° | Culm V_App: 1.86  | Rise Az: 68.66°         | H_Vis: 2.8°
+
+
+--- NORTH ---
+  [HIP 24608] Capella                | V Base: 0.08 | Culm Alt:  71.4° | Culm V_App: 0.30  | Rise Az: 51.22°         | H_Vis: 1.4°
+  [HIP 36850] Castor                 | V Base: 1.58 | Culm Alt:  76.1° | Culm V_App: 1.80  | Rise Az: 56.29°         | H_Vis: 2.8°
+  [HIP 28360] Menkalinan             | V Base: 1.90 | Culm Alt:  70.3° | Culm V_App: 2.12  | Rise Az: 50.01°         | H_Vis: 3.3°
+
+
+--- NORTHWEST ---
+  [HIP 37826] Pollux                 | V Base: 1.16 | Culm Alt:  79.0° | Culm V_App: 1.37  | Rise Az: 59.35°         | H_Vis: 2.4°
+
+
+--- WEST ---
+  [HIP 37279] Procyon                | V Base: 0.40 | Culm Alt:  79.9° | Culm V_App: 0.61  | Rise Az: 81.98°         | H_Vis: 1.5°
+  [HIP 27989] Betelgeuse             | V Base: 0.45 | Culm Alt:  73.8° | Culm V_App: 0.67  | Rise Az: 88.45°         | H_Vis: 1.7°
+  [HIP 26311] Alnilam                | V Base: 1.69 | Culm Alt:  64.2° | Culm V_App: 1.92  | Rise Az: 98.46°         | H_Vis: 2.9°
+  [HIP 26727] Alnitak                | V Base: 1.74 | Culm Alt:  63.8° | Culm V_App: 1.97  | Rise Az: 98.90°         | H_Vis: 2.9°
+  [HIP 31681] Alhena                 | V Base: 1.93 | Culm Alt:  85.3° | Culm V_App: 2.14  | Rise Az: 76.27°         | H_Vis: 3.3°
+
+
+--- SOUTHWEST ---
+  [HIP 32349] Sirius                 | V Base: -1.44 | Culm Alt:  55.2° | Culm V_App: -1.18 | Rise Az: 108.00°        | H_Vis: 0.7°
+  [HIP 33579] Adhara                 | V Base: 1.50 | Culm Alt:  43.4° | Culm V_App: 1.81  | Rise Az: 120.52°        | H_Vis: 2.5°
+  [HIP 34444] Wezen                  | V Base: 1.83 | Culm Alt:  46.5° | Culm V_App: 2.12  | Rise Az: 117.19°        | H_Vis: 2.9°
+  [HIP 30324] Mirzam                 | V Base: 1.98 | Culm Alt:  51.3° | Culm V_App: 2.25  | Rise Az: 112.10°        | H_Vis: 3.1°
+  [HIP 35904] Aludra                 | V Base: 2.45 | Culm Alt:  44.8° | Culm V_App: 2.75  | Rise Az: 118.95°        | H_Vis: 4.2°
+
+
+--- SOUTH ---
+  [HIP 30438] Canopus                | V Base: -0.62 | Culm Alt:  19.0° | Culm V_App: 0.02  | Rise Az: 147.34°        | H_Vis: 0.8°
+
+
+==================== QUINTANT 2 ====================
+
+
+--- EAST ---
+  [HIP 46390] Alphard                | V Base: 1.99 | Culm Alt:  72.7° | Culm V_App: 2.21  | Rise Az: 89.56°         | H_Vis: 3.2°
+
+
+--- NORTHEAST ---
+  [HIP 49669] Regulus                | V Base: 1.36 | Culm Alt:  85.1° | Culm V_App: 1.57  | Rise Az: 65.88°         | H_Vis: 2.7°
+
+
+--- NORTH ---
+  [HIP 62956] Alioth                 | V Base: 1.76 | Culm Alt:  35.7° | Culm V_App: 2.12  | Rise Az: CIRCUMPOLAR    | H_Vis: N/A
+  [HIP 54061] Merak                  | V Base: 1.81 | Culm Alt:  34.8° | Culm V_App: 2.18  | Rise Az: CIRCUMPOLAR    | H_Vis: N/A
+  [HIP 50583] Algieba                | V Base: 2.01 | Culm Alt:  76.8° | Culm V_App: 2.23  | Rise Az: 57.01°         | H_Vis: 3.3°
+  [HIP 58001] Phecda                 | V Base: 2.41 | Culm Alt:  39.6° | Culm V_App: 2.74  | Rise Az: 12.25°         | H_Vis: 3.9°
+
+
+--- NORTHWEST ---
+  [HIP 57632] Denebola               | V Base: 2.14 | Culm Alt:  78.1° | Culm V_App: 2.35  | Rise Az: 58.40°         | H_Vis: 3.6°
+
+
+--- SOUTH ---
+  [HIP 60718] Acrux                  | V Base: 0.77 | Culm Alt:  25.5° | Culm V_App: 1.26  | Rise Az: 139.94°        | H_Vis: 1.8°
+  [HIP 61084] Gacrux                 | V Base: 1.59 | Culm Alt:  31.7° | Culm V_App: 1.99  | Rise Az: 133.09°        | H_Vis: 2.8°
+  [HIP 45238] Avior                  | V Base: 1.67 | Culm Alt:  14.0° | Culm V_App: 2.53  | Rise Az: 153.34°        | H_Vis: 2.7°
+  [HIP 39953] Gamma Velorum          | V Base: 1.75 | Culm Alt:  30.9° | Culm V_App: 2.16  | Rise Az: 133.94°        | H_Vis: 2.9°
+  [HIP 41037] Miaplacidus            | V Base: 1.86 | Culm Alt:  20.6° | Culm V_App: 2.46  | Rise Az: 145.52°        | H_Vis: 3.1°
+
+
+==================== QUINTANT 3 ====================
+
+
+--- SOUTHEAST ---
+  [HIP 68933] Menkent                | V Base: 2.06 | Culm Alt:  52.5° | Culm V_App: 2.32  | Rise Az: 110.79°        | H_Vis: 3.6°
+  [HIP 71352] Eta Centauri           | V Base: 2.33 | Culm Alt:  45.9° | Culm V_App: 2.62  | Rise Az: 117.80°        | H_Vis: 3.7°
+
+
+--- EAST ---
+  [HIP 65474] Spica                  | V Base: 0.98 | Culm Alt:  77.7° | Culm V_App: 1.19  | Rise Az: 84.34°         | H_Vis: 2.2°
+
+
+--- NORTH ---
+  [HIP 69673] Arcturus               | V Base: -0.05 | Culm Alt:  71.3° | Culm V_App: 0.17  | Rise Az: 51.13°         | H_Vis: 1.3°
+  [HIP 67301] Mizar                  | V Base: 1.85 | Culm Alt:  42.4° | Culm V_App: 2.16  | Rise Az: 16.83°         | H_Vis: 3.0°
+  [HIP 76267] Alphecca               | V Base: 2.22 | Culm Alt:  68.0° | Culm V_App: 2.45  | Rise Az: 47.57°         | H_Vis: 3.5°
+  [HIP 65378] Porrima                | V Base: 2.23 | Culm Alt:  36.5° | Culm V_App: 2.58  | Rise Az: 4.84°          | H_Vis: 3.6°
+  [HIP 72105] Izar                   | V Base: 2.35 | Culm Alt:  65.8° | Culm V_App: 2.58  | Rise Az: 45.16°         | H_Vis: 4.0°
+
+
+--- WEST ---
+  [HIP 80763] Antares                | V Base: 1.06 | Culm Alt:  57.5° | Culm V_App: 1.31  | Rise Az: 105.59°        | H_Vis: 2.2°
+  [HIP 78401] Dschubba               | V Base: 2.29 | Culm Alt:  62.6° | Culm V_App: 2.53  | Rise Az: 100.23°        | H_Vis: 3.6°
+  [HIP 84012] Sabik                  | V Base: 2.43 | Culm Alt:  65.6° | Culm V_App: 2.66  | Rise Az: 97.04°         | H_Vis: 4.0°
+
+
+--- SOUTHWEST ---
+  [HIP 85927] Shaula                 | V Base: 1.62 | Culm Alt:  43.7° | Culm V_App: 1.92  | Rise Az: 120.17°        | H_Vis: 2.8°
+  [HIP 82396] Larawag                | V Base: 2.29 | Culm Alt:  48.8° | Culm V_App: 2.57  | Rise Az: 114.70°        | H_Vis: 3.9°
+
+
+--- SOUTH ---
+  [HIP 71683] Alpha Centauri A       | V Base: -0.01 | Culm Alt:  26.6° | Culm V_App: 0.46  | Rise Az: 138.78°        | H_Vis: 1.4°
+  [HIP 68702] Hadar                  | V Base: 0.61 | Culm Alt:  28.3° | Culm V_App: 1.05  | Rise Az: 136.88°        | H_Vis: 1.7°
+  [HIP 62434] Mimosa                 | V Base: 1.25 | Culm Alt:  29.1° | Culm V_App: 1.68  | Rise Az: 135.98°        | H_Vis: 2.4°
+  [HIP 71681] Alpha Centauri B       | V Base: 1.35 | Culm Alt:  26.2° | Culm V_App: 1.83  | Rise Az: 139.21°        | H_Vis: 2.6°
+  [HIP 86228] Sargas                 | V Base: 1.86 | Culm Alt:  37.9° | Culm V_App: 2.20  | Rise Az: 126.43°        | H_Vis: 3.2°
+
+
+==================== QUINTANT 4 ====================
+
+
+--- SOUTHEAST ---
+  [HIP 90185] Kaus Australis         | V Base: 1.79 | Culm Alt:  43.2° | Culm V_App: 2.10  | Rise Az: 120.67°        | H_Vis: 3.0°
+  [HIP 92855] Nunki                  | V Base: 2.05 | Culm Alt:  48.8° | Culm V_App: 2.33  | Rise Az: 114.77°        | H_Vis: 3.5°
+
+
+--- EAST ---
+  [HIP 97649] Altair                 | V Base: 0.76 | Culm Alt:  78.3° | Culm V_App: 0.97  | Rise Az: 83.70°         | H_Vis: 1.8°
+
+
+--- NORTHEAST ---
+  [HIP 86032] Rasalhague             | V Base: 2.08 | Culm Alt:  88.6° | Culm V_App: 2.29  | Rise Az: 69.58°         | H_Vis: 3.3°
+
+
+--- NORTH ---
+  [HIP 91262] Vega                   | V Base: 0.03 | Culm Alt:  68.4° | Culm V_App: 0.26  | Rise Az: 47.93°         | H_Vis: 1.2°
+  [HIP 102098] Deneb                  | V Base: 1.25 | Culm Alt:  70.4° | Culm V_App: 1.47  | Rise Az: 50.12°         | H_Vis: 2.5°
+  [HIP 72607] Kochab                 | V Base: 2.07 | Culm Alt:  24.5° | Culm V_App: 2.58  | Rise Az: CIRCUMPOLAR    | H_Vis: N/A
+  [HIP 100453] Sadr                   | V Base: 2.23 | Culm Alt:  74.0° | Culm V_App: 2.45  | Rise Az: 53.98°         | H_Vis: 3.7°
+  [HIP 87833] Rastaban               | V Base: 2.24 | Culm Alt:  53.7° | Culm V_App: 2.50  | Rise Az: 31.46°         | H_Vis: 3.5°
+
+
+--- NORTHWEST ---
+  [HIP 102488] Gienah                 | V Base: 2.48 | Culm Alt:  81.6° | Culm V_App: 2.69  | Rise Az: 62.15°         | H_Vis: 4.0°
+
+
+--- WEST ---
+  [HIP 107315] Enif                   | V Base: 2.38 | Culm Alt:  72.2° | Culm V_App: 2.60  | Rise Az: 90.12°         | H_Vis: 4.1°
+
+
+--- SOUTH ---
+  [HIP 109268] Alnair                 | V Base: 1.73 | Culm Alt:  16.2° | Culm V_App: 2.48  | Rise Az: 150.67°        | H_Vis: 2.7°
+  [HIP 100751] Peacock                | V Base: 1.94 | Culm Alt:  14.5° | Culm V_App: 2.77  | Rise Az: 152.71°        | H_Vis: 3.1°
+  [HIP 112122] Tiaki                  | V Base: 2.07 | Culm Alt:  14.1° | Culm V_App: 2.93  | Rise Az: 153.26°        | H_Vis: 3.4°
+
+
+==================== QUINTANT 5 ====================
+
+
+--- EAST ---
+  [HIP 677  ] Alpheratz              | V Base: 2.07 | Culm Alt:  85.7° | Culm V_App: 2.28  | Rise Az: 75.86°         | H_Vis: 3.4°
+  [HIP 113881] Scheat                 | V Base: 2.44 | Culm Alt:  86.3° | Culm V_App: 2.65  | Rise Az: 75.30°         | H_Vis: 4.1°
+  [HIP 113963] Markab                 | V Base: 2.49 | Culm Alt:  73.6° | Culm V_App: 2.71  | Rise Az: 88.57°         | H_Vis: 4.3°
+
+
+--- NORTH ---
+  [HIP 15863] Mirfak                 | V Base: 1.79 | Culm Alt:  72.6° | Culm V_App: 2.01  | Rise Az: 52.56°         | H_Vis: 3.1°
+  [HIP 11767] Polaris                | V Base: 1.97 | Culm Alt:  35.1° | Culm V_App: 2.33  | Rise Az: CIRCUMPOLAR    | H_Vis: N/A
+  [HIP 4427 ] Tiansi                 | V Base: 2.15 | Culm Alt:  63.7° | Culm V_App: 2.38  | Rise Az: 42.76°         | H_Vis: 3.4°
+  [HIP 3179 ] Schedar                | V Base: 2.24 | Culm Alt:  67.7° | Culm V_App: 2.47  | Rise Az: 47.21°         | H_Vis: 3.7°
+  [HIP 746  ] Caph                   | V Base: 2.28 | Culm Alt:  64.6° | Culm V_App: 2.51  | Rise Az: 43.77°         | H_Vis: 3.6°
+
+
+--- NORTHWEST ---
+  [HIP 5447 ] Mirach                 | V Base: 2.07 | Culm Alt:  88.7° | Culm V_App: 2.28  | Rise Az: 69.69°         | H_Vis: 3.6°
+  [HIP 14576] Algol                  | V Base: 2.09 | Culm Alt:  81.9° | Culm V_App: 2.30  | Rise Az: 62.49°         | H_Vis: 3.4°
+  [HIP 9640 ] Almach                 | V Base: 2.10 | Culm Alt:  81.8° | Culm V_App: 2.31  | Rise Az: 62.35°         | H_Vis: 3.3°
+
+
+--- WEST ---
+  [HIP 9884 ] Hamal                  | V Base: 2.01 | Culm Alt:  79.8° | Culm V_App: 2.22  | Rise Az: 82.12°         | H_Vis: 3.3°
+
+
+--- SOUTH ---
+  [HIP 113368] Fomalhaut              | V Base: 1.17 | Culm Alt:  30.0° | Culm V_App: 1.59  | Rise Az: 134.98°        | H_Vis: 2.4°
+  [HIP 3419 ] Diphda                 | V Base: 2.04 | Culm Alt:  38.1° | Culm V_App: 2.38  | Rise Az: 126.21°        | H_Vis: 3.2°
+  [HIP 2081 ] Ankaa                  | V Base: 2.40 | Culm Alt:  14.5° | Culm V_App: 3.23  | Rise Az: 152.74°        | H_Vis: 4.0°
+
+
+FINAL REFINED ANCHOR LIST [Primary Anchor per Active Sub-Quadrant | Sorted by: DECLINATION]:
+Q  | SECTOR     | HIP ID  | STAR NAME              | V BASE | DEC (EPOCH) | CULM ALT  | CULM V_APP | CALCULATED RISE AZ
+-------------------------------------------------------------------------------------
+2  | NORTH      | HIP 62956 | Alioth                 | 1.76   | 72.293     ° | 35.7     ° | 2.12       | CIRCUMPOLAR
+4  | NORTH      | HIP 91262 | Vega                   | 0.03   | 39.566     ° | 68.4     ° | 0.26       | 47.93°
+3  | NORTH      | HIP 69673 | Arcturus               | -0.05  | 36.627     ° | 71.3     ° | 0.17       | 51.13°
+1  | NORTH      | HIP 24608 | Capella                | 0.08   | 36.541     ° | 71.4     ° | 0.30       | 51.22°
+5  | NORTH      | HIP 15863 | Mirfak                 | 1.79   | 35.300     ° | 72.6     ° | 2.01       | 52.56°
+2  | NORTHWEST  | HIP 57632 | Denebola               | 2.14   | 29.874     ° | 78.1     ° | 2.35       | 58.40°
+1  | NORTHWEST  | HIP 37826 | Pollux                 | 1.16   | 28.977     ° | 79.0     ° | 1.37       | 59.35°
+4  | NORTHWEST  | HIP 102488 | Gienah                 | 2.48   | 26.345     ° | 81.6     ° | 2.69       | 62.15°
+2  | NORTHEAST  | HIP 49669 | Regulus                | 1.36   | 22.845     ° | 85.1     ° | 1.57       | 65.88°
+1  | NORTHEAST  | HIP 25428 | Elnath                 | 1.65   | 20.216     ° | 87.7     ° | 1.86       | 68.66°
+4  | NORTHEAST  | HIP 86032 | Rasalhague             | 2.08   | 19.345     ° | 88.6     ° | 2.29       | 69.58°
+5  | NORTHWEST  | HIP 5447  | Mirach                 | 2.07   | 19.237     ° | 88.7     ° | 2.28       | 69.69°
+5  | EAST       | HIP 677   | Alpheratz              | 2.07   | 13.399     ° | 85.7     ° | 2.28       | 75.86°
+1  | WEST       | HIP 37279 | Procyon                | 0.40   | 7.583      ° | 79.9     ° | 0.61       | 81.98°
+5  | WEST       | HIP 9884  | Hamal                  | 2.01   | 7.446      ° | 79.8     ° | 2.22       | 82.12°
+4  | EAST       | HIP 97649 | Altair                 | 0.76   | 5.944      ° | 78.3     ° | 0.97       | 83.70°
+1  | EAST       | HIP 21421 | Aldebaran              | 0.87   | 5.684      ° | 78.0     ° | 1.08       | 83.98°
+3  | EAST       | HIP 65474 | Spica                  | 0.98   | 5.340      ° | 77.7     ° | 1.19       | 84.34°
+2  | EAST       | HIP 46390 | Alphard                | 1.99   | 0.373      ° | 72.7     ° | 2.21       | 89.56°
+4  | WEST       | HIP 107315 | Enif                   | 2.38   | -0.165     ° | 72.2     ° | 2.60       | 90.12°
+3  | WEST       | HIP 80763 | Antares                | 1.06   | -14.881    ° | 57.5     ° | 1.31       | 105.59°
+1  | SOUTHEAST  | HIP 24436 | Rigel                  | 0.18   | -16.254    ° | 56.1     ° | 0.43       | 107.04°
+1  | SOUTHWEST  | HIP 32349 | Sirius                 | -1.44  | -17.164    ° | 55.2     ° | -1.18      | 108.00°
+3  | SOUTHEAST  | HIP 68933 | Menkent                | 2.06   | -19.807    ° | 52.5     ° | 2.32       | 110.79°
+3  | SOUTHWEST  | HIP 85927 | Shaula                 | 1.62   | -28.647    ° | 43.7     ° | 1.92       | 120.17°
+4  | SOUTHEAST  | HIP 90185 | Kaus Australis         | 1.79   | -29.120    ° | 43.2     ° | 2.10       | 120.67°
+5  | SOUTH      | HIP 113368 | Fomalhaut              | 1.17   | -42.369    ° | 30.0     ° | 1.59       | 134.98°
+3  | SOUTH      | HIP 71683 | Alpha Centauri A       | -0.01  | -45.816    ° | 26.6     ° | 0.46       | 138.78°
+2  | SOUTH      | HIP 60718 | Acrux                  | 0.77   | -46.858    ° | 25.5     ° | 1.26       | 139.94°
+1  | SOUTH      | HIP 30438 | Canopus                | -0.62  | -53.368    ° | 19.0     ° | 0.02       | 147.34°
+4  | SOUTH      | HIP 109268 | Alnair                 | 1.73   | -56.194    ° | 16.2     ° | 2.48       | 150.67°
+-------------------------------------------------------------------------------------
+Total Active Refined Anchors Identified: 31 Stars across 5 Quintants
+
+
+INTER-QUINTANT GEOMETRICAL RE-CANDIDATE SHORTLIST (Observable horizon constraint: Quintant midpoint +/-80°)
+
+
+Primary equatorial band: +/-16°, Fallback equatorial band: +/-30°
+
+
+Pair ranking: Brightness=40% | Symmetry=35% | Equatorial centrality=25%
+-------------------------------------------------------------------------------------
+Q    | CENTRAL REFERENCE  | WEST         |        ΔW | EAST         |        ΔE |    SYM. |  SCORE
+-------------------------------------------------------------------------------------
+Q1   | Mintaka (-0.0°)    | Hamal        |  -53.349° | Alphard      |  +58.899° |  5.549° | 0.9431
+Q2   | Regulus (-7.6°)    | Procyon      |  -42.577° | Spica        |  +45.284° |  2.707° | 0.9343
+Q3   | Dschubba (+9.0°)   | Regulus      |  -79.638° | Altair       |  +71.308° |  8.331° | 0.8436
+Q4   | Altair (-0.7°)     | Antares      |  -57.149° | Alpheratz    |  +63.774° |  6.625° | 0.8532
+Q5   | Mirach (+5.5°)     | Altair       |  -72.692° | Betelgeuse   |  +75.554° |  2.862° | 0.9568
+
+
+NORTH / SOUTH MERIDIONAL GEOMETRICAL RE-CANDIDATE SHORTLIST (Quintant midpoint meridian +/-18° RA)
+Q     |  MIDPOINT | NORTH                  |        ΔN |     DEC N | SOUTH                  |        ΔS |     DEC S
+-------------------------------------------------------------------------------------
+Q1    |    36.000° | Menkalinan             |   -7.223° |  +37.661° | None                   |       N/A |       N/A
+Q2    |   108.000° | Algieba                |   -7.159° |  +31.168° | Miaplacidus            |   -8.621° |  -51.795°
+Q3    |   180.000° | Arcturus               |  -10.477° |  +36.627° | Alpha Centauri A       |  -10.415° |  -45.816°
+Q4    |   252.000° | Vega                   |   -7.525° |  +39.566° | Alnair                 |  +14.493° |  -56.194°
+Q5    |   324.000° | Schedar                |   +0.608° |  +40.230° | Diphda                 |   -2.634° |  -34.290°
+
+
+=====================================================================================
+WEIGHT-SENSITIVITY & FRAMEWORK-ROTATION PERMUTATION ANALYSIS
+=====================================================================================
+RNG Seeds: Horizon=2026 | Bootstrap=2027 | Framework=2028
+Weight grid: 0.10 intervals | 66 admissible combinations
+Rotational null: Δθ ~ U[-36°, +36°) | N=10,000
+
+
+1. ORIGINAL CANDIDATE-RANKING MODEL
+   Weights: Brightness=0.40 | Symmetry=0.35 | Declination=0.25
+   Observed framework score: 4.5917
+
+
+2. WEIGHT-SPACE ROBUSTNESS
+   ≥90% identity retention: 14/66 (21.2%)
+   Median identity retention: 88.9%
+   Minimum identity retention: 61.1%
+   Median positional retention: 84.2%
+   Minimum positional retention: 57.9%
+
+
+3. WEIGHT-SPACE STELLAR CANDIDATE STABILITY
+   Candidate                         P(selection)   Class
+   Sargas                               1.000        Core Anchor
+   Alnair                               1.000        Core Anchor
+   Algieba                              1.000        Core Anchor
+   Vega                                 1.000        Core Anchor
+   Polaris                              1.000        Core Anchor
+   Alphecca                             1.000        Core Anchor
+   Castor                               1.000        Core Anchor
+   Diphda                               1.000        Core Anchor
+   Altair                               0.864        Stable Candidate
+   Betelgeuse                           0.864        Stable Candidate
+   Enif                                 0.864        Stable Candidate
+   Alsephina                            0.833        Stable Candidate
+   Spica                                0.803        Stable Candidate
+   Alphard                              0.788        Stable Candidate
+   Antares                              0.758        Stable Candidate
+   Hamal                                0.712        Stable Candidate
+   Sabik                                0.561        Stable Candidate
+   Markab                               0.409        Weight-Sensitive
+   Mirach                               0.318        Weight-Sensitive
+   Bellatrix                            0.288        Weight-Sensitive
+   Algol                                0.288        Weight-Sensitive
+   Alpheratz                            0.273        Weight-Sensitive
+   Rigel                                0.242        Weight-Sensitive
+   Dschubba                             0.227        Weight-Sensitive
+   Sirius                               0.227        Weight-Sensitive
+   Regulus                              0.212        Weight-Sensitive
+   Denebola                             0.197        Weight-Sensitive
+   Avior                                0.167        Weight-Sensitive
+   Nunki                                0.136        Weight-Sensitive
+   Gienah                               0.136        Weight-Sensitive
+   Elnath                               0.030        Weight-Sensitive
+   Eta Centauri                         0.015        Weight-Sensitive
+   Wezen                                0.015        Weight-Sensitive
+   Mintaka                              0.015        Weight-Sensitive
+
+
+4. FRAMEWORK-ROTATION PERMUTATION
+   Completed rotations 1-250/10,000
+   Completed rotations 251-500/10,000
+   Completed rotations 501-750/10,000
+   Completed rotations 751-1,000/10,000
+   Completed rotations 1,001-1,250/10,000
+   Completed rotations 1,251-1,500/10,000
+   Completed rotations 1,501-1,750/10,000
+   Completed rotations 1,751-2,000/10,000
+   Completed rotations 2,001-2,250/10,000
+   Completed rotations 2,251-2,500/10,000
+   Completed rotations 2,501-2,750/10,000
+   Completed rotations 2,751-3,000/10,000
+   Completed rotations 3,001-3,250/10,000
+   Completed rotations 3,251-3,500/10,000
+   Completed rotations 3,501-3,750/10,000
+   Completed rotations 3,751-4,000/10,000
+   Completed rotations 4,001-4,250/10,000
+   Completed rotations 4,251-4,500/10,000
+   Completed rotations 4,501-4,750/10,000
+   Completed rotations 4,751-5,000/10,000
+   Completed rotations 5,001-5,250/10,000
+   Completed rotations 5,251-5,500/10,000
+   Completed rotations 5,501-5,750/10,000
+   Completed rotations 5,751-6,000/10,000
+   Completed rotations 6,001-6,250/10,000
+   Completed rotations 6,251-6,500/10,000
+   Completed rotations 6,501-6,750/10,000
+   Completed rotations 6,751-7,000/10,000
+   Completed rotations 7,001-7,250/10,000
+   Completed rotations 7,251-7,500/10,000
+   Completed rotations 7,501-7,750/10,000
+   Completed rotations 7,751-8,000/10,000
+   Completed rotations 8,001-8,250/10,000
+   Completed rotations 8,251-8,500/10,000
+   Completed rotations 8,501-8,750/10,000
+   Completed rotations 8,751-9,000/10,000
+   Completed rotations 9,001-9,250/10,000
+   Completed rotations 9,251-9,500/10,000
+   Completed rotations 9,501-9,750/10,000
+   Completed rotations 9,751-10,000/10,000
+
+
+5. PRIMARY MODEL & CONTROL MODELS
+
+
+   Original 40/35/25
+      Weights: 0.40/0.35/0.25
+      Observed score: 4.5917
+      Random mean ± SD: 5.1736 ± 0.3519
+      Empirical p: 0.88251 | MC SE: ±0.00322
+      Observed percentile: 11.75%
+
+
+   Geometry (.0/.5/.5)
+      Weights: 0.00/0.50/0.50
+      Observed score: 4.2463
+      Random mean ± SD: 4.2847 ± 0.1005
+      Empirical p: 0.62334 | MC SE: ±0.00485
+      Observed percentile: 37.67%
+
+
+   Brightness (1/0/0)
+      Weights: 1.00/0.00/0.00
+      Observed score: 4.6176
+      Random mean ± SD: 5.6284 ± 0.5775
+      Empirical p: 0.89211 | MC SE: ±0.00310
+      Observed percentile: 10.79%
+
+
+   Symmetry (0/1/0)
+      Weights: 0.00/1.00/0.00
+      Observed score: 4.9353
+      Random mean ± SD: 4.9097 ± 0.0479
+      Empirical p: 0.38436 | MC SE: ±0.00486
+      Observed percentile: 61.57%
+
+
+   Declination (0/0/1)
+      Weights: 0.00/0.00/1.00
+      Observed score: 4.3336
+      Random mean ± SD: 4.1921 ± 0.1690
+      Empirical p: 0.23378 | MC SE: ±0.00423
+      Observed percentile: 76.63%
+
+
+   Equal Weights (1/3,1/3,1/3)
+      Observed score: 4.5831
+      Random mean ± SD: 5.0847 ± 0.3163
+      Empirical p: 0.88251
+
+
+6. DESCRIPTIVE HORIZON STATISTIC: ANGULAR CONCENTRATION
+   - Resultant-length concentration statistic (R): 0.8638
+
+
+   SUPPLEMENTARY BASELINE HORIZON NULL: MONTE CARLO AZIMUTH SIMULATION
+   * Status: Baseline horizon diagnostic (Not primary evidence for the fivefold framework).
+   * Null Model: Uniform random emergence across eastern horizon (Ai ~ U(0°, 180°)).
+   - Independent Seed: rng_horizon (Seed 2026)
+   - Iterations (N): 10,000
+   - Exceedances (k >= R): 0
+   - Empirical P-Value: 0.00010 [(k + 1) / (N + 1)]
+
+
+   SUPPLEMENTARY DIAGNOSTIC A: BOOTSTRAP AZIMUTH RESAMPLING (N = 5,000)
+   * Status: Secondary descriptive confidence check (Demoted from primary inference)
+   - Independent Seed: rng_boot (Seed 2027)
+   - Observed Mean Azimuth: 90.41°
+   - Nonparametric 95% CI: [79.61°, 101.32°]
+
+
+   SUPPLEMENTARY DIAGNOSTIC B: ILLUSTRATIVE FALSE-MATCH BASELINE
+   * Status: Illustrative upper-bound diagnostic (Permissive analytic model)
+   - Expected Accidental Alignments: 59.24 stars
+   - Probability of >= 1 Accidental Match: 1.0000 (100.00%)
+
+
+7. INFERENTIAL METRIC: E/W STRUCTURAL EFFICIENCY
+Executing 10,000 geometrical spatial randomizations [-36°, +36°)...
+  - Observed E/W Structural Score:         4.3234
+  - Mean Simulated E/W Score:              4.2850 (±0.1008)
+  - Exceedances (k >= Observed Score):     3039
+  - Primary Empirical P-Value:             0.30397 [(k + 1) / (N + 1)]
+
+
+8. SECONDARY DESCRIPTIVE BRIGHTNESS CHARACTERIZATION:
+  * Status: Post-selection descriptive characterization (Not an inferential test).
+  - Observed Candidates Mean V_app:        2.17 mag
+  - Simulated Candidates Mean V_app:       2.03 mag
+  - Delta Magnitude (Observed - Random):   +0.14 mag
+  - Interpretation:                        The geometrically selected candidates are, on average,
+                                           0.14 mag FAINTER than candidates selected
+                                           under randomized framework rotations.
+  - Scientific Synthesis:                  Provides no independent brightness enhancement/advantage.
+
+
+9. SECONDARY DIAGNOSTIC: SEQUENCE IDENTITY RECURRENCE
+  * Status: Descriptive identity-recurrence diagnostic. NOT the pre-specified primary test statistic.
+  - Full-Sequence Recurrence Count:         The exact 20-star identity sequence was reproduced in
+                                           88 of 10,000 randomized orientations (0.88%).
+  - Descriptive Interpretation:            Exact full-sequence recurrence occurred in 0.88% of randomized
+                                           orientations, demonstrating that sequence identity is not unique to one rotation.
+
+
+10. MODEL ROBUSTNESS: STAGE-II INTEGRATED VISIBILITY SENSITIVITY
+   * Pipeline: Strict rerun of true first-emergence visibility procedure across shifted thresholds.
+   - Naked-Eye Limit Shifted to 4.5 mag:
+     -> Identity Retention:                  18 / 18 unique stars (100.0%)
+     -> Exact Positional Identity Retention: 19 / 19 exact positional slots (100.0%)
+   - Naked-Eye Limit Shifted to 5.5 mag:
+     -> Identity Retention:                  18 / 18 unique stars (100.0%)
+     -> Exact Positional Identity Retention: 19 / 19 exact positional slots (100.0%)
+
+
+SYNTHESIS & INTERPRETATION:
+  * Result: The observed framework did not significantly exceed the geometric efficiency
+    produced by equivalent random framework rotations (p = 0.304).
+  * Conclusion: The proposed framework provides a deterministic and reproducible procedure
+    for prioritizing stellar candidates within a visibility-constrained fivefold celestial geometry.
+    Its geometric efficiency, however, is not statistically exceptional relative to equivalent
+    rotations of the same reconstructed stellar population (p = 0.304). The robustness analysis
+    indicates that the resulting candidate configuration is insensitive to moderate changes in the
+    adopted apparent-visibility threshold, while post-selection brightness does not show an
+    enhancement relative to randomized orientations. Exact recurrence of the stellar identity sequence
+    is relatively uncommon (0.88%) but not unique to the proposed orientation.
+________________
+DETAILED OUTPUT FOR La Venta (700 BCE)
+=====================================================================================
+
+
+GEOMETRIC GRID POOL (PANORAMIC CANDIDATES: UP TO 5 STARS PER SUB-SECTOR | Vmag < 2.5)
+-------------------------------------------------------------------------------------
+
+
+==================== QUINTANT 1 ====================
+
+
+--- EAST ---
+  [HIP 24436] Rigel                  | V Base: 0.18 | Culm Alt:  57.0° | Culm V_App: 0.47  | Rise Az: 105.81°        | H_Vis: 1.7°
+  [HIP 21421] Aldebaran              | V Base: 0.87 | Culm Alt:  79.2° | Culm V_App: 1.11  | Rise Az: 82.44°         | H_Vis: 2.4°
+  [HIP 25336] Bellatrix              | V Base: 1.64 | Culm Alt:  71.8° | Culm V_App: 1.89  | Rise Az: 90.25°         | H_Vis: 3.4°
+  [HIP 25930] Mintaka                | V Base: 2.25 | Culm Alt:  65.7° | Culm V_App: 2.51  | Rise Az: 96.64°         | H_Vis: 4.6°
+
+
+--- NORTHEAST ---
+  [HIP 25428] Elnath                 | V Base: 1.65 | Culm Alt:  86.8° | Culm V_App: 1.89  | Rise Az: 67.24°         | H_Vis: 3.3°
+
+
+--- NORTH ---
+  [HIP 24608] Capella                | V Base: 0.08 | Culm Alt:  70.3° | Culm V_App: 0.33  | Rise Az: 49.61°         | H_Vis: 1.9°
+  [HIP 28360] Menkalinan             | V Base: 1.90 | Culm Alt:  69.4° | Culm V_App: 2.16  | Rise Az: 48.54°         | H_Vis: 3.6°
+
+
+--- NORTHWEST ---
+  [HIP 37826] Pollux                 | V Base: 1.16 | Culm Alt:  78.8° | Culm V_App: 1.40  | Rise Az: 58.75°         | H_Vis: 2.8°
+
+
+--- WEST ---
+  [HIP 37279] Procyon                | V Base: 0.40 | Culm Alt:  80.0° | Culm V_App: 0.64  | Rise Az: 81.67°         | H_Vis: 1.8°
+  [HIP 27989] Betelgeuse             | V Base: 0.45 | Culm Alt:  74.6° | Culm V_App: 0.70  | Rise Az: 87.33°         | H_Vis: 2.0°
+  [HIP 26311] Alnilam                | V Base: 1.69 | Culm Alt:  65.1° | Culm V_App: 1.95  | Rise Az: 97.30°         | H_Vis: 3.3°
+  [HIP 26727] Alnitak                | V Base: 1.74 | Culm Alt:  64.7° | Culm V_App: 2.01  | Rise Az: 97.78°         | H_Vis: 3.3°
+  [HIP 27366] Saiph                  | V Base: 2.07 | Culm Alt:  57.6° | Culm V_App: 2.35  | Rise Az: 105.22°        | H_Vis: 4.1°
+
+
+--- SOUTHWEST ---
+  [HIP 32349] Sirius                 | V Base: -1.44 | Culm Alt:  55.4° | Culm V_App: -1.15 | Rise Az: 107.54°        | H_Vis: 1.1°
+  [HIP 33579] Adhara                 | V Base: 1.50 | Culm Alt:  43.5° | Culm V_App: 1.85  | Rise Az: 120.17°        | H_Vis: 3.2°
+  [HIP 34444] Wezen                  | V Base: 1.83 | Culm Alt:  46.6° | Culm V_App: 2.16  | Rise Az: 116.87°        | H_Vis: 3.5°
+  [HIP 30324] Mirzam                 | V Base: 1.98 | Culm Alt:  51.8° | Culm V_App: 2.29  | Rise Az: 111.37°        | H_Vis: 4.1°
+  [HIP 35904] Aludra                 | V Base: 2.45 | Culm Alt:  44.8° | Culm V_App: 2.79  | Rise Az: 118.79°        | H_Vis: 4.8°
+
+
+--- SOUTH ---
+  [HIP 30438] Canopus                | V Base: -0.62 | Culm Alt:  19.0° | Culm V_App: 0.11  | Rise Az: 147.17°        | H_Vis: 1.3°
+
+
+==================== QUINTANT 2 ====================
+
+
+--- EAST ---
+  [HIP 46390] Alphard                | V Base: 1.99 | Culm Alt:  72.0° | Culm V_App: 2.24  | Rise Az: 90.05°         | H_Vis: 4.0°
+
+
+--- NORTHEAST ---
+  [HIP 49669] Regulus                | V Base: 1.36 | Culm Alt:  86.1° | Culm V_App: 1.60  | Rise Az: 66.52°         | H_Vis: 2.9°
+
+
+--- NORTH ---
+  [HIP 62956] Alioth                 | V Base: 1.76 | Culm Alt:  37.5° | Culm V_App: 2.15  | Rise Az: 6.07°          | H_Vis: 3.4°
+  [HIP 54061] Merak                  | V Base: 1.81 | Culm Alt:  35.5° | Culm V_App: 2.22  | Rise Az: CIRCUMPOLAR    | H_Vis: N/A
+  [HIP 50583] Algieba                | V Base: 2.01 | Culm Alt:  77.8° | Culm V_App: 2.26  | Rise Az: 57.66°         | H_Vis: 4.0°
+  [HIP 53910] Megrez                 | V Base: 2.34 | Culm Alt:  40.6° | Culm V_App: 2.71  | Rise Az: 13.00°         | H_Vis: 4.5°
+  [HIP 58001] Phecda                 | V Base: 2.41 | Culm Alt:  41.0° | Culm V_App: 2.78  | Rise Az: 13.71°         | H_Vis: 4.7°
+
+
+--- NORTHWEST ---
+  [HIP 57632] Denebola               | V Base: 2.14 | Culm Alt:  79.7° | Culm V_App: 2.38  | Rise Az: 59.71°         | H_Vis: 4.0°
+
+
+--- SOUTH ---
+  [HIP 60718] Acrux                  | V Base: 0.77 | Culm Alt:  23.8° | Culm V_App: 1.37  | Rise Az: 141.76°        | H_Vis: 2.2°
+  [HIP 61084] Gacrux                 | V Base: 1.59 | Culm Alt:  29.9° | Culm V_App: 2.07  | Rise Az: 134.87°        | H_Vis: 3.2°
+  [HIP 45238] Avior                  | V Base: 1.67 | Culm Alt:  12.7° | Culm V_App: 2.75  | Rise Az: 154.79°        | H_Vis: 3.3°
+  [HIP 39953] Gamma Velorum          | V Base: 1.75 | Culm Alt:  30.4° | Culm V_App: 2.22  | Rise Az: 134.36°        | H_Vis: 3.4°
+  [HIP 41037] Miaplacidus            | V Base: 1.86 | Culm Alt:  19.8° | Culm V_App: 2.57  | Rise Az: 146.33°        | H_Vis: 3.6°
+
+
+==================== QUINTANT 3 ====================
+
+
+--- SOUTHEAST ---
+  [HIP 68933] Menkent                | V Base: 2.06 | Culm Alt:  50.6° | Culm V_App: 2.37  | Rise Az: 112.65°        | H_Vis: 4.2°
+  [HIP 71352] Eta Centauri           | V Base: 2.33 | Culm Alt:  44.0° | Culm V_App: 2.68  | Rise Az: 119.66°        | H_Vis: 4.5°
+
+
+--- EAST ---
+  [HIP 65474] Spica                  | V Base: 0.98 | Culm Alt:  75.8° | Culm V_App: 1.23  | Rise Az: 86.04°         | H_Vis: 2.6°
+
+
+--- NORTH ---
+  [HIP 69673] Arcturus               | V Base: -0.05 | Culm Alt:  73.5° | Culm V_App: 0.20  | Rise Az: 53.05°         | H_Vis: 1.6°
+  [HIP 67301] Mizar                  | V Base: 1.85 | Culm Alt:  44.4° | Culm V_App: 2.19  | Rise Az: 18.98°         | H_Vis: 3.5°
+  [HIP 76267] Alphecca               | V Base: 2.22 | Culm Alt:  70.0° | Culm V_App: 2.48  | Rise Az: 49.19°         | H_Vis: 4.2°
+  [HIP 65378] Porrima                | V Base: 2.23 | Culm Alt:  38.5° | Culm V_App: 2.62  | Rise Az: 8.84°          | H_Vis: 4.2°
+  [HIP 72105] Izar                   | V Base: 2.35 | Culm Alt:  67.9° | Culm V_App: 2.61  | Rise Az: 46.90°         | H_Vis: 4.5°
+
+
+--- WEST ---
+  [HIP 78401] Dschubba               | V Base: 2.29 | Culm Alt:  60.7° | Culm V_App: 2.57  | Rise Az: 101.92°        | H_Vis: 4.3°
+  [HIP 84012] Sabik                  | V Base: 2.43 | Culm Alt:  64.0° | Culm V_App: 2.70  | Rise Az: 98.44°         | H_Vis: 4.7°
+
+
+--- SOUTHWEST ---
+  [HIP 80763] Antares                | V Base: 1.06 | Culm Alt:  55.7° | Culm V_App: 1.35  | Rise Az: 107.21°        | H_Vis: 2.7°
+  [HIP 85927] Shaula                 | V Base: 1.62 | Culm Alt:  42.1° | Culm V_App: 1.98  | Rise Az: 121.65°        | H_Vis: 3.3°
+  [HIP 82396] Larawag                | V Base: 2.29 | Culm Alt:  47.1° | Culm V_App: 2.62  | Rise Az: 116.31°        | H_Vis: 4.6°
+
+
+--- SOUTH ---
+  [HIP 71683] Alpha Centauri A       | V Base: -0.01 | Culm Alt:  24.7° | Culm V_App: 0.56  | Rise Az: 140.70°        | H_Vis: 1.5°
+  [HIP 68702] Hadar                  | V Base: 0.61 | Culm Alt:  26.4° | Culm V_App: 1.15  | Rise Az: 138.84°        | H_Vis: 2.1°
+  [HIP 62434] Mimosa                 | V Base: 1.25 | Culm Alt:  27.3° | Culm V_App: 1.77  | Rise Az: 137.81°        | H_Vis: 2.8°
+  [HIP 71681] Alpha Centauri B       | V Base: 1.35 | Culm Alt:  24.3° | Culm V_App: 1.93  | Rise Az: 141.09°        | H_Vis: 2.9°
+  [HIP 86228] Sargas                 | V Base: 1.86 | Culm Alt:  36.3° | Culm V_App: 2.27  | Rise Az: 127.97°        | H_Vis: 3.7°
+
+
+==================== QUINTANT 4 ====================
+
+
+--- SOUTHEAST ---
+  [HIP 92855] Nunki                  | V Base: 2.05 | Culm Alt:  47.7° | Culm V_App: 2.37  | Rise Az: 115.72°        | H_Vis: 4.1°
+
+
+--- EAST ---
+  [HIP 97649] Altair                 | V Base: 0.76 | Culm Alt:  77.8° | Culm V_App: 1.01  | Rise Az: 83.89°         | H_Vis: 2.3°
+
+
+--- NORTHEAST ---
+  [HIP 86032] Rasalhague             | V Base: 2.08 | Culm Alt:  89.9° | Culm V_App: 2.32  | Rise Az: 70.68°         | H_Vis: 4.3°
+
+
+--- NORTH ---
+  [HIP 91262] Vega                   | V Base: 0.03 | Culm Alt:  69.1° | Culm V_App: 0.29  | Rise Az: 48.29°         | H_Vis: 1.8°
+  [HIP 102098] Deneb                  | V Base: 1.25 | Culm Alt:  70.3° | Culm V_App: 1.50  | Rise Az: 49.53°         | H_Vis: 3.0°
+  [HIP 72607] Kochab                 | V Base: 2.07 | Culm Alt:  25.1° | Culm V_App: 2.64  | Rise Az: CIRCUMPOLAR    | H_Vis: N/A
+  [HIP 100453] Sadr                   | V Base: 2.23 | Culm Alt:  74.0° | Culm V_App: 2.48  | Rise Az: 53.59°         | H_Vis: 4.3°
+  [HIP 87833] Rastaban               | V Base: 2.24 | Culm Alt:  54.6° | Culm V_App: 2.53  | Rise Az: 31.88°         | H_Vis: 4.4°
+
+
+--- NORTHWEST ---
+  [HIP 102488] Gienah                 | V Base: 2.48 | Culm Alt:  81.5° | Culm V_App: 2.72  | Rise Az: 61.68°         | H_Vis: 4.9°
+
+
+--- WEST ---
+  [HIP 107315] Enif                   | V Base: 2.38 | Culm Alt:  72.5° | Culm V_App: 2.63  | Rise Az: 89.49°         | H_Vis: 4.6°
+
+
+--- SOUTH ---
+  [HIP 109268] Alnair                 | V Base: 1.73 | Culm Alt:  16.2° | Culm V_App: 2.59  | Rise Az: 150.53°        | H_Vis: 3.5°
+  [HIP 90185] Kaus Australis         | V Base: 1.79 | Culm Alt:  41.9° | Culm V_App: 2.15  | Rise Az: 121.89°        | H_Vis: 3.8°
+  [HIP 100751] Peacock                | V Base: 1.94 | Culm Alt:  13.5° | Culm V_App: 2.96  | Rise Az: 153.78°        | H_Vis: 3.7°
+  [HIP 112122] Tiaki                  | V Base: 2.07 | Culm Alt:  14.4° | Culm V_App: 3.03  | Rise Az: 152.76°        | H_Vis: 4.0°
+
+
+==================== QUINTANT 5 ====================
+
+
+--- EAST ---
+  [HIP 677  ] Alpheratz              | V Base: 2.07 | Culm Alt:  86.9° | Culm V_App: 2.31  | Rise Az: 74.35°         | H_Vis: 4.0°
+  [HIP 113881] Scheat                 | V Base: 2.44 | Culm Alt:  87.2° | Culm V_App: 2.68  | Rise Az: 74.06°         | H_Vis: 4.8°
+  [HIP 113963] Markab                 | V Base: 2.49 | Culm Alt:  74.5° | Culm V_App: 2.74  | Rise Az: 87.41°         | H_Vis: 5.1°
+
+
+--- NORTH ---
+  [HIP 15863] Mirfak                 | V Base: 1.79 | Culm Alt:  71.3° | Culm V_App: 2.04  | Rise Az: 50.67°         | H_Vis: 3.7°
+  [HIP 11767] Polaris                | V Base: 1.97 | Culm Alt:  33.9° | Culm V_App: 2.40  | Rise Az: CIRCUMPOLAR    | H_Vis: N/A
+  [HIP 4427 ] Tiansi                 | V Base: 2.15 | Culm Alt:  62.4° | Culm V_App: 2.42  | Rise Az: 40.89°         | H_Vis: 4.2°
+  [HIP 3179 ] Schedar                | V Base: 2.24 | Culm Alt:  66.5° | Culm V_App: 2.50  | Rise Az: 45.43°         | H_Vis: 4.5°
+  [HIP 746  ] Caph                   | V Base: 2.28 | Culm Alt:  63.5° | Culm V_App: 2.55  | Rise Az: 42.07°         | H_Vis: 4.5°
+
+
+--- NORTHWEST ---
+  [HIP 5447 ] Mirach                 | V Base: 2.07 | Culm Alt:  87.5° | Culm V_App: 2.31  | Rise Az: 67.98°         | H_Vis: 3.9°
+  [HIP 14576] Algol                  | V Base: 2.09 | Culm Alt:  80.6° | Culm V_App: 2.33  | Rise Az: 60.64°         | H_Vis: 3.9°
+  [HIP 9640 ] Almach                 | V Base: 2.10 | Culm Alt:  80.5° | Culm V_App: 2.34  | Rise Az: 60.52°         | H_Vis: 4.0°
+
+
+--- WEST ---
+  [HIP 9884 ] Hamal                  | V Base: 2.01 | Culm Alt:  81.2° | Culm V_App: 2.25  | Rise Az: 80.35°         | H_Vis: 3.7°
+
+
+--- SOUTH ---
+  [HIP 113368] Fomalhaut              | V Base: 1.17 | Culm Alt:  30.6° | Culm V_App: 1.64  | Rise Az: 134.15°        | H_Vis: 2.6°
+  [HIP 3419 ] Diphda                 | V Base: 2.04 | Culm Alt:  39.3° | Culm V_App: 2.42  | Rise Az: 124.66°        | H_Vis: 3.9°
+  [HIP 2081 ] Ankaa                  | V Base: 2.40 | Culm Alt:  15.6° | Culm V_App: 3.29  | Rise Az: 151.28°        | H_Vis: 4.6°
+
+
+FINAL REFINED ANCHOR LIST [Primary Anchor per Active Sub-Quadrant | Sorted by: DECLINATION]:
+Q  | SECTOR     | HIP ID  | STAR NAME              | V BASE | DEC (EPOCH) | CULM ALT  | CULM V_APP | CALCULATED RISE AZ
+-------------------------------------------------------------------------------------
+2  | NORTH      | HIP 62956 | Alioth                 | 1.76   | 70.786     ° | 37.5     ° | 2.15       | 6.07°
+4  | NORTH      | HIP 91262 | Vega                   | 0.03   | 39.157     ° | 69.1     ° | 0.29       | 48.29°
+1  | NORTH      | HIP 24608 | Capella                | 0.08   | 37.955     ° | 70.3     ° | 0.33       | 49.61°
+5  | NORTH      | HIP 15863 | Mirfak                 | 1.79   | 36.974     ° | 71.3     ° | 2.04       | 50.67°
+3  | NORTH      | HIP 69673 | Arcturus               | -0.05  | 34.781     ° | 73.5     ° | 0.20       | 53.05°
+1  | NORTHWEST  | HIP 37826 | Pollux                 | 1.16   | 29.484     ° | 78.8     ° | 1.40       | 58.75°
+2  | NORTHWEST  | HIP 57632 | Denebola               | 2.14   | 28.587     ° | 79.7     ° | 2.38       | 59.71°
+4  | NORTHWEST  | HIP 102488 | Gienah                 | 2.48   | 26.742     ° | 81.5     ° | 2.72       | 61.68°
+2  | NORTHEAST  | HIP 49669 | Regulus                | 1.36   | 22.201     ° | 86.1     ° | 1.60       | 66.52°
+1  | NORTHEAST  | HIP 25428 | Elnath                 | 1.65   | 21.519     ° | 86.8     ° | 1.89       | 67.24°
+5  | NORTHWEST  | HIP 5447  | Mirach                 | 2.07   | 20.825     ° | 87.5     ° | 2.31       | 67.98°
+4  | NORTHEAST  | HIP 86032 | Rasalhague             | 2.08   | 18.269     ° | 89.9     ° | 2.32       | 70.68°
+5  | EAST       | HIP 677   | Alpheratz              | 2.07   | 14.805     ° | 86.9     ° | 2.31       | 74.35°
+5  | WEST       | HIP 9884  | Hamal                  | 2.01   | 9.116      ° | 81.2     ° | 2.25       | 80.35°
+1  | WEST       | HIP 37279 | Procyon                | 0.40   | 7.861      ° | 80.0     ° | 0.64       | 81.67°
+4  | EAST       | HIP 97649 | Altair                 | 0.76   | 5.752      ° | 77.8     ° | 1.01       | 83.89°
+3  | EAST       | HIP 65474 | Spica                  | 0.98   | 3.707      ° | 75.8     ° | 1.23       | 86.04°
+4  | WEST       | HIP 107315 | Enif                   | 2.38   | 0.432      ° | 72.5     ° | 2.63       | 89.49°
+2  | EAST       | HIP 46390 | Alphard                | 1.99   | -0.104     ° | 72.0     ° | 2.24       | 90.05°
+3  | WEST       | HIP 78401 | Dschubba               | 2.29   | -11.378    ° | 60.7     ° | 2.57       | 101.92°
+1  | EAST       | HIP 24436 | Rigel                  | 0.18   | -15.062    ° | 57.0     ° | 0.47       | 105.81°
+3  | SOUTHWEST  | HIP 80763 | Antares                | 1.06   | -16.394    ° | 55.7     ° | 1.35       | 107.21°
+1  | SOUTHWEST  | HIP 32349 | Sirius                 | -1.44  | -16.695    ° | 55.4     ° | -1.15      | 107.54°
+3  | SOUTHEAST  | HIP 68933 | Menkent                | 2.06   | -21.527    ° | 50.6     ° | 2.37       | 112.65°
+4  | SOUTHEAST  | HIP 92855 | Nunki                  | 2.05   | -24.422    ° | 47.7     ° | 2.37       | 115.72°
+5  | SOUTH      | HIP 113368 | Fomalhaut              | 1.17   | -41.524    ° | 30.6     ° | 1.64       | 134.15°
+3  | SOUTH      | HIP 71683 | Alpha Centauri A       | -0.01  | -47.437    ° | 24.7     ° | 0.56       | 140.70°
+2  | SOUTH      | HIP 60718 | Acrux                  | 0.77   | -48.379    ° | 23.8     ° | 1.37       | 141.76°
+1  | SOUTH      | HIP 30438 | Canopus                | -0.62  | -53.089    ° | 19.0     ° | 0.11       | 147.17°
+4  | SOUTH      | HIP 109268 | Alnair                 | 1.73   | -55.936    ° | 16.2     ° | 2.59       | 150.53°
+-------------------------------------------------------------------------------------
+Total Active Refined Anchors Identified: 30 Stars across 5 Quintants
+
+
+INTER-QUINTANT GEOMETRICAL RE-CANDIDATE SHORTLIST (Observable horizon constraint: Quintant midpoint +/-80°)
+
+
+Primary equatorial band: +/-16°, Fallback equatorial band: +/-30°
+
+
+Pair ranking: Brightness=40% | Symmetry=35% | Equatorial centrality=25%
+-------------------------------------------------------------------------------------
+Q    | CENTRAL REFERENCE  | WEST         |        ΔW | EAST         |        ΔE |    SYM. |  SCORE
+-------------------------------------------------------------------------------------
+Q1   | Mintaka (-0.0°)    | Hamal        |  -53.206° | Alphard      |  +59.052° |  5.846° | 0.9360
+Q2   | Regulus (-6.9°)    | Procyon      |  -42.236° | Spica        |  +45.466° |  3.230° | 0.9203
+Q3   | Dschubba (+9.3°)   | Regulus      |  -78.861° | Altair       |  +71.339° |  7.521° | 0.8506
+Q4   | Altair (-0.7°)     | Dschubba     |  -62.722° | Alpheratz    |  +63.706° |  0.984° | 0.8866
+Q5   | Mirach (+5.5°)     | Altair       |  -72.661° | Betelgeuse   |  +75.752° |  3.092° | 0.9294
+
+
+NORTH / SOUTH MERIDIONAL GEOMETRICAL RE-CANDIDATE SHORTLIST (Quintant midpoint meridian +/-18° RA)
+Q     |  MIDPOINT | NORTH                  |        ΔN |     DEC N | SOUTH                  |        ΔS |     DEC S
+-------------------------------------------------------------------------------------
+Q1    |    36.000° | Menkalinan             |   -6.206° |  +38.939° | None                   |       N/A |       N/A
+Q2    |   108.000° | Algieba                |   -6.045° |  +30.504° | None                   |       N/A |       N/A
+Q3    |   180.000° | Arcturus               |  -10.480° |  +34.781° | Alpha Centauri A       |  -10.672° |  -47.437°
+Q4    |   252.000° | Vega                   |   -8.684° |  +39.157° | None                   |       N/A |       N/A
+Q5    |   324.000° | Tiansi                 |   +3.289° |  +45.856° | Diphda                 |   -1.954° |  -32.780°
+
+
+=====================================================================================
+WEIGHT-SENSITIVITY & FRAMEWORK-ROTATION PERMUTATION ANALYSIS
+=====================================================================================
+RNG Seeds: Horizon=2026 | Bootstrap=2027 | Framework=2028
+Weight grid: 0.10 intervals | 66 admissible combinations
+Rotational null: Δθ ~ U[-36°, +36°) | N=10,000
+
+
+1. ORIGINAL CANDIDATE-RANKING MODEL
+   Weights: Brightness=0.40 | Symmetry=0.35 | Declination=0.25
+   Observed framework score: 4.1447
+
+
+2. WEIGHT-SPACE ROBUSTNESS
+   ≥90% identity retention: 22/66 (33.3%)
+   Median identity retention: 87.5%
+   Minimum identity retention: 62.5%
+   Median positional retention: 83.3%
+   Minimum positional retention: 55.6%
+
+
+3. WEIGHT-SPACE STELLAR CANDIDATE STABILITY
+   Candidate                         P(selection)   Class
+   Sargas                               1.000        Core Anchor
+   Alnair                               1.000        Core Anchor
+   Enif                                 1.000        Core Anchor
+   Avior                                1.000        Core Anchor
+   Polaris                              1.000        Core Anchor
+   Deneb                                1.000        Core Anchor
+   Alphecca                             1.000        Core Anchor
+   Altair                               1.000        Core Anchor
+   Diphda                               1.000        Core Anchor
+   Phecda                               1.000        Core Anchor
+   Hamal                                0.879        Stable Candidate
+   Spica                                0.848        Stable Candidate
+   Alphard                              0.667        Stable Candidate
+   Sirius                               0.621        Stable Candidate
+   Dschubba                             0.576        Stable Candidate
+   Antares                              0.424        Weight-Sensitive
+   Betelgeuse                           0.394        Weight-Sensitive
+   Bellatrix                            0.288        Weight-Sensitive
+   Procyon                              0.273        Weight-Sensitive
+   Rigel                                0.273        Weight-Sensitive
+   Algol                                0.258        Weight-Sensitive
+   Regulus                              0.258        Weight-Sensitive
+   Denebola                             0.152        Weight-Sensitive
+   Sabik                                0.136        Weight-Sensitive
+   Mirzam                               0.106        Weight-Sensitive
+   Almach                               0.106        Weight-Sensitive
+   Mirach                               0.091        Weight-Sensitive
+   Mintaka                              0.045        Weight-Sensitive
+
+
+4. FRAMEWORK-ROTATION PERMUTATION
+   Completed rotations 1-250/10,000
+   Completed rotations 251-500/10,000
+   Completed rotations 501-750/10,000
+   Completed rotations 751-1,000/10,000
+   Completed rotations 1,001-1,250/10,000
+   Completed rotations 1,251-1,500/10,000
+   Completed rotations 1,501-1,750/10,000
+   Completed rotations 1,751-2,000/10,000
+   Completed rotations 2,001-2,250/10,000
+   Completed rotations 2,251-2,500/10,000
+   Completed rotations 2,501-2,750/10,000
+   Completed rotations 2,751-3,000/10,000
+   Completed rotations 3,001-3,250/10,000
+   Completed rotations 3,251-3,500/10,000
+   Completed rotations 3,501-3,750/10,000
+   Completed rotations 3,751-4,000/10,000
+   Completed rotations 4,001-4,250/10,000
+   Completed rotations 4,251-4,500/10,000
+   Completed rotations 4,501-4,750/10,000
+   Completed rotations 4,751-5,000/10,000
+   Completed rotations 5,001-5,250/10,000
+   Completed rotations 5,251-5,500/10,000
+   Completed rotations 5,501-5,750/10,000
+   Completed rotations 5,751-6,000/10,000
+   Completed rotations 6,001-6,250/10,000
+   Completed rotations 6,251-6,500/10,000
+   Completed rotations 6,501-6,750/10,000
+   Completed rotations 6,751-7,000/10,000
+   Completed rotations 7,001-7,250/10,000
+   Completed rotations 7,251-7,500/10,000
+   Completed rotations 7,501-7,750/10,000
+   Completed rotations 7,751-8,000/10,000
+   Completed rotations 8,001-8,250/10,000
+   Completed rotations 8,251-8,500/10,000
+   Completed rotations 8,501-8,750/10,000
+   Completed rotations 8,751-9,000/10,000
+   Completed rotations 9,001-9,250/10,000
+   Completed rotations 9,251-9,500/10,000
+   Completed rotations 9,501-9,750/10,000
+   Completed rotations 9,751-10,000/10,000
+
+
+5. PRIMARY MODEL & CONTROL MODELS
+
+
+   Original 40/35/25
+      Weights: 0.40/0.35/0.25
+      Observed score: 4.1447
+      Random mean ± SD: 5.1063 ± 0.4143
+      Empirical p: 0.97970 | MC SE: ±0.00141
+      Observed percentile: 2.03%
+
+
+   Geometry (.0/.5/.5)
+      Weights: 0.00/0.50/0.50
+      Observed score: 4.1611
+      Random mean ± SD: 4.2548 ± 0.1041
+      Empirical p: 0.84432 | MC SE: ±0.00363
+      Observed percentile: 15.57%
+
+
+   Brightness (1/0/0)
+      Weights: 1.00/0.00/0.00
+      Observed score: 3.8509
+      Random mean ± SD: 5.5398 ± 0.6686
+      Empirical p: 0.97040 | MC SE: ±0.00169
+      Observed percentile: 2.96%
+
+
+   Symmetry (0/1/0)
+      Weights: 0.00/1.00/0.00
+      Observed score: 4.8702
+      Random mean ± SD: 4.9092 ± 0.0469
+      Empirical p: 0.79742 | MC SE: ±0.00402
+      Observed percentile: 20.26%
+
+
+   Declination (0/0/1)
+      Weights: 0.00/0.00/1.00
+      Observed score: 4.0696
+      Random mean ± SD: 4.1751 ± 0.1717
+      Empirical p: 0.58324 | MC SE: ±0.00493
+      Observed percentile: 41.68%
+
+
+   Equal Weights (1/3,1/3,1/3)
+      Observed score: 4.1639
+      Random mean ± SD: 5.0208 ± 0.3730
+      Empirical p: 0.97970
+
+
+6. DESCRIPTIVE HORIZON STATISTIC: ANGULAR CONCENTRATION
+   - Resultant-length concentration statistic (R): 0.8381
+
+
+   SUPPLEMENTARY BASELINE HORIZON NULL: MONTE CARLO AZIMUTH SIMULATION
+   * Status: Baseline horizon diagnostic (Not primary evidence for the fivefold framework).
+   * Null Model: Uniform random emergence across eastern horizon (Ai ~ U(0°, 180°)).
+   - Independent Seed: rng_horizon (Seed 2026)
+   - Iterations (N): 10,000
+   - Exceedances (k >= R): 1
+   - Empirical P-Value: 0.00020 [(k + 1) / (N + 1)]
+
+
+   SUPPLEMENTARY DIAGNOSTIC A: BOOTSTRAP AZIMUTH RESAMPLING (N = 5,000)
+   * Status: Secondary descriptive confidence check (Demoted from primary inference)
+   - Independent Seed: rng_boot (Seed 2027)
+   - Observed Mean Azimuth: 87.04°
+   - Nonparametric 95% CI: [74.93°, 99.01°]
+
+
+   SUPPLEMENTARY DIAGNOSTIC B: ILLUSTRATIVE FALSE-MATCH BASELINE
+   * Status: Illustrative upper-bound diagnostic (Permissive analytic model)
+   - Expected Accidental Alignments: 58.00 stars
+   - Probability of >= 1 Accidental Match: 1.0000 (100.00%)
+
+
+7. INFERENTIAL METRIC: E/W STRUCTURAL EFFICIENCY
+Executing 10,000 geometrical spatial randomizations [-36°, +36°)...
+  - Observed E/W Structural Score:         4.3120
+  - Mean Simulated E/W Score:              4.2559 (±0.1049)
+  - Exceedances (k >= Observed Score):     2979
+  - Primary Empirical P-Value:             0.29797 [(k + 1) / (N + 1)]
+
+
+8. SECONDARY DESCRIPTIVE BRIGHTNESS CHARACTERIZATION:
+  * Status: Post-selection descriptive characterization (Not an inferential test).
+  - Observed Candidates Mean V_app:        2.28 mag
+  - Simulated Candidates Mean V_app:       2.09 mag
+  - Delta Magnitude (Observed - Random):   +0.19 mag
+  - Interpretation:                        The geometrically selected candidates are, on average,
+                                           0.19 mag FAINTER than candidates selected
+                                           under randomized framework rotations.
+  - Scientific Synthesis:                  Provides no independent brightness enhancement/advantage.
+
+
+9. SECONDARY DIAGNOSTIC: SEQUENCE IDENTITY RECURRENCE
+  * Status: Descriptive identity-recurrence diagnostic. NOT the pre-specified primary test statistic.
+  - Full-Sequence Recurrence Count:         The exact 20-star identity sequence was reproduced in
+                                           156 of 10,000 randomized orientations (1.56%).
+  - Descriptive Interpretation:            Exact full-sequence recurrence occurred in 1.56% of randomized
+                                           orientations, demonstrating that sequence identity is not unique to one rotation.
+
+
+10. MODEL ROBUSTNESS: STAGE-II INTEGRATED VISIBILITY SENSITIVITY
+   * Pipeline: Strict rerun of true first-emergence visibility procedure across shifted thresholds.
+   - Naked-Eye Limit Shifted to 4.5 mag:
+     -> Identity Retention:                  18 / 18 unique stars (100.0%)
+     -> Exact Positional Identity Retention: 19 / 19 exact positional slots (100.0%)
+   - Naked-Eye Limit Shifted to 5.5 mag:
+     -> Identity Retention:                  18 / 18 unique stars (100.0%)
+     -> Exact Positional Identity Retention: 19 / 19 exact positional slots (100.0%)
+
+
+SYNTHESIS & INTERPRETATION:
+  * Result: The observed framework did not significantly exceed the geometric efficiency
+    produced by equivalent random framework rotations (p = 0.298).
+  * Conclusion: The proposed framework provides a deterministic and reproducible procedure
+    for prioritizing stellar candidates within a visibility-constrained fivefold celestial geometry.
+    Its geometric efficiency, however, is not statistically exceptional relative to equivalent
+    rotations of the same reconstructed stellar population (p = 0.298). The robustness analysis
+    indicates that the resulting candidate configuration is insensitive to moderate changes in the
+    adopted apparent-visibility threshold, while post-selection brightness does not show an
+    enhancement relative to randomized orientations. Exact recurrence of the stellar identity sequence
+    is relatively uncommon (1.56%) but not unique to the proposed orientation.
+________________
+
+
+DETAILED OUTPUT FOR Monte Albán (400 BCE)
+=====================================================================================
+
+
+GEOMETRIC GRID POOL (PANORAMIC CANDIDATES: UP TO 5 STARS PER SUB-SECTOR | Vmag < 2.5)
+-------------------------------------------------------------------------------------
+
+
+==================== QUINTANT 1 ====================
+
+
+--- EAST ---
+  [HIP 24436] Rigel                  | V Base: 0.18 | Culm Alt:  59.2° | Culm V_App: 0.35  | Rise Az: 104.88°        | H_Vis: 0.6°
+  [HIP 21421] Aldebaran              | V Base: 0.87 | Culm Alt:  81.6° | Culm V_App: 1.02  | Rise Az: 81.36°         | H_Vis: 0.9°
+  [HIP 25336] Bellatrix              | V Base: 1.64 | Culm Alt:  73.9° | Culm V_App: 1.80  | Rise Az: 89.38°         | H_Vis: 1.6°
+  [HIP 25930] Mintaka                | V Base: 2.25 | Culm Alt:  67.8° | Culm V_App: 2.41  | Rise Az: 95.81°         | H_Vis: 2.1°
+
+
+--- NORTHEAST ---
+  [HIP 25428] Elnath                 | V Base: 1.65 | Culm Alt:  84.4° | Culm V_App: 1.80  | Rise Az: 66.44°         | H_Vis: 1.7°
+
+
+--- NORTH ---
+  [HIP 24608] Capella                | V Base: 0.08 | Culm Alt:  67.9° | Culm V_App: 0.24  | Rise Az: 48.86°         | H_Vis: 1.0°
+  [HIP 36850] Castor                 | V Base: 1.58 | Culm Alt:  74.2° | Culm V_App: 1.74  | Rise Az: 55.63°         | H_Vis: 1.3°
+  [HIP 28360] Menkalinan             | V Base: 1.90 | Culm Alt:  67.1° | Culm V_App: 2.06  | Rise Az: 47.97°         | H_Vis: 1.7°
+
+
+--- NORTHWEST ---
+  [HIP 37826] Pollux                 | V Base: 1.16 | Culm Alt:  77.3° | Culm V_App: 1.31  | Rise Az: 58.92°         | H_Vis: 1.0°
+
+
+--- WEST ---
+  [HIP 37279] Procyon                | V Base: 0.40 | Culm Alt:  81.1° | Culm V_App: 0.55  | Rise Az: 81.87°         | H_Vis: 0.8°
+  [HIP 27989] Betelgeuse             | V Base: 0.45 | Culm Alt:  76.6° | Culm V_App: 0.60  | Rise Az: 86.65°         | H_Vis: 0.9°
+  [HIP 26311] Alnilam                | V Base: 1.69 | Culm Alt:  67.1° | Culm V_App: 1.85  | Rise Az: 96.50°         | H_Vis: 1.7°
+  [HIP 26727] Alnitak                | V Base: 1.74 | Culm Alt:  66.7° | Culm V_App: 1.90  | Rise Az: 97.00°         | H_Vis: 1.8°
+  [HIP 31681] Alhena                 | V Base: 1.93 | Culm Alt:  87.7° | Culm V_App: 2.08  | Rise Az: 74.94°         | H_Vis: 1.7°
+
+
+--- SOUTHWEST ---
+  [HIP 32349] Sirius                 | V Base: -1.44 | Culm Alt:  56.8° | Culm V_App: -1.26 | Rise Az: 107.37°        | H_Vis: 0.8°
+  [HIP 33579] Adhara                 | V Base: 1.50 | Culm Alt:  44.8° | Culm V_App: 1.71  | Rise Az: 120.03°        | H_Vis: 1.4°
+  [HIP 34444] Wezen                  | V Base: 1.83 | Culm Alt:  47.9° | Culm V_App: 2.03  | Rise Az: 116.79°        | H_Vis: 1.5°
+  [HIP 30324] Mirzam                 | V Base: 1.98 | Culm Alt:  53.4° | Culm V_App: 2.17  | Rise Az: 110.91°        | H_Vis: 1.9°
+  [HIP 35904] Aludra                 | V Base: 2.45 | Culm Alt:  45.9° | Culm V_App: 2.66  | Rise Az: 118.84°        | H_Vis: 2.5°
+
+
+--- SOUTH ---
+  [HIP 30438] Canopus                | V Base: -0.62 | Culm Alt:  20.3° | Culm V_App: -0.19 | Rise Az: 146.97°        | H_Vis: 1.0°
+
+
+==================== QUINTANT 2 ====================
+
+
+--- EAST ---
+  [HIP 46390] Alphard                | V Base: 1.99 | Culm Alt:  72.4° | Culm V_App: 2.15  | Rise Az: 90.98°         | H_Vis: 2.1°
+
+
+--- NORTHEAST ---
+  [HIP 49669] Regulus                | V Base: 1.36 | Culm Alt:  85.7° | Culm V_App: 1.51  | Rise Az: 67.80°         | H_Vis: 1.5°
+  [HIP 50583] Algieba                | V Base: 2.01 | Culm Alt:  77.5° | Culm V_App: 2.16  | Rise Az: 59.08°         | H_Vis: 1.8°
+
+
+--- NORTH ---
+  [HIP 54061] Merak                  | V Base: 1.81 | Culm Alt:  35.0° | Culm V_App: 2.07  | Rise Az: 7.49°          | H_Vis: 1.6°
+  [HIP 53910] Megrez                 | V Base: 2.34 | Culm Alt:  40.2° | Culm V_App: 2.57  | Rise Az: 16.64°         | H_Vis: 2.3°
+  [HIP 58001] Phecda                 | V Base: 2.41 | Culm Alt:  41.1° | Culm V_App: 2.64  | Rise Az: 17.89°         | H_Vis: 2.4°
+
+
+--- NORTHWEST ---
+  [HIP 57632] Denebola               | V Base: 2.14 | Culm Alt:  80.0° | Culm V_App: 2.29  | Rise Az: 61.71°         | H_Vis: 2.0°
+
+
+--- SOUTH ---
+  [HIP 60718] Acrux                  | V Base: 0.77 | Culm Alt:  23.2° | Culm V_App: 1.15  | Rise Az: 143.62°        | H_Vis: 0.8°
+  [HIP 61084] Gacrux                 | V Base: 1.59 | Culm Alt:  29.4° | Culm V_App: 1.90  | Rise Az: 136.73°        | H_Vis: 1.5°
+  [HIP 45238] Avior                  | V Base: 1.67 | Culm Alt:  12.7° | Culm V_App: 2.35  | Rise Az: 156.15°        | H_Vis: 1.5°
+  [HIP 39953] Gamma Velorum          | V Base: 1.75 | Culm Alt:  31.0° | Culm V_App: 2.04  | Rise Az: 134.89°        | H_Vis: 1.5°
+  [HIP 41037] Miaplacidus            | V Base: 1.86 | Culm Alt:  20.1° | Culm V_App: 2.29  | Rise Az: 147.13°        | H_Vis: 1.7°
+
+
+==================== QUINTANT 3 ====================
+
+
+--- SOUTHEAST ---
+  [HIP 68933] Menkent                | V Base: 2.06 | Culm Alt:  49.9° | Culm V_App: 2.26  | Rise Az: 114.68°        | H_Vis: 2.1°
+  [HIP 71352] Eta Centauri           | V Base: 2.33 | Culm Alt:  43.3° | Culm V_App: 2.55  | Rise Az: 121.64°        | H_Vis: 2.6°
+
+
+--- EAST ---
+  [HIP 65474] Spica                  | V Base: 0.98 | Culm Alt:  75.1° | Culm V_App: 1.14  | Rise Az: 88.12°         | H_Vis: 0.8°
+
+
+--- NORTH ---
+  [HIP 69673] Arcturus               | V Base: -0.05 | Culm Alt:  74.2° | Culm V_App: 0.11  | Rise Az: 55.65°         | H_Vis: 0.7°
+  [HIP 62956] Alioth                 | V Base: 1.76 | Culm Alt:  38.0° | Culm V_App: 2.00  | Rise Az: 13.27°         | H_Vis: 1.5°
+  [HIP 67301] Mizar                  | V Base: 1.85 | Culm Alt:  45.0° | Culm V_App: 2.06  | Rise Az: 22.97°         | H_Vis: 1.6°
+  [HIP 76267] Alphecca               | V Base: 2.22 | Culm Alt:  70.4° | Culm V_App: 2.38  | Rise Az: 51.51°         | H_Vis: 2.2°
+  [HIP 65378] Porrima                | V Base: 2.23 | Culm Alt:  39.1° | Culm V_App: 2.47  | Rise Az: 14.99°         | H_Vis: 2.1°
+
+
+--- WEST ---
+  [HIP 78401] Dschubba               | V Base: 2.29 | Culm Alt:  60.2° | Culm V_App: 2.46  | Rise Az: 103.79°        | H_Vis: 2.3°
+  [HIP 84012] Sabik                  | V Base: 2.43 | Culm Alt:  63.8° | Culm V_App: 2.60  | Rise Az: 100.02°        | H_Vis: 2.7°
+
+
+--- SOUTHWEST ---
+  [HIP 80763] Antares                | V Base: 1.06 | Culm Alt:  55.3° | Culm V_App: 1.24  | Rise Az: 108.98°        | H_Vis: 1.2°
+  [HIP 82396] Larawag                | V Base: 2.29 | Culm Alt:  46.7° | Culm V_App: 2.50  | Rise Az: 118.00°        | H_Vis: 2.3°
+
+
+--- SOUTH ---
+  [HIP 71683] Alpha Centauri A       | V Base: -0.01 | Culm Alt:  24.1° | Culm V_App: 0.36  | Rise Az: 142.62°        | H_Vis: 0.7°
+  [HIP 68702] Hadar                  | V Base: 0.61 | Culm Alt:  25.7° | Culm V_App: 0.96  | Rise Az: 140.82°        | H_Vis: 0.9°
+  [HIP 62434] Mimosa                 | V Base: 1.25 | Culm Alt:  26.7° | Culm V_App: 1.58  | Rise Az: 139.69°        | H_Vis: 1.2°
+  [HIP 71681] Alpha Centauri B       | V Base: 1.35 | Culm Alt:  23.8° | Culm V_App: 1.72  | Rise Az: 142.97°        | H_Vis: 1.2°
+  [HIP 85927] Shaula                 | V Base: 1.62 | Culm Alt:  41.9° | Culm V_App: 1.84  | Rise Az: 123.16°        | H_Vis: 1.4°
+
+
+==================== QUINTANT 4 ====================
+
+
+--- SOUTHEAST ---
+  [HIP 92855] Nunki                  | V Base: 2.05 | Culm Alt:  48.0° | Culm V_App: 2.25  | Rise Az: 116.69°        | H_Vis: 1.8°
+
+
+--- EAST ---
+  [HIP 97649] Altair                 | V Base: 0.76 | Culm Alt:  78.8° | Culm V_App: 0.91  | Rise Az: 84.34°         | H_Vis: 1.1°
+
+
+--- NORTHEAST ---
+  [HIP 86032] Rasalhague             | V Base: 2.08 | Culm Alt:  89.9° | Culm V_App: 2.23  | Rise Az: 72.18°         | H_Vis: 2.0°
+
+
+--- NORTH ---
+  [HIP 91262] Vega                   | V Base: 0.03 | Culm Alt:  68.4° | Culm V_App: 0.19  | Rise Az: 49.37°         | H_Vis: 1.0°
+  [HIP 102098] Deneb                  | V Base: 1.25 | Culm Alt:  68.6° | Culm V_App: 1.41  | Rise Az: 49.64°         | H_Vis: 1.4°
+  [HIP 72607] Kochab                 | V Base: 2.07 | Culm Alt:  24.5° | Culm V_App: 2.43  | Rise Az: CIRCUMPOLAR    | H_Vis: N/A
+  [HIP 100453] Sadr                   | V Base: 2.23 | Culm Alt:  72.5° | Culm V_App: 2.39  | Rise Az: 53.83°         | H_Vis: 2.2°
+  [HIP 87833] Rastaban               | V Base: 2.24 | Culm Alt:  53.9° | Culm V_App: 2.43  | Rise Az: 33.49°         | H_Vis: 2.3°
+
+
+--- NORTHWEST ---
+  [HIP 102488] Gienah                 | V Base: 2.48 | Culm Alt:  80.0° | Culm V_App: 2.63  | Rise Az: 61.71°         | H_Vis: 2.4°
+
+
+--- WEST ---
+  [HIP 107315] Enif                   | V Base: 2.38 | Culm Alt:  74.2° | Culm V_App: 2.54  | Rise Az: 89.08°         | H_Vis: 2.2°
+
+
+--- SOUTH ---
+  [HIP 109268] Alnair                 | V Base: 1.73 | Culm Alt:  17.6° | Culm V_App: 2.22  | Rise Az: 150.08°        | H_Vis: 1.7°
+  [HIP 90185] Kaus Australis         | V Base: 1.79 | Culm Alt:  41.9° | Culm V_App: 2.01  | Rise Az: 123.12°        | H_Vis: 1.5°
+  [HIP 100751] Peacock                | V Base: 1.94 | Culm Alt:  14.0° | Culm V_App: 2.56  | Rise Az: 154.51°        | H_Vis: 1.8°
+  [HIP 112122] Tiaki                  | V Base: 2.07 | Culm Alt:  16.1° | Culm V_App: 2.61  | Rise Az: 151.94°        | H_Vis: 1.8°
+
+
+==================== QUINTANT 5 ====================
+
+
+--- EAST ---
+  [HIP 113963] Markab                 | V Base: 2.49 | Culm Alt:  76.7° | Culm V_App: 2.64  | Rise Az: 86.51°         | H_Vis: 2.8°
+
+
+--- NORTHEAST ---
+  [HIP 677  ] Alpheratz              | V Base: 2.07 | Culm Alt:  89.3° | Culm V_App: 2.22  | Rise Az: 73.24°         | H_Vis: 1.9°
+  [HIP 113881] Scheat                 | V Base: 2.44 | Culm Alt:  89.4° | Culm V_App: 2.59  | Rise Az: 73.20°         | H_Vis: 2.6°
+
+
+--- NORTH ---
+  [HIP 15863] Mirfak                 | V Base: 1.79 | Culm Alt:  68.6° | Culm V_App: 1.95  | Rise Az: 49.58°         | H_Vis: 1.7°
+  [HIP 11767] Polaris                | V Base: 1.97 | Culm Alt:  31.1° | Culm V_App: 2.26  | Rise Az: CIRCUMPOLAR    | H_Vis: N/A
+  [HIP 4427 ] Tiansi                 | V Base: 2.15 | Culm Alt:  59.7° | Culm V_App: 2.32  | Rise Az: 39.99°         | H_Vis: 2.0°
+  [HIP 3179 ] Schedar                | V Base: 2.24 | Culm Alt:  63.8° | Culm V_App: 2.41  | Rise Az: 44.49°         | H_Vis: 2.1°
+  [HIP 746  ] Caph                   | V Base: 2.28 | Culm Alt:  60.9° | Culm V_App: 2.45  | Rise Az: 41.28°         | H_Vis: 2.3°
+
+
+--- NORTHWEST ---
+  [HIP 5447 ] Mirach                 | V Base: 2.07 | Culm Alt:  84.7° | Culm V_App: 2.22  | Rise Az: 66.75°         | H_Vis: 2.1°
+  [HIP 14576] Algol                  | V Base: 2.09 | Culm Alt:  77.8° | Culm V_App: 2.24  | Rise Az: 59.43°         | H_Vis: 1.9°
+  [HIP 9640 ] Almach                 | V Base: 2.10 | Culm Alt:  77.7° | Culm V_App: 2.25  | Rise Az: 59.29°         | H_Vis: 2.2°
+
+
+--- WEST ---
+  [HIP 9884 ] Hamal                  | V Base: 2.01 | Culm Alt:  83.9° | Culm V_App: 2.16  | Rise Az: 78.98°         | H_Vis: 1.9°
+
+
+--- SOUTH ---
+  [HIP 7588 ] Achernar               | V Base: 0.45 | Culm Alt:   3.0° | Culm V_App: 2.71  | Rise Az: 171.48°        | H_Vis: 0.9°
+  [HIP 113368] Fomalhaut              | V Base: 1.17 | Culm Alt:  32.6° | Culm V_App: 1.45  | Rise Az: 133.22°        | H_Vis: 1.0°
+  [HIP 3419 ] Diphda                 | V Base: 2.04 | Culm Alt:  41.9° | Culm V_App: 2.26  | Rise Az: 123.15°        | H_Vis: 1.9°
+  [HIP 2081 ] Ankaa                  | V Base: 2.40 | Culm Alt:  18.0° | Culm V_App: 2.88  | Rise Az: 149.63°        | H_Vis: 2.5°
+
+
+FINAL REFINED ANCHOR LIST [Primary Anchor per Active Sub-Quadrant | Sorted by: DECLINATION]:
+Q  | SECTOR     | HIP ID  | STAR NAME              | V BASE | DEC (EPOCH) | CULM ALT  | CULM V_APP | CALCULATED RISE AZ
+-------------------------------------------------------------------------------------
+2  | NORTH      | HIP 54061 | Merak                  | 1.81   | 72.221     ° | 35.0     ° | 2.07       | 7.49°
+1  | NORTH      | HIP 24608 | Capella                | 0.08   | 39.294     ° | 67.9     ° | 0.24       | 48.86°
+4  | NORTH      | HIP 91262 | Vega                   | 0.03   | 38.820     ° | 68.4     ° | 0.19       | 49.37°
+5  | NORTH      | HIP 15863 | Mirfak                 | 1.79   | 38.626     ° | 68.6     ° | 1.95       | 49.58°
+3  | NORTH      | HIP 69673 | Arcturus               | -0.05  | 32.942     ° | 74.2     ° | 0.11       | 55.65°
+1  | NORTHWEST  | HIP 37826 | Pollux                 | 1.16   | 29.859     ° | 77.3     ° | 1.31       | 58.92°
+4  | NORTHWEST  | HIP 102488 | Gienah                 | 2.48   | 27.226     ° | 80.0     ° | 2.63       | 61.71°
+2  | NORTHWEST  | HIP 57632 | Denebola               | 2.14   | 27.222     ° | 80.0     ° | 2.29       | 61.71°
+1  | NORTHEAST  | HIP 25428 | Elnath                 | 1.65   | 22.738     ° | 84.4     ° | 1.80       | 66.44°
+5  | NORTHWEST  | HIP 5447  | Mirach                 | 2.07   | 22.442     ° | 84.7     ° | 2.22       | 66.75°
+2  | NORTHEAST  | HIP 49669 | Regulus                | 1.36   | 21.441     ° | 85.7     ° | 1.51       | 67.80°
+4  | NORTHEAST  | HIP 86032 | Rasalhague             | 2.08   | 17.274     ° | 89.9     ° | 2.23       | 72.18°
+5  | NORTHEAST  | HIP 677   | Alpheratz              | 2.07   | 16.264     ° | 89.3     ° | 2.22       | 73.24°
+5  | WEST       | HIP 9884  | Hamal                  | 2.01   | 10.791     ° | 83.9     ° | 2.16       | 78.98°
+1  | WEST       | HIP 37279 | Procyon                | 0.40   | 8.025      ° | 81.1     ° | 0.55       | 81.87°
+4  | EAST       | HIP 97649 | Altair                 | 0.76   | 5.669      ° | 78.8     ° | 0.91       | 84.34°
+5  | EAST       | HIP 113963 | Markab                 | 2.49   | 3.591      ° | 76.7     ° | 2.64       | 86.51°
+3  | EAST       | HIP 65474 | Spica                  | 0.98   | 2.050      ° | 75.1     ° | 1.14       | 88.12°
+4  | WEST       | HIP 107315 | Enif                   | 2.38   | 1.131      ° | 74.2     ° | 2.54       | 89.08°
+2  | EAST       | HIP 46390 | Alphard                | 1.99   | -0.685     ° | 72.4     ° | 2.15       | 90.98°
+3  | WEST       | HIP 78401 | Dschubba               | 2.29   | -12.916    ° | 60.2     ° | 2.46       | 103.79°
+1  | EAST       | HIP 24436 | Rigel                  | 0.18   | -13.947    ° | 59.2     ° | 0.35       | 104.88°
+1  | SOUTHWEST  | HIP 32349 | Sirius                 | -1.44  | -16.318    ° | 56.8     ° | -1.26      | 107.37°
+3  | SOUTHWEST  | HIP 80763 | Antares                | 1.06   | -17.849    ° | 55.3     ° | 1.24       | 108.98°
+3  | SOUTHEAST  | HIP 68933 | Menkent                | 2.06   | -23.253    ° | 49.9     ° | 2.26       | 114.68°
+4  | SOUTHEAST  | HIP 92855 | Nunki                  | 2.05   | -25.152    ° | 48.0     ° | 2.25       | 116.69°
+3  | SOUTH      | HIP 71683 | Alpha Centauri A       | -0.01  | -49.051    ° | 24.1     ° | 0.36       | 142.62°
+2  | SOUTH      | HIP 60718 | Acrux                  | 0.77   | -49.936    ° | 23.2     ° | 1.15       | 143.62°
+1  | SOUTH      | HIP 30438 | Canopus                | -0.62  | -52.856    ° | 20.3     ° | -0.19      | 146.97°
+4  | SOUTH      | HIP 109268 | Alnair                 | 1.73   | -55.499    ° | 17.6     ° | 2.22       | 150.08°
+5  | SOUTH      | HIP 7588  | Achernar               | 0.45   | -70.212    ° | 3.0      ° | 2.71       | 171.48°
+-------------------------------------------------------------------------------------
+Total Active Refined Anchors Identified: 31 Stars across 5 Quintants
+
+
+INTER-QUINTANT GEOMETRICAL RE-CANDIDATE SHORTLIST (Observable horizon constraint: Quintant midpoint +/-80°)
+
+
+Primary equatorial band: +/-16°, Fallback equatorial band: +/-30°
+
+
+Pair ranking: Brightness=40% | Symmetry=35% | Equatorial centrality=25%
+-------------------------------------------------------------------------------------
+Q    | CENTRAL REFERENCE  | WEST         |        ΔW | EAST         |        ΔE |    SYM. |  SCORE
+-------------------------------------------------------------------------------------
+Q1   | Mintaka (-0.0°)    | Hamal        |  -53.065° | Alphard      |  +59.173° |  6.108° | 0.9255
+Q2   | Algieba (-5.0°)    | Procyon      |  -41.907° | Spica        |  +45.613° |  3.706° | 0.9226
+Q3   | Dschubba (+9.6°)   | Regulus      |  -78.145° | Altair       |  +71.356° |  6.788° | 0.8573
+Q4   | Altair (-0.6°)     | Dschubba     |  -62.438° | Markab       |  +47.604° | 14.834° | 0.8663
+Q5   | Mirach (+5.5°)     | Altair       |  -72.644° | Betelgeuse   |  +75.960° |  3.317° | 0.9232
+
+
+NORTH / SOUTH MERIDIONAL GEOMETRICAL RE-CANDIDATE SHORTLIST (Quintant midpoint meridian +/-18° RA)
+Q     |  MIDPOINT | NORTH                  |        ΔN |     DEC N | SOUTH                  |        ΔS |     DEC S
+-------------------------------------------------------------------------------------
+Q1    |    36.000° | Menkalinan             |   -5.084° |  +40.121° | None                   |       N/A |       N/A
+Q2    |   108.000° | Merak                  |   -9.422° |  +72.221° | Avior                  |   +3.892° |  -60.459°
+Q3    |   180.000° | Arcturus               |  -10.565° |  +32.942° | Alpha Centauri A       |  -10.845° |  -49.051°
+Q4    |   252.000° | Vega                   |   -9.855° |  +38.820° | None                   |       N/A |       N/A
+Q5    |   324.000° | Schedar                |   -0.249° |  +43.342° | Diphda                 |   -1.393° |  -31.219°
+
+
+=====================================================================================
+WEIGHT-SENSITIVITY & FRAMEWORK-ROTATION PERMUTATION ANALYSIS
+=====================================================================================
+RNG Seeds: Horizon=2026 | Bootstrap=2027 | Framework=2028
+Weight grid: 0.10 intervals | 66 admissible combinations
+Rotational null: Δθ ~ U[-36°, +36°) | N=10,000
+
+
+1. ORIGINAL CANDIDATE-RANKING MODEL
+   Weights: Brightness=0.40 | Symmetry=0.35 | Declination=0.25
+   Observed framework score: 4.6807
+
+
+2. WEIGHT-SPACE ROBUSTNESS
+   ≥90% identity retention: 32/66 (48.5%)
+   Median identity retention: 88.9%
+   Minimum identity retention: 72.2%
+   Median positional retention: 90.0%
+   Minimum positional retention: 65.0%
+
+
+3. WEIGHT-SPACE STELLAR CANDIDATE STABILITY
+   Candidate                         P(selection)   Class
+   Achernar                             1.000        Core Anchor
+   Hamal                                1.000        Core Anchor
+   Alnair                               1.000        Core Anchor
+   Mirfak                               1.000        Core Anchor
+   Castor                               1.000        Core Anchor
+   Alphecca                             1.000        Core Anchor
+   Phecda                               1.000        Core Anchor
+   Acrux                                1.000        Core Anchor
+   Shaula                               1.000        Core Anchor
+   Deneb                                1.000        Core Anchor
+   Canopus                              1.000        Core Anchor
+   Altair                               0.970        Core Anchor
+   Spica                                0.970        Core Anchor
+   Enif                                 0.879        Stable Candidate
+   Antares                              0.758        Stable Candidate
+   Sirius                               0.682        Stable Candidate
+   Alphard                              0.561        Stable Candidate
+   Betelgeuse                           0.485        Weight-Sensitive
+   Dschubba                             0.424        Weight-Sensitive
+   Procyon                              0.303        Weight-Sensitive
+   Denebola                             0.273        Weight-Sensitive
+   Sabik                                0.227        Weight-Sensitive
+   Regulus                              0.167        Weight-Sensitive
+   Gienah                               0.152        Weight-Sensitive
+   Bellatrix                            0.106        Weight-Sensitive
+   Algol                                0.106        Weight-Sensitive
+   Almach                               0.076        Weight-Sensitive
+   Saiph                                0.045        Weight-Sensitive
+   Pollux                               0.015        Weight-Sensitive
+
+
+4. FRAMEWORK-ROTATION PERMUTATION
+   Completed rotations 1-250/10,000
+   Completed rotations 251-500/10,000
+   Completed rotations 501-750/10,000
+   Completed rotations 751-1,000/10,000
+   Completed rotations 1,001-1,250/10,000
+   Completed rotations 1,251-1,500/10,000
+   Completed rotations 1,501-1,750/10,000
+   Completed rotations 1,751-2,000/10,000
+   Completed rotations 2,001-2,250/10,000
+   Completed rotations 2,251-2,500/10,000
+   Completed rotations 2,501-2,750/10,000
+   Completed rotations 2,751-3,000/10,000
+   Completed rotations 3,001-3,250/10,000
+   Completed rotations 3,251-3,500/10,000
+   Completed rotations 3,501-3,750/10,000
+   Completed rotations 3,751-4,000/10,000
+   Completed rotations 4,001-4,250/10,000
+   Completed rotations 4,251-4,500/10,000
+   Completed rotations 4,501-4,750/10,000
+   Completed rotations 4,751-5,000/10,000
+   Completed rotations 5,001-5,250/10,000
+   Completed rotations 5,251-5,500/10,000
+   Completed rotations 5,501-5,750/10,000
+   Completed rotations 5,751-6,000/10,000
+   Completed rotations 6,001-6,250/10,000
+   Completed rotations 6,251-6,500/10,000
+   Completed rotations 6,501-6,750/10,000
+   Completed rotations 6,751-7,000/10,000
+   Completed rotations 7,001-7,250/10,000
+   Completed rotations 7,251-7,500/10,000
+   Completed rotations 7,501-7,750/10,000
+   Completed rotations 7,751-8,000/10,000
+   Completed rotations 8,001-8,250/10,000
+   Completed rotations 8,251-8,500/10,000
+   Completed rotations 8,501-8,750/10,000
+   Completed rotations 8,751-9,000/10,000
+   Completed rotations 9,001-9,250/10,000
+   Completed rotations 9,251-9,500/10,000
+   Completed rotations 9,501-9,750/10,000
+   Completed rotations 9,751-10,000/10,000
+
+
+5. PRIMARY MODEL & CONTROL MODELS
+
+
+   Original 40/35/25
+      Weights: 0.40/0.35/0.25
+      Observed score: 4.6807
+      Random mean ± SD: 4.9330 ± 0.3498
+      Empirical p: 0.81482 | MC SE: ±0.00388
+      Observed percentile: 18.52%
+
+
+   Geometry (.0/.5/.5)
+      Weights: 0.00/0.50/0.50
+      Observed score: 4.1010
+      Random mean ± SD: 4.2164 ± 0.1047
+      Empirical p: 0.90101 | MC SE: ±0.00299
+      Observed percentile: 9.90%
+
+
+   Brightness (1/0/0)
+      Weights: 1.00/0.00/0.00
+      Observed score: 4.8779
+      Random mean ± SD: 5.2082 ± 0.5590
+      Empirical p: 0.79462 | MC SE: ±0.00404
+      Observed percentile: 20.54%
+
+
+   Symmetry (0/1/0)
+      Weights: 0.00/1.00/0.00
+      Observed score: 4.8616
+      Random mean ± SD: 4.9148 ± 0.0450
+      Empirical p: 0.85651 | MC SE: ±0.00351
+      Observed percentile: 14.35%
+
+
+   Declination (0/0/1)
+      Weights: 0.00/0.00/1.00
+      Observed score: 3.9630
+      Random mean ± SD: 4.0992 ± 0.1757
+      Empirical p: 0.63484 | MC SE: ±0.00481
+      Observed percentile: 36.52%
+
+
+   Equal Weights (1/3,1/3,1/3)
+      Observed score: 4.6292
+      Random mean ± SD: 4.8647 ± 0.3155
+      Empirical p: 0.81482
+
+
+6. DESCRIPTIVE HORIZON STATISTIC: ANGULAR CONCENTRATION
+   - Resultant-length concentration statistic (R): 0.8236
+
+
+   SUPPLEMENTARY BASELINE HORIZON NULL: MONTE CARLO AZIMUTH SIMULATION
+   * Status: Baseline horizon diagnostic (Not primary evidence for the fivefold framework).
+   * Null Model: Uniform random emergence across eastern horizon (Ai ~ U(0°, 180°)).
+   - Independent Seed: rng_horizon (Seed 2026)
+   - Iterations (N): 10,000
+   - Exceedances (k >= R): 4
+   - Empirical P-Value: 0.00050 [(k + 1) / (N + 1)]
+
+
+   SUPPLEMENTARY DIAGNOSTIC A: BOOTSTRAP AZIMUTH RESAMPLING (N = 5,000)
+   * Status: Secondary descriptive confidence check (Demoted from primary inference)
+   - Independent Seed: rng_boot (Seed 2027)
+   - Observed Mean Azimuth: 88.73°
+   - Nonparametric 95% CI: [76.63°, 101.05°]
+
+
+   SUPPLEMENTARY DIAGNOSTIC B: ILLUSTRATIVE FALSE-MATCH BASELINE
+   * Status: Illustrative upper-bound diagnostic (Permissive analytic model)
+   - Expected Accidental Alignments: 62.69 stars
+   - Probability of >= 1 Accidental Match: 1.0000 (100.00%)
+
+
+7. INFERENTIAL METRIC: E/W STRUCTURAL EFFICIENCY
+Executing 10,000 geometrical spatial randomizations [-36°, +36°)...
+  - Observed E/W Structural Score:         4.2870
+  - Mean Simulated E/W Score:              4.2110 (±0.1064)
+  - Exceedances (k >= Observed Score):     2971
+  - Primary Empirical P-Value:             0.29717 [(k + 1) / (N + 1)]
+
+
+8. SECONDARY DESCRIPTIVE BRIGHTNESS CHARACTERIZATION:
+  * Status: Post-selection descriptive characterization (Not an inferential test).
+  - Observed Candidates Mean V_app:        1.99 mag
+  - Simulated Candidates Mean V_app:       1.92 mag
+  - Delta Magnitude (Observed - Random):   +0.07 mag
+  - Interpretation:                        The geometrically selected candidates are, on average,
+                                           0.07 mag FAINTER than candidates selected
+                                           under randomized framework rotations.
+  - Scientific Synthesis:                  Provides no independent brightness enhancement/advantage.
+
+
+9. SECONDARY DIAGNOSTIC: SEQUENCE IDENTITY RECURRENCE
+  * Status: Descriptive identity-recurrence diagnostic. NOT the pre-specified primary test statistic.
+  - Full-Sequence Recurrence Count:         The exact 20-star identity sequence was reproduced in
+                                           470 of 10,000 randomized orientations (4.70%).
+  - Descriptive Interpretation:            Exact full-sequence recurrence occurred in 4.70% of randomized
+                                           orientations, demonstrating that sequence identity is not unique to one rotation.
+
+
+10. MODEL ROBUSTNESS: STAGE-II INTEGRATED VISIBILITY SENSITIVITY
+   * Pipeline: Strict rerun of true first-emergence visibility procedure across shifted thresholds.
+   - Naked-Eye Limit Shifted to 4.5 mag:
+     -> Identity Retention:                  18 / 18 unique stars (100.0%)
+     -> Exact Positional Identity Retention: 19 / 19 exact positional slots (100.0%)
+   - Naked-Eye Limit Shifted to 5.5 mag:
+     -> Identity Retention:                  18 / 18 unique stars (100.0%)
+     -> Exact Positional Identity Retention: 19 / 19 exact positional slots (100.0%)
+
+
+SYNTHESIS & INTERPRETATION:
+  * Result: The observed framework did not significantly exceed the geometric efficiency
+    produced by equivalent random framework rotations (p = 0.297).
+  * Conclusion: The proposed framework provides a deterministic and reproducible procedure
+    for prioritizing stellar candidates within a visibility-constrained fivefold celestial geometry.
+    Its geometric efficiency, however, is not statistically exceptional relative to equivalent
+    rotations of the same reconstructed stellar population (p = 0.297). The robustness analysis
+    indicates that the resulting candidate configuration is insensitive to moderate changes in the
+    adopted apparent-visibility threshold, while post-selection brightness does not show an
+    enhancement relative to randomized orientations. Exact recurrence of the stellar identity sequence
+    is relatively uncommon (4.70%) but not unique to the proposed orientation.
+________________
+
+
+DETAILED OUTPUT FOR Teotihuacan (200 CE)
+=====================================================================================
+
+
+GEOMETRIC GRID POOL (PANORAMIC CANDIDATES: UP TO 5 STARS PER SUB-SECTOR | Vmag < 2.5)
+-------------------------------------------------------------------------------------
+
+
+==================== QUINTANT 1 ====================
+
+
+--- EAST ---
+  [HIP 24436] Rigel                  | V Base: 0.18 | Culm Alt:  58.6° | Culm V_App: 0.34  | Rise Az: 103.11°        | H_Vis: 0.8°
+  [HIP 21421] Aldebaran              | V Base: 0.87 | Culm Alt:  81.7° | Culm V_App: 1.01  | Rise Az: 78.62°         | H_Vis: 1.0°
+  [HIP 25336] Bellatrix              | V Base: 1.64 | Culm Alt:  73.4° | Culm V_App: 1.79  | Rise Az: 87.37°         | H_Vis: 1.4°
+  [HIP 25930] Mintaka                | V Base: 2.25 | Culm Alt:  67.1° | Culm V_App: 2.40  | Rise Az: 94.05°         | H_Vis: 1.9°
+
+
+--- NORTHEAST ---
+  [HIP 25428] Elnath                 | V Base: 1.65 | Culm Alt:  85.1° | Culm V_App: 1.79  | Rise Az: 63.86°         | H_Vis: 1.4°
+
+
+--- NORTH ---
+  [HIP 24608] Capella                | V Base: 0.08 | Culm Alt:  68.3° | Culm V_App: 0.23  | Rise Az: 45.57°         | H_Vis: 1.0°
+  [HIP 37826] Pollux                 | V Base: 1.16 | Culm Alt:  79.8° | Culm V_App: 1.30  | Rise Az: 58.14°         | H_Vis: 1.1°
+  [HIP 36850] Castor                 | V Base: 1.58 | Culm Alt:  76.4° | Culm V_App: 1.72  | Rise Az: 54.53°         | H_Vis: 1.1°
+  [HIP 28360] Menkalinan             | V Base: 1.90 | Culm Alt:  67.8° | Culm V_App: 2.05  | Rise Az: 45.07°         | H_Vis: 1.4°
+
+
+--- WEST ---
+  [HIP 32349] Sirius                 | V Base: -1.44 | Culm Alt:  54.8° | Culm V_App: -1.27 | Rise Az: 107.26°        | H_Vis: 0.8°
+  [HIP 37279] Procyon                | V Base: 0.40 | Culm Alt:  78.6° | Culm V_App: 0.54  | Rise Az: 81.87°         | H_Vis: 0.9°
+  [HIP 27989] Betelgeuse             | V Base: 0.45 | Culm Alt:  75.7° | Culm V_App: 0.59  | Rise Az: 84.96°         | H_Vis: 1.1°
+  [HIP 26311] Alnilam                | V Base: 1.69 | Culm Alt:  66.4° | Culm V_App: 1.84  | Rise Az: 94.81°         | H_Vis: 1.4°
+  [HIP 26727] Alnitak                | V Base: 1.74 | Culm Alt:  65.9° | Culm V_App: 1.89  | Rise Az: 95.39°         | H_Vis: 1.5°
+
+
+--- SOUTHWEST ---
+  [HIP 33579] Adhara                 | V Base: 1.50 | Culm Alt:  42.6° | Culm V_App: 1.71  | Rise Az: 120.30°        | H_Vis: 1.0°
+  [HIP 34444] Wezen                  | V Base: 1.83 | Culm Alt:  45.6° | Culm V_App: 2.03  | Rise Az: 117.11°        | H_Vis: 1.4°
+  [HIP 30324] Mirzam                 | V Base: 1.98 | Culm Alt:  51.9° | Culm V_App: 2.16  | Rise Az: 110.30°        | H_Vis: 1.5°
+  [HIP 35904] Aludra                 | V Base: 2.45 | Culm Alt:  43.4° | Culm V_App: 2.65  | Rise Az: 119.48°        | H_Vis: 2.3°
+
+
+--- SOUTH ---
+  [HIP 30438] Canopus                | V Base: -0.62 | Culm Alt:  18.1° | Culm V_App: -0.17 | Rise Az: 148.18°        | H_Vis: 1.0°
+
+
+==================== QUINTANT 2 ====================
+
+
+--- EAST ---
+  [HIP 46390] Alphard                | V Base: 1.99 | Culm Alt:  68.4° | Culm V_App: 2.14  | Rise Az: 92.66°         | H_Vis: 1.8°
+
+
+--- NORTHEAST ---
+  [HIP 49669] Regulus                | V Base: 1.36 | Culm Alt:  90.1° | Culm V_App: 1.50  | Rise Az: 69.53°         | H_Vis: 1.1°
+  [HIP 50583] Algieba                | V Base: 2.01 | Culm Alt:  82.2° | Culm V_App: 2.15  | Rise Az: 60.75°         | H_Vis: 1.7°
+
+
+--- NORTH ---
+  [HIP 54061] Merak                  | V Base: 1.81 | Culm Alt:  39.6° | Culm V_App: 2.03  | Rise Az: CIRCUMPOLAR    | H_Vis: N/A
+  [HIP 53910] Megrez                 | V Base: 2.34 | Culm Alt:  45.0° | Culm V_App: 2.54  | Rise Az: 17.06°         | H_Vis: 1.8°
+  [HIP 58001] Phecda                 | V Base: 2.41 | Culm Alt:  46.7° | Culm V_App: 2.60  | Rise Az: 19.51°         | H_Vis: 2.0°
+
+
+--- NORTHWEST ---
+  [HIP 57632] Denebola               | V Base: 2.14 | Culm Alt:  85.7° | Culm V_App: 2.28  | Rise Az: 64.50°         | H_Vis: 1.7°
+
+
+--- SOUTH ---
+  [HIP 60718] Acrux                  | V Base: 0.77 | Culm Alt:  17.5° | Culm V_App: 1.23  | Rise Az: 148.92°        | H_Vis: 1.1°
+  [HIP 61084] Gacrux                 | V Base: 1.59 | Culm Alt:  23.6° | Culm V_App: 1.94  | Rise Az: 141.60°        | H_Vis: 1.2°
+  [HIP 45238] Avior                  | V Base: 1.67 | Culm Alt:   8.1° | Culm V_App: 2.63  | Rise Az: 161.80°        | H_Vis: 1.1°
+  [HIP 39953] Gamma Velorum          | V Base: 1.75 | Culm Alt:  27.6° | Culm V_App: 2.05  | Rise Az: 137.01°        | H_Vis: 1.2°
+  [HIP 41037] Miaplacidus            | V Base: 1.86 | Culm Alt:  16.3° | Culm V_App: 2.36  | Rise Az: 150.46°        | H_Vis: 1.3°
+
+
+==================== QUINTANT 3 ====================
+
+
+--- SOUTHEAST ---
+  [HIP 68933] Menkent                | V Base: 2.06 | Culm Alt:  43.9° | Culm V_App: 2.26  | Rise Az: 118.93°        | H_Vis: 1.5°
+
+
+--- EAST ---
+  [HIP 65474] Spica                  | V Base: 0.98 | Culm Alt:  69.3° | Culm V_App: 1.13  | Rise Az: 91.76°         | H_Vis: 0.9°
+
+
+--- NORTHEAST ---
+  [HIP 69673] Arcturus               | V Base: -0.05 | Culm Alt:  80.7° | Culm V_App: 0.09  | Rise Az: 59.11°         | H_Vis: 1.0°
+
+
+--- NORTH ---
+  [HIP 62956] Alioth                 | V Base: 1.76 | Culm Alt:  44.0° | Culm V_App: 1.96  | Rise Az: 15.56°         | H_Vis: 1.2°
+  [HIP 67301] Mizar                  | V Base: 1.85 | Culm Alt:  51.1° | Culm V_App: 2.03  | Rise Az: 25.52°         | H_Vis: 1.3°
+  [HIP 72607] Kochab                 | V Base: 2.07 | Culm Alt:  28.9° | Culm V_App: 2.36  | Rise Az: CIRCUMPOLAR    | H_Vis: N/A
+  [HIP 76267] Alphecca               | V Base: 2.22 | Culm Alt:  76.0° | Culm V_App: 2.36  | Rise Az: 54.10°         | H_Vis: 1.8°
+  [HIP 65378] Porrima                | V Base: 2.23 | Culm Alt:  45.2° | Culm V_App: 2.43  | Rise Az: 17.43°         | H_Vis: 1.8°
+
+
+--- WEST ---
+  [HIP 78401] Dschubba               | V Base: 2.29 | Culm Alt:  54.8° | Culm V_App: 2.46  | Rise Az: 107.23°        | H_Vis: 2.1°
+  [HIP 84012] Sabik                  | V Base: 2.43 | Culm Alt:  59.1° | Culm V_App: 2.59  | Rise Az: 102.66°        | H_Vis: 2.0°
+
+
+--- SOUTHWEST ---
+  [HIP 80763] Antares                | V Base: 1.06 | Culm Alt:  50.1° | Culm V_App: 1.24  | Rise Az: 112.30°        | H_Vis: 1.0°
+  [HIP 82396] Larawag                | V Base: 2.29 | Culm Alt:  41.6° | Culm V_App: 2.50  | Rise Az: 121.41°        | H_Vis: 1.8°
+
+
+--- SOUTH ---
+  [HIP 71683] Alpha Centauri A       | V Base: -0.01 | Culm Alt:  18.4° | Culm V_App: 0.43  | Rise Az: 147.81°        | H_Vis: 1.0°
+  [HIP 68702] Hadar                  | V Base: 0.61 | Culm Alt:  19.8° | Culm V_App: 1.02  | Rise Az: 146.10°        | H_Vis: 1.1°
+  [HIP 62434] Mimosa                 | V Base: 1.25 | Culm Alt:  20.9° | Culm V_App: 1.64  | Rise Az: 144.76°        | H_Vis: 1.0°
+  [HIP 71681] Alpha Centauri B       | V Base: 1.35 | Culm Alt:  18.2° | Culm V_App: 1.80  | Rise Az: 148.10°        | H_Vis: 1.1°
+  [HIP 85927] Shaula                 | V Base: 1.62 | Culm Alt:  37.2° | Culm V_App: 1.85  | Rise Az: 126.29°        | H_Vis: 1.0°
+
+
+==================== QUINTANT 4 ====================
+
+
+--- SOUTHEAST ---
+  [HIP 92855] Nunki                  | V Base: 2.05 | Culm Alt:  44.4° | Culm V_App: 2.25  | Rise Az: 118.45°        | H_Vis: 1.6°
+
+
+--- EAST ---
+  [HIP 97649] Altair                 | V Base: 0.76 | Culm Alt:  76.4° | Culm V_App: 0.90  | Rise Az: 84.19°         | H_Vis: 0.8°
+  [HIP 86032] Rasalhague             | V Base: 2.08 | Culm Alt:  86.1° | Culm V_App: 2.22  | Rise Az: 73.87°         | H_Vis: 1.7°
+
+
+--- NORTH ---
+  [HIP 91262] Vega                   | V Base: 0.03 | Culm Alt:  71.6° | Culm V_App: 0.18  | Rise Az: 49.26°         | H_Vis: 0.9°
+  [HIP 102098] Deneb                  | V Base: 1.25 | Culm Alt:  70.1° | Culm V_App: 1.40  | Rise Az: 47.61°         | H_Vis: 0.9°
+  [HIP 100453] Sadr                   | V Base: 2.23 | Culm Alt:  74.3° | Culm V_App: 2.38  | Rise Az: 52.25°         | H_Vis: 1.7°
+  [HIP 87833] Rastaban               | V Base: 2.24 | Culm Alt:  57.4° | Culm V_App: 2.41  | Rise Az: 33.21°         | H_Vis: 1.7°
+  [HIP 105199] Alderamin              | V Base: 2.45 | Culm Alt:  54.4° | Culm V_App: 2.62  | Rise Az: 29.58°         | H_Vis: 2.1°
+
+
+--- NORTHWEST ---
+  [HIP 102488] Gienah                 | V Base: 2.48 | Culm Alt:  81.5° | Culm V_App: 2.62  | Rise Az: 60.05°         | H_Vis: 2.2°
+
+
+--- WEST ---
+  [HIP 107315] Enif                   | V Base: 2.38 | Culm Alt:  73.4° | Culm V_App: 2.53  | Rise Az: 87.39°         | H_Vis: 2.1°
+
+
+--- SOUTH ---
+  [HIP 109268] Alnair                 | V Base: 1.73 | Culm Alt:  16.5° | Culm V_App: 2.22  | Rise Az: 150.17°        | H_Vis: 1.2°
+  [HIP 90185] Kaus Australis         | V Base: 1.79 | Culm Alt:  37.8° | Culm V_App: 2.02  | Rise Az: 125.60°        | H_Vis: 1.2°
+  [HIP 100751] Peacock                | V Base: 1.94 | Culm Alt:  11.0° | Culm V_App: 2.66  | Rise Az: 157.46°        | H_Vis: 1.3°
+  [HIP 112122] Tiaki                  | V Base: 2.07 | Culm Alt:  15.5° | Culm V_App: 2.59  | Rise Az: 151.45°        | H_Vis: 1.5°
+
+
+==================== QUINTANT 5 ====================
+
+
+--- SOUTHEAST ---
+  [HIP 3419 ] Diphda                 | V Base: 2.04 | Culm Alt:  42.6° | Culm V_App: 2.25  | Rise Az: 120.35°        | H_Vis: 1.7°
+
+
+--- EAST ---
+  [HIP 113963] Markab                 | V Base: 2.49 | Culm Alt:  76.8° | Culm V_App: 2.63  | Rise Az: 83.83°         | H_Vis: 2.2°
+
+
+--- NORTHEAST ---
+  [HIP 677  ] Alpheratz              | V Base: 2.07 | Culm Alt:  89.9° | Culm V_App: 2.21  | Rise Az: 69.84°         | H_Vis: 1.4°
+  [HIP 113881] Scheat                 | V Base: 2.44 | Culm Alt:  89.5° | Culm V_App: 2.58  | Rise Az: 70.23°         | H_Vis: 2.2°
+
+
+--- NORTH ---
+  [HIP 15863] Mirfak                 | V Base: 1.79 | Culm Alt:  68.1° | Culm V_App: 1.94  | Rise Az: 45.43°         | H_Vis: 1.4°
+  [HIP 11767] Polaris                | V Base: 1.97 | Culm Alt:  30.6° | Culm V_App: 2.24  | Rise Az: CIRCUMPOLAR    | H_Vis: N/A
+  [HIP 14576] Algol                  | V Base: 2.09 | Culm Alt:  77.4° | Culm V_App: 2.23  | Rise Az: 55.53°         | H_Vis: 1.7°
+  [HIP 9640 ] Almach                 | V Base: 2.10 | Culm Alt:  77.1° | Culm V_App: 2.24  | Rise Az: 55.26°         | H_Vis: 1.6°
+  [HIP 4427 ] Tiansi                 | V Base: 2.15 | Culm Alt:  59.2° | Culm V_App: 2.31  | Rise Az: 35.32°         | H_Vis: 1.7°
+
+
+--- NORTHWEST ---
+  [HIP 5447 ] Mirach                 | V Base: 2.07 | Culm Alt:  84.2° | Culm V_App: 2.21  | Rise Az: 62.96°         | H_Vis: 1.6°
+
+
+--- WEST ---
+  [HIP 9884 ] Hamal                  | V Base: 2.01 | Culm Alt:  84.7° | Culm V_App: 2.15  | Rise Az: 75.37°         | H_Vis: 1.7°
+
+
+--- SOUTH ---
+  [HIP 7588 ] Achernar               | V Base: 0.45 | Culm Alt:   3.9° | Culm V_App: 2.22  | Rise Az: 169.59°        | H_Vis: 1.2°
+  [HIP 113368] Fomalhaut              | V Base: 1.17 | Culm Alt:  32.3° | Culm V_App: 1.43  | Rise Az: 131.68°        | H_Vis: 0.9°
+  [HIP 2081 ] Ankaa                  | V Base: 2.40 | Culm Alt:  18.6° | Culm V_App: 2.84  | Rise Az: 147.63°        | H_Vis: 1.9°
+
+
+FINAL REFINED ANCHOR LIST [Primary Anchor per Active Sub-Quadrant | Sorted by: DECLINATION]:
+Q  | SECTOR     | HIP ID  | STAR NAME              | V BASE | DEC (EPOCH) | CULM ALT  | CULM V_APP | CALCULATED RISE AZ
+-------------------------------------------------------------------------------------
+2  | NORTH      | HIP 54061 | Merak                  | 1.81   | 70.351     ° | 39.6     ° | 2.03       | CIRCUMPOLAR
+3  | NORTH      | HIP 62956 | Alioth                 | 1.76   | 65.944     ° | 44.0     ° | 1.96       | 15.56°
+5  | NORTH      | HIP 15863 | Mirfak                 | 1.79   | 41.824     ° | 68.1     ° | 1.94       | 45.43°
+1  | NORTH      | HIP 24608 | Capella                | 0.08   | 41.699     ° | 68.3     ° | 0.23       | 45.57°
+4  | NORTH      | HIP 91262 | Vega                   | 0.03   | 38.366     ° | 71.6     ° | 0.18       | 49.26°
+3  | NORTHEAST  | HIP 69673 | Arcturus               | -0.05  | 29.316     ° | 80.7     ° | 0.09       | 59.11°
+4  | NORTHWEST  | HIP 102488 | Gienah                 | 2.48   | 28.444     ° | 81.5     ° | 2.62       | 60.05°
+5  | NORTHWEST  | HIP 5447  | Mirach                 | 2.07   | 25.736     ° | 84.2     ° | 2.21       | 62.96°
+1  | NORTHEAST  | HIP 25428 | Elnath                 | 1.65   | 24.893     ° | 85.1     ° | 1.79       | 63.86°
+2  | NORTHWEST  | HIP 57632 | Denebola               | 2.14   | 24.302     ° | 85.7     ° | 2.28       | 64.50°
+2  | NORTHEAST  | HIP 49669 | Regulus                | 1.36   | 19.599     ° | 90.1     ° | 1.50       | 69.53°
+5  | NORTHEAST  | HIP 677   | Alpheratz              | 2.07   | 19.311     ° | 89.9     ° | 2.21       | 69.84°
+5  | WEST       | HIP 9884  | Hamal                  | 2.01   | 14.123     ° | 84.7     ° | 2.15       | 75.37°
+5  | EAST       | HIP 113963 | Markab                 | 2.49   | 6.169      ° | 76.8     ° | 2.63       | 83.83°
+4  | EAST       | HIP 97649 | Altair                 | 0.76   | 5.831      ° | 76.4     ° | 0.90       | 84.19°
+4  | WEST       | HIP 107315 | Enif                   | 2.38   | 2.816      ° | 73.4     ° | 2.53       | 87.39°
+3  | EAST       | HIP 65474 | Spica                  | 0.98   | -1.301     ° | 69.3     ° | 1.13       | 91.76°
+2  | EAST       | HIP 46390 | Alphard                | 1.99   | -2.148     ° | 68.4     ° | 2.14       | 92.66°
+1  | EAST       | HIP 24436 | Rigel                  | 0.18   | -11.962    ° | 58.6     ° | 0.34       | 103.11°
+3  | WEST       | HIP 78401 | Dschubba               | 2.29   | -15.817    ° | 54.8     ° | 2.46       | 107.23°
+1  | WEST       | HIP 32349 | Sirius                 | -1.44  | -15.846    ° | 54.8     ° | -1.27      | 107.26°
+3  | SOUTHWEST  | HIP 80763 | Antares                | 1.06   | -20.548    ° | 50.1     ° | 1.24       | 112.30°
+4  | SOUTHEAST  | HIP 92855 | Nunki                  | 2.05   | -26.238    ° | 44.4     ° | 2.25       | 118.45°
+3  | SOUTHEAST  | HIP 68933 | Menkent                | 2.06   | -26.690    ° | 43.9     ° | 2.26       | 118.93°
+1  | SOUTHWEST  | HIP 33579 | Adhara                 | 1.50   | -27.955    ° | 42.6     ° | 1.71       | 120.30°
+5  | SOUTHEAST  | HIP 3419  | Diphda                 | 2.04   | -27.989    ° | 42.6     ° | 2.25       | 120.35°
+3  | SOUTH      | HIP 71683 | Alpha Centauri A       | -0.01  | -52.226    ° | 18.4     ° | 0.43       | 147.81°
+1  | SOUTH      | HIP 30438 | Canopus                | -0.62  | -52.530    ° | 18.1     ° | -0.17      | 148.18°
+2  | SOUTH      | HIP 60718 | Acrux                  | 0.77   | -53.132    ° | 17.5     ° | 1.23       | 148.92°
+4  | SOUTH      | HIP 109268 | Alnair                 | 1.73   | -54.127    ° | 16.5     ° | 2.22       | 150.17°
+5  | SOUTH      | HIP 7588  | Achernar               | 0.45   | -66.860    ° | 3.9      ° | 2.22       | 169.59°
+-------------------------------------------------------------------------------------
+Total Active Refined Anchors Identified: 31 Stars across 5 Quintants
+
+
+INTER-QUINTANT GEOMETRICAL RE-CANDIDATE SHORTLIST (Observable horizon constraint: Quintant midpoint +/-80°)
+
+
+Primary equatorial band: +/-16°, Fallback equatorial band: +/-30°
+
+
+Pair ranking: Brightness=40% | Symmetry=35% | Equatorial centrality=25%
+-------------------------------------------------------------------------------------
+Q    | CENTRAL REFERENCE  | WEST         |        ΔW | EAST         |        ΔE |    SYM. |  SCORE
+-------------------------------------------------------------------------------------
+Q1   | Mintaka (-0.0°)    | Hamal        |  -52.768° | Alphard      |  +59.310° |  6.542° | 0.9036
+Q2   | Algieba (-3.2°)    | Sirius       |  -50.876° | Spica        |  +45.823° |  5.052° | 0.9064
+Q3   | Dschubba (+10.2°)  | Regulus      |  -76.920° | Altair       |  +71.334° |  5.586° | 0.8696
+Q4   | Altair (-0.7°)     | Dschubba     |  -61.788° | Markab       |  +47.644° | 14.143° | 0.8465
+Q5   | Diphda (-0.6°)     | Altair       |  -72.666° | Betelgeuse   |  +76.399° |  3.733° | 0.9138
+
+
+NORTH / SOUTH MERIDIONAL GEOMETRICAL RE-CANDIDATE SHORTLIST (Quintant midpoint meridian +/-18° RA)
+Q     |  MIDPOINT | NORTH                  |        ΔN |     DEC N | SOUTH                  |        ΔS |     DEC S
+-------------------------------------------------------------------------------------
+Q1    |    36.000° | Menkalinan             |   -2.541° |  +42.150° | None                   |       N/A |       N/A
+Q2    |   108.000° | Merak                  |   -0.980° |  +70.351° | Miaplacidus            |  -16.408° |  -54.370°
+Q3    |   180.000° | Alphecca               |  +10.374° |  +33.942° | Alpha Centauri A       |  -10.881° |  -52.226°
+Q4    |   252.000° | Vega                   |  -12.238° |  +38.366° | None                   |       N/A |       N/A
+Q5    |   324.000° | Polaris                |   +1.864° |  +79.345° | None                   |       N/A |       N/A
+
+
+=====================================================================================
+WEIGHT-SENSITIVITY & FRAMEWORK-ROTATION PERMUTATION ANALYSIS
+=====================================================================================
+RNG Seeds: Horizon=2026 | Bootstrap=2027 | Framework=2028
+Weight grid: 0.10 intervals | 66 admissible combinations
+Rotational null: Δθ ~ U[-36°, +36°) | N=10,000
+
+
+1. ORIGINAL CANDIDATE-RANKING MODEL
+   Weights: Brightness=0.40 | Symmetry=0.35 | Declination=0.25
+   Observed framework score: 5.0773
+
+
+2. WEIGHT-SPACE ROBUSTNESS
+   ≥90% identity retention: 53/66 (80.3%)
+   Median identity retention: 94.4%
+   Minimum identity retention: 88.9%
+   Median positional retention: 90.0%
+   Minimum positional retention: 80.0%
+
+
+3. WEIGHT-SPACE STELLAR CANDIDATE STABILITY
+   Candidate                         P(selection)   Class
+   Achernar                             1.000        Core Anchor
+   Shaula                               1.000        Core Anchor
+   Acrux                                1.000        Core Anchor
+   Deneb                                1.000        Core Anchor
+   Mirfak                               1.000        Core Anchor
+   Kochab                               1.000        Core Anchor
+   Fomalhaut                            1.000        Core Anchor
+   Regulus                              1.000        Core Anchor
+   Alioth                               1.000        Core Anchor
+   Canopus                              1.000        Core Anchor
+   Pollux                               1.000        Core Anchor
+   Aldebaran                            1.000        Core Anchor
+   Hamal                                0.970        Core Anchor
+   Spica                                0.955        Core Anchor
+   Altair                               0.894        Stable Candidate
+   Enif                                 0.803        Stable Candidate
+   Sirius                               0.773        Stable Candidate
+   Sabik                                0.682        Stable Candidate
+   Antares                              0.318        Weight-Sensitive
+   Markab                               0.212        Weight-Sensitive
+   Arcturus                             0.167        Weight-Sensitive
+   Bellatrix                            0.121        Weight-Sensitive
+   Procyon                              0.121        Weight-Sensitive
+   Alphard                              0.106        Weight-Sensitive
+   Alnilam                              0.106        Weight-Sensitive
+   Betelgeuse                           0.091        Weight-Sensitive
+   Mintaka                              0.045        Weight-Sensitive
+   Denebola                             0.045        Weight-Sensitive
+   Nunki                                0.030        Weight-Sensitive
+   Diphda                               0.030        Weight-Sensitive
+   Wezen                                0.015        Weight-Sensitive
+   Larawag                              0.015        Weight-Sensitive
+
+
+4. FRAMEWORK-ROTATION PERMUTATION
+   Completed rotations 1-250/10,000
+   Completed rotations 251-500/10,000
+   Completed rotations 501-750/10,000
+   Completed rotations 751-1,000/10,000
+   Completed rotations 1,001-1,250/10,000
+   Completed rotations 1,251-1,500/10,000
+   Completed rotations 1,501-1,750/10,000
+   Completed rotations 1,751-2,000/10,000
+   Completed rotations 2,001-2,250/10,000
+   Completed rotations 2,251-2,500/10,000
+   Completed rotations 2,501-2,750/10,000
+   Completed rotations 2,751-3,000/10,000
+   Completed rotations 3,001-3,250/10,000
+   Completed rotations 3,251-3,500/10,000
+   Completed rotations 3,501-3,750/10,000
+   Completed rotations 3,751-4,000/10,000
+   Completed rotations 4,001-4,250/10,000
+   Completed rotations 4,251-4,500/10,000
+   Completed rotations 4,501-4,750/10,000
+   Completed rotations 4,751-5,000/10,000
+   Completed rotations 5,001-5,250/10,000
+   Completed rotations 5,251-5,500/10,000
+   Completed rotations 5,501-5,750/10,000
+   Completed rotations 5,751-6,000/10,000
+   Completed rotations 6,001-6,250/10,000
+   Completed rotations 6,251-6,500/10,000
+   Completed rotations 6,501-6,750/10,000
+   Completed rotations 6,751-7,000/10,000
+   Completed rotations 7,001-7,250/10,000
+   Completed rotations 7,251-7,500/10,000
+   Completed rotations 7,501-7,750/10,000
+   Completed rotations 7,751-8,000/10,000
+   Completed rotations 8,001-8,250/10,000
+   Completed rotations 8,251-8,500/10,000
+   Completed rotations 8,501-8,750/10,000
+   Completed rotations 8,751-9,000/10,000
+   Completed rotations 9,001-9,250/10,000
+   Completed rotations 9,251-9,500/10,000
+   Completed rotations 9,501-9,750/10,000
+   Completed rotations 9,751-10,000/10,000
+
+
+5. PRIMARY MODEL & CONTROL MODELS
+
+
+   Original 40/35/25
+      Weights: 0.40/0.35/0.25
+      Observed score: 5.0773
+      Random mean ± SD: 4.7944 ± 0.2241
+      Empirical p: 0.02810 | MC SE: ±0.00165
+      Observed percentile: 97.20%
+
+
+   Geometry (.0/.5/.5)
+      Weights: 0.00/0.50/0.50
+      Observed score: 4.1158
+      Random mean ± SD: 4.1175 ± 0.1010
+      Empirical p: 0.46165 | MC SE: ±0.00499
+      Observed percentile: 53.84%
+
+
+   Brightness (1/0/0)
+      Weights: 1.00/0.00/0.00
+      Observed score: 5.7191
+      Random mean ± SD: 5.2152 ± 0.3797
+      Empirical p: 0.03960 | MC SE: ±0.00195
+      Observed percentile: 96.05%
+
+
+   Symmetry (0/1/0)
+      Weights: 0.00/1.00/0.00
+      Observed score: 4.9523
+      Random mean ± SD: 4.9021 ± 0.0491
+      Empirical p: 0.16388 | MC SE: ±0.00370
+      Observed percentile: 83.62%
+
+
+   Declination (0/0/1)
+      Weights: 0.00/0.00/1.00
+      Observed score: 3.6705
+      Random mean ± SD: 3.8693 ± 0.1733
+      Empirical p: 0.86011 | MC SE: ±0.00347
+      Observed percentile: 13.99%
+
+
+   Equal Weights (1/3,1/3,1/3)
+      Observed score: 4.9810
+      Random mean ± SD: 4.7299 ± 0.1997
+      Empirical p: 0.05649
+
+
+6. DESCRIPTIVE HORIZON STATISTIC: ANGULAR CONCENTRATION
+   - Resultant-length concentration statistic (R): 0.8089
+
+
+   SUPPLEMENTARY BASELINE HORIZON NULL: MONTE CARLO AZIMUTH SIMULATION
+   * Status: Baseline horizon diagnostic (Not primary evidence for the fivefold framework).
+   * Null Model: Uniform random emergence across eastern horizon (Ai ~ U(0°, 180°)).
+   - Independent Seed: rng_horizon (Seed 2026)
+   - Iterations (N): 10,000
+   - Exceedances (k >= R): 18
+   - Empirical P-Value: 0.00190 [(k + 1) / (N + 1)]
+
+
+   SUPPLEMENTARY DIAGNOSTIC A: BOOTSTRAP AZIMUTH RESAMPLING (N = 5,000)
+   * Status: Secondary descriptive confidence check (Demoted from primary inference)
+   - Independent Seed: rng_boot (Seed 2027)
+   - Observed Mean Azimuth: 93.12°
+   - Nonparametric 95% CI: [80.06°, 106.21°]
+
+
+   SUPPLEMENTARY DIAGNOSTIC B: ILLUSTRATIVE FALSE-MATCH BASELINE
+   * Status: Illustrative upper-bound diagnostic (Permissive analytic model)
+   - Expected Accidental Alignments: 62.00 stars
+   - Probability of >= 1 Accidental Match: 1.0000 (100.00%)
+
+
+7. INFERENTIAL METRIC: E/W STRUCTURAL EFFICIENCY
+Executing 10,000 geometrical spatial randomizations [-36°, +36°)...
+  - Observed E/W Structural Score:         4.2187
+  - Mean Simulated E/W Score:              4.1159 (±0.1009)
+  - Exceedances (k >= Observed Score):     2365
+  - Primary Empirical P-Value:             0.23658 [(k + 1) / (N + 1)]
+
+
+8. SECONDARY DESCRIPTIVE BRIGHTNESS CHARACTERIZATION:
+  * Status: Post-selection descriptive characterization (Not an inferential test).
+  - Observed Candidates Mean V_app:        2.08 mag
+  - Simulated Candidates Mean V_app:       1.91 mag
+  - Delta Magnitude (Observed - Random):   +0.17 mag
+  - Interpretation:                        The geometrically selected candidates are, on average,
+                                           0.17 mag FAINTER than candidates selected
+                                           under randomized framework rotations.
+  - Scientific Synthesis:                  Provides no independent brightness enhancement/advantage.
+
+
+9. SECONDARY DIAGNOSTIC: SEQUENCE IDENTITY RECURRENCE
+  * Status: Descriptive identity-recurrence diagnostic. NOT the pre-specified primary test statistic.
+  - Full-Sequence Recurrence Count:         The exact 20-star identity sequence was reproduced in
+                                           19 of 10,000 randomized orientations (0.19%).
+  - Descriptive Interpretation:            Exact full-sequence recurrence occurred in 0.19% of randomized
+                                           orientations, demonstrating that sequence identity is not unique to one rotation.
+
+
+10. MODEL ROBUSTNESS: STAGE-II INTEGRATED VISIBILITY SENSITIVITY
+   * Pipeline: Strict rerun of true first-emergence visibility procedure across shifted thresholds.
+   - Naked-Eye Limit Shifted to 4.5 mag:
+     -> Identity Retention:                  18 / 18 unique stars (100.0%)
+     -> Exact Positional Identity Retention: 19 / 19 exact positional slots (100.0%)
+   - Naked-Eye Limit Shifted to 5.5 mag:
+     -> Identity Retention:                  18 / 18 unique stars (100.0%)
+     -> Exact Positional Identity Retention: 19 / 19 exact positional slots (100.0%)
+
+
+SYNTHESIS & INTERPRETATION:
+  * Result: The observed framework did not significantly exceed the geometric efficiency
+    produced by equivalent random framework rotations (p = 0.237).
+  * Conclusion: The proposed framework provides a deterministic and reproducible procedure
+    for prioritizing stellar candidates within a visibility-constrained fivefold celestial geometry.
+    Its geometric efficiency, however, is not statistically exceptional relative to equivalent
+    rotations of the same reconstructed stellar population (p = 0.237). The robustness analysis
+    indicates that the resulting candidate configuration is insensitive to moderate changes in the
+    adopted apparent-visibility threshold, while post-selection brightness does not show an
+    enhancement relative to randomized orientations. Exact recurrence of the stellar identity sequence
+    is relatively uncommon (0.19%) but not unique to the proposed orientation.
+________________
+
+
+DETAILED OUTPUT FOR Xochicalco (750 CE)
+=====================================================================================
+
+
+GEOMETRIC GRID POOL (PANORAMIC CANDIDATES: UP TO 5 STARS PER SUB-SECTOR | Vmag < 2.5)
+-------------------------------------------------------------------------------------
+
+
+==================== QUINTANT 1 ====================
+
+
+--- EAST ---
+  [HIP 24436] Rigel                  | V Base: 0.18 | Culm Alt:  61.8° | Culm V_App: 0.36  | Rise Az: 101.20°        | H_Vis: 0.6°
+  [HIP 21421] Aldebaran              | V Base: 0.87 | Culm Alt:  85.4° | Culm V_App: 1.03  | Rise Az: 76.43°         | H_Vis: 1.0°
+  [HIP 25336] Bellatrix              | V Base: 1.64 | Culm Alt:  76.6° | Culm V_App: 1.80  | Rise Az: 85.68°         | H_Vis: 1.9°
+  [HIP 25930] Mintaka                | V Base: 2.25 | Culm Alt:  70.1° | Culm V_App: 2.42  | Rise Az: 92.41°         | H_Vis: 2.3°
+
+
+--- NORTHEAST ---
+  [HIP 25428] Elnath                 | V Base: 1.65 | Culm Alt:  81.5° | Culm V_App: 1.81  | Rise Az: 62.28°         | H_Vis: 2.0°
+
+
+--- NORTH ---
+  [HIP 24608] Capella                | V Base: 0.08 | Culm Alt:  64.5° | Culm V_App: 0.26  | Rise Az: 43.94°         | H_Vis: 0.5°
+  [HIP 37826] Pollux                 | V Base: 1.16 | Culm Alt:  78.0° | Culm V_App: 1.32  | Rise Az: 58.51°         | H_Vis: 1.4°
+  [HIP 36850] Castor                 | V Base: 1.58 | Culm Alt:  74.4° | Culm V_App: 1.75  | Rise Az: 54.73°         | H_Vis: 1.8°
+  [HIP 28360] Menkalinan             | V Base: 1.90 | Culm Alt:  64.4° | Culm V_App: 2.08  | Rise Az: 43.90°         | H_Vis: 1.9°
+
+
+--- NORTHWEST ---
+  [HIP 31681] Alhena                 | V Base: 1.93 | Culm Alt:  88.7° | Culm V_App: 2.09  | Rise Az: 72.89°         | H_Vis: 2.2°
+
+
+--- WEST ---
+  [HIP 32349] Sirius                 | V Base: -1.44 | Culm Alt:  56.5° | Culm V_App: -1.25 | Rise Az: 106.79°        | H_Vis: 0.6°
+  [HIP 37279] Procyon                | V Base: 0.40 | Culm Alt:  79.8° | Culm V_App: 0.56  | Rise Az: 82.25°         | H_Vis: 1.0°
+  [HIP 27989] Betelgeuse             | V Base: 0.45 | Culm Alt:  78.5° | Culm V_App: 0.61  | Rise Az: 83.66°         | H_Vis: 0.8°
+  [HIP 26311] Alnilam                | V Base: 1.69 | Culm Alt:  69.4° | Culm V_App: 1.86  | Rise Az: 93.22°         | H_Vis: 1.9°
+  [HIP 26727] Alnitak                | V Base: 1.74 | Culm Alt:  68.8° | Culm V_App: 1.91  | Rise Az: 93.86°         | H_Vis: 2.0°
+
+
+--- SOUTHWEST ---
+  [HIP 33579] Adhara                 | V Base: 1.50 | Culm Alt:  44.3° | Culm V_App: 1.73  | Rise Az: 119.74°        | H_Vis: 1.8°
+  [HIP 34444] Wezen                  | V Base: 1.83 | Culm Alt:  47.2° | Culm V_App: 2.05  | Rise Az: 116.71°        | H_Vis: 2.0°
+  [HIP 30324] Mirzam                 | V Base: 1.98 | Culm Alt:  54.1° | Culm V_App: 2.18  | Rise Az: 109.28°        | H_Vis: 2.1°
+  [HIP 35904] Aludra                 | V Base: 2.45 | Culm Alt:  44.7° | Culm V_App: 2.68  | Rise Az: 119.29°        | H_Vis: 3.0°
+
+
+--- SOUTH ---
+  [HIP 30438] Canopus                | V Base: -0.62 | Culm Alt:  19.9° | Culm V_App: -0.15 | Rise Az: 146.74°        | H_Vis: 0.6°
+
+
+==================== QUINTANT 2 ====================
+
+
+--- EAST ---
+  [HIP 46390] Alphard                | V Base: 1.99 | Culm Alt:  68.4° | Culm V_App: 2.16  | Rise Az: 94.23°         | H_Vis: 2.2°
+
+
+--- NORTHEAST ---
+  [HIP 49669] Regulus                | V Base: 1.36 | Culm Alt:  89.8° | Culm V_App: 1.52  | Rise Az: 71.74°         | H_Vis: 1.6°
+  [HIP 50583] Algieba                | V Base: 2.01 | Culm Alt:  82.3° | Culm V_App: 2.17  | Rise Az: 63.17°         | H_Vis: 2.3°
+
+
+--- NORTH ---
+  [HIP 54061] Merak                  | V Base: 1.81 | Culm Alt:  40.0° | Culm V_App: 2.06  | Rise Az: 13.82°         | H_Vis: 1.8°
+  [HIP 53910] Megrez                 | V Base: 2.34 | Culm Alt:  45.3° | Culm V_App: 2.56  | Rise Az: 21.59°         | H_Vis: 2.5°
+  [HIP 58001] Phecda                 | V Base: 2.41 | Culm Alt:  47.5° | Culm V_App: 2.63  | Rise Az: 24.35°         | H_Vis: 2.6°
+
+
+--- NORTHWEST ---
+  [HIP 57632] Denebola               | V Base: 2.14 | Culm Alt:  86.6° | Culm V_App: 2.30  | Rise Az: 67.64°         | H_Vis: 2.5°
+
+
+--- SOUTH ---
+  [HIP 60718] Acrux                  | V Base: 0.77 | Culm Alt:  16.1° | Culm V_App: 1.34  | Rise Az: 151.20°        | H_Vis: 1.1°
+  [HIP 61084] Gacrux                 | V Base: 1.59 | Culm Alt:  22.2° | Culm V_App: 2.01  | Rise Az: 144.04°        | H_Vis: 1.6°
+  [HIP 45238] Avior                  | V Base: 1.67 | Culm Alt:   7.6° | Culm V_App: 2.83  | Rise Az: 162.51°        | H_Vis: 1.7°
+  [HIP 39953] Gamma Velorum          | V Base: 1.75 | Culm Alt:  28.1° | Culm V_App: 2.09  | Rise Az: 137.32°        | H_Vis: 1.7°
+  [HIP 41037] Miaplacidus            | V Base: 1.86 | Culm Alt:  16.5° | Culm V_App: 2.42  | Rise Az: 150.77°        | H_Vis: 1.8°
+
+
+==================== QUINTANT 3 ====================
+
+
+--- SOUTHEAST ---
+  [HIP 68933] Menkent                | V Base: 2.06 | Culm Alt:  42.5° | Culm V_App: 2.30  | Rise Az: 121.72°        | H_Vis: 2.1°
+
+
+--- EAST ---
+  [HIP 65474] Spica                  | V Base: 0.98 | Culm Alt:  67.9° | Culm V_App: 1.15  | Rise Az: 94.82°         | H_Vis: 1.2°
+
+
+--- NORTHEAST ---
+  [HIP 69673] Arcturus               | V Base: -0.05 | Culm Alt:  81.9° | Culm V_App: 0.11  | Rise Az: 62.73°         | H_Vis: 0.6°
+
+
+--- NORTH ---
+  [HIP 62956] Alioth                 | V Base: 1.76 | Culm Alt:  45.1° | Culm V_App: 1.99  | Rise Az: 21.33°         | H_Vis: 1.8°
+  [HIP 67301] Mizar                  | V Base: 1.85 | Culm Alt:  52.2° | Culm V_App: 2.05  | Rise Az: 30.04°         | H_Vis: 1.9°
+  [HIP 72607] Kochab                 | V Base: 2.07 | Culm Alt:  28.9° | Culm V_App: 2.40  | Rise Az: CIRCUMPOLAR    | H_Vis: N/A
+  [HIP 76267] Alphecca               | V Base: 2.22 | Culm Alt:  76.5° | Culm V_App: 2.38  | Rise Az: 56.96°         | H_Vis: 2.7°
+  [HIP 65378] Porrima                | V Base: 2.23 | Culm Alt:  46.3° | Culm V_App: 2.45  | Rise Az: 22.89°         | H_Vis: 2.4°
+
+
+--- WEST ---
+  [HIP 84012] Sabik                  | V Base: 2.43 | Culm Alt:  59.0° | Culm V_App: 2.62  | Rise Az: 104.14°        | H_Vis: 3.0°
+
+
+--- SOUTHWEST ---
+  [HIP 80763] Antares                | V Base: 1.06 | Culm Alt:  49.5° | Culm V_App: 1.27  | Rise Az: 114.19°        | H_Vis: 1.3°
+  [HIP 78401] Dschubba               | V Base: 2.29 | Culm Alt:  54.0° | Culm V_App: 2.49  | Rise Az: 109.42°        | H_Vis: 2.5°
+
+
+--- SOUTH ---
+  [HIP 71683] Alpha Centauri A       | V Base: -0.01 | Culm Alt:  17.2° | Culm V_App: 0.53  | Rise Az: 149.87°        | H_Vis: 0.7°
+  [HIP 68702] Hadar                  | V Base: 0.61 | Culm Alt:  18.4° | Culm V_App: 1.12  | Rise Az: 148.47°        | H_Vis: 0.8°
+  [HIP 62434] Mimosa                 | V Base: 1.25 | Culm Alt:  19.5° | Culm V_App: 1.73  | Rise Az: 147.15°        | H_Vis: 1.3°
+  [HIP 71681] Alpha Centauri B       | V Base: 1.35 | Culm Alt:  17.1° | Culm V_App: 1.89  | Rise Az: 150.07°        | H_Vis: 1.3°
+  [HIP 85927] Shaula                 | V Base: 1.62 | Culm Alt:  37.2° | Culm V_App: 1.88  | Rise Az: 127.39°        | H_Vis: 1.8°
+
+
+==================== QUINTANT 4 ====================
+
+
+--- SOUTHEAST ---
+  [HIP 92855] Nunki                  | V Base: 2.05 | Culm Alt:  45.5° | Culm V_App: 2.27  | Rise Az: 118.49°        | H_Vis: 2.4°
+
+
+--- EAST ---
+  [HIP 97649] Altair                 | V Base: 0.76 | Culm Alt:  78.6° | Culm V_App: 0.92  | Rise Az: 83.52°         | H_Vis: 1.3°
+  [HIP 86032] Rasalhague             | V Base: 2.08 | Culm Alt:  86.5° | Culm V_App: 2.24  | Rise Az: 75.21°         | H_Vis: 2.2°
+
+
+--- NORTH ---
+  [HIP 91262] Vega                   | V Base: 0.03 | Culm Alt:  69.8° | Culm V_App: 0.20  | Rise Az: 49.73°         | H_Vis: 0.5°
+  [HIP 102098] Deneb                  | V Base: 1.25 | Culm Alt:  66.7° | Culm V_App: 1.42  | Rise Az: 46.40°         | H_Vis: 1.3°
+  [HIP 100453] Sadr                   | V Base: 2.23 | Culm Alt:  71.2° | Culm V_App: 2.40  | Rise Az: 51.28°         | H_Vis: 2.5°
+  [HIP 87833] Rastaban               | V Base: 2.24 | Culm Alt:  56.0° | Culm V_App: 2.43  | Rise Az: 34.43°         | H_Vis: 2.5°
+  [HIP 105199] Alderamin              | V Base: 2.45 | Culm Alt:  50.4° | Culm V_App: 2.66  | Rise Az: 27.95°         | H_Vis: 2.7°
+
+
+--- NORTHWEST ---
+  [HIP 102488] Gienah                 | V Base: 2.48 | Culm Alt:  78.2° | Culm V_App: 2.64  | Rise Az: 58.71°         | H_Vis: 2.8°
+
+
+--- WEST ---
+  [HIP 107315] Enif                   | V Base: 2.38 | Culm Alt:  76.9° | Culm V_App: 2.54  | Rise Az: 85.29°         | H_Vis: 3.0°
+
+
+--- SOUTH ---
+  [HIP 109268] Alnair                 | V Base: 1.73 | Culm Alt:  19.9° | Culm V_App: 2.20  | Rise Az: 146.69°        | H_Vis: 1.8°
+  [HIP 90185] Kaus Australis         | V Base: 1.79 | Culm Alt:  38.4° | Culm V_App: 2.05  | Rise Az: 126.05°        | H_Vis: 1.8°
+  [HIP 100751] Peacock                | V Base: 1.94 | Culm Alt:  12.8° | Culm V_App: 2.65  | Rise Az: 155.34°        | H_Vis: 2.1°
+
+
+==================== QUINTANT 5 ====================
+
+
+--- SOUTHEAST ---
+  [HIP 3419 ] Diphda                 | V Base: 2.04 | Culm Alt:  47.3° | Culm V_App: 2.26  | Rise Az: 116.54°        | H_Vis: 2.1°
+
+
+--- EAST ---
+  [HIP 113963] Markab                 | V Base: 2.49 | Culm Alt:  81.0° | Culm V_App: 2.65  | Rise Az: 81.01°         | H_Vis: 2.8°
+
+
+--- NORTHEAST ---
+  [HIP 677  ] Alpheratz              | V Base: 2.07 | Culm Alt:  85.8° | Culm V_App: 2.23  | Rise Az: 66.80°         | H_Vis: 2.3°
+  [HIP 113881] Scheat                 | V Base: 2.44 | Culm Alt:  86.4° | Culm V_App: 2.60  | Rise Az: 67.50°         | H_Vis: 2.7°
+
+
+--- NORTH ---
+  [HIP 15863] Mirfak                 | V Base: 1.79 | Culm Alt:  63.4° | Culm V_App: 1.97  | Rise Az: 42.78°         | H_Vis: 1.9°
+  [HIP 11767] Polaris                | V Base: 1.97 | Culm Alt:  25.6° | Culm V_App: 2.34  | Rise Az: CIRCUMPOLAR    | H_Vis: N/A
+  [HIP 14576] Algol                  | V Base: 2.09 | Culm Alt:  72.6° | Culm V_App: 2.26  | Rise Az: 52.74°         | H_Vis: 2.4°
+  [HIP 9640 ] Almach                 | V Base: 2.10 | Culm Alt:  72.1° | Culm V_App: 2.27  | Rise Az: 52.23°         | H_Vis: 2.4°
+  [HIP 4427 ] Tiansi                 | V Base: 2.15 | Culm Alt:  54.2° | Culm V_App: 2.35  | Rise Az: 32.40°         | H_Vis: 2.3°
+
+
+--- NORTHWEST ---
+  [HIP 9884 ] Hamal                  | V Base: 2.01 | Culm Alt:  89.4° | Culm V_App: 2.17  | Rise Az: 72.20°         | H_Vis: 2.3°
+  [HIP 5447 ] Mirach                 | V Base: 2.07 | Culm Alt:  79.2° | Culm V_App: 2.23  | Rise Az: 59.83°         | H_Vis: 2.5°
+
+
+--- SOUTH ---
+  [HIP 7588 ] Achernar               | V Base: 0.45 | Culm Alt:   8.5° | Culm V_App: 1.50  | Rise Az: 161.23°        | H_Vis: 0.7°
+  [HIP 113368] Fomalhaut              | V Base: 1.17 | Culm Alt:  36.4° | Culm V_App: 1.44  | Rise Az: 128.29°        | H_Vis: 1.5°
+  [HIP 112122] Tiaki                  | V Base: 2.07 | Culm Alt:  19.3° | Culm V_App: 2.55  | Rise Az: 147.38°        | H_Vis: 2.2°
+  [HIP 2081 ] Ankaa                  | V Base: 2.40 | Culm Alt:  23.1° | Culm V_App: 2.81  | Rise Az: 142.97°        | H_Vis: 2.8°
+
+
+FINAL REFINED ANCHOR LIST [Primary Anchor per Active Sub-Quadrant | Sorted by: DECLINATION]:
+Q  | SECTOR     | HIP ID  | STAR NAME              | V BASE | DEC (EPOCH) | CULM ALT  | CULM V_APP | CALCULATED RISE AZ
+-------------------------------------------------------------------------------------
+2  | NORTH      | HIP 54061 | Merak                  | 1.81   | 68.066     ° | 40.0     ° | 2.06       | 13.82°
+3  | NORTH      | HIP 62956 | Alioth                 | 1.76   | 62.874     ° | 45.1     ° | 1.99       | 21.33°
+5  | NORTH      | HIP 15863 | Mirfak                 | 1.79   | 44.588     ° | 63.4     ° | 1.97       | 42.78°
+1  | NORTH      | HIP 24608 | Capella                | 0.08   | 43.528     ° | 64.5     ° | 0.26       | 43.94°
+4  | NORTH      | HIP 91262 | Vega                   | 0.03   | 38.210     ° | 69.8     ° | 0.20       | 49.73°
+4  | NORTHWEST  | HIP 102488 | Gienah                 | 2.48   | 29.847     ° | 78.2     ° | 2.64       | 58.71°
+1  | NORTHEAST  | HIP 25428 | Elnath                 | 1.65   | 26.498     ° | 81.5     ° | 1.81       | 62.28°
+3  | NORTHEAST  | HIP 69673 | Arcturus               | -0.05  | 26.070     ° | 81.9     ° | 0.11       | 62.73°
+5  | NORTHEAST  | HIP 677   | Alpheratz              | 2.07   | 22.233     ° | 85.8     ° | 2.23       | 66.80°
+2  | NORTHWEST  | HIP 57632 | Denebola               | 2.14   | 21.439     ° | 86.6     ° | 2.30       | 67.64°
+2  | NORTHEAST  | HIP 49669 | Regulus                | 1.36   | 17.565     ° | 89.8     ° | 1.52       | 71.74°
+5  | NORTHWEST  | HIP 9884  | Hamal                  | 2.01   | 17.125     ° | 89.4     ° | 2.17       | 72.20°
+1  | NORTHWEST  | HIP 31681 | Alhena                 | 1.93   | 16.472     ° | 88.7     ° | 2.09       | 72.89°
+5  | EAST       | HIP 113963 | Markab                 | 2.49   | 8.755      ° | 81.0     ° | 2.65       | 81.01°
+4  | EAST       | HIP 97649 | Altair                 | 0.76   | 6.361      ° | 78.6     ° | 0.92       | 83.52°
+4  | WEST       | HIP 107315 | Enif                   | 2.38   | 4.680      ° | 76.9     ° | 2.54       | 85.29°
+2  | EAST       | HIP 46390 | Alphard                | 1.99   | -3.824     ° | 68.4     ° | 2.16       | 94.23°
+3  | EAST       | HIP 65474 | Spica                  | 0.98   | -4.384     ° | 67.9     ° | 1.15       | 94.82°
+1  | EAST       | HIP 24436 | Rigel                  | 0.18   | -10.446    ° | 61.8     ° | 0.36       | 101.20°
+3  | WEST       | HIP 84012 | Sabik                  | 2.43   | -13.236    ° | 59.0     ° | 2.62       | 104.14°
+1  | WEST       | HIP 32349 | Sirius                 | -1.44  | -15.748    ° | 56.5     ° | -1.25      | 106.79°
+3  | SOUTHWEST  | HIP 80763 | Antares                | 1.06   | -22.738    ° | 49.5     ° | 1.27       | 114.19°
+5  | SOUTHEAST  | HIP 3419  | Diphda                 | 2.04   | -24.939    ° | 47.3     ° | 2.26       | 116.54°
+4  | SOUTHEAST  | HIP 92855 | Nunki                  | 2.05   | -26.774    ° | 45.5     ° | 2.27       | 118.49°
+1  | SOUTHWEST  | HIP 33579 | Adhara                 | 1.50   | -27.941    ° | 44.3     ° | 1.73       | 119.74°
+3  | SOUTHEAST  | HIP 68933 | Menkent                | 2.06   | -29.792    ° | 42.5     ° | 2.30       | 121.72°
+4  | SOUTH      | HIP 109268 | Alnair                 | 1.73   | -52.352    ° | 19.9     ° | 2.20       | 146.69°
+1  | SOUTH      | HIP 30438 | Canopus                | -0.62  | -52.397    ° | 19.9     ° | -0.15      | 146.74°
+3  | SOUTH      | HIP 71683 | Alpha Centauri A       | -0.01  | -55.048    ° | 17.2     ° | 0.53       | 149.87°
+2  | SOUTH      | HIP 60718 | Acrux                  | 0.77   | -56.146    ° | 16.1     ° | 1.34       | 151.20°
+5  | SOUTH      | HIP 7588  | Achernar               | 0.45   | -63.825    ° | 8.5      ° | 1.50       | 161.23°
+-------------------------------------------------------------------------------------
+Total Active Refined Anchors Identified: 31 Stars across 5 Quintants
+
+
+INTER-QUINTANT GEOMETRICAL RE-CANDIDATE SHORTLIST (Observable horizon constraint: Quintant midpoint +/-80°)
+
+
+Primary equatorial band: +/-16°, Fallback equatorial band: +/-30°
+
+
+Pair ranking: Brightness=40% | Symmetry=35% | Equatorial centrality=25%
+-------------------------------------------------------------------------------------
+Q    | CENTRAL REFERENCE  | WEST         |        ΔW | EAST         |        ΔE |    SYM. |  SCORE
+-------------------------------------------------------------------------------------
+Q1   | Mintaka (-0.0°)    | Hamal        |  -52.436° | Alphard      |  +59.306° |  6.870° | 0.8827
+Q2   | Algieba (-1.9°)    | Sirius       |  -51.665° | Spica        |  +45.955° |  5.711° | 0.8911
+Q3   | Dschubba (+10.9°)  | Regulus      |  -76.048° | Altair       |  +71.232° |  4.815° | 0.8792
+Q4   | Altair (-0.8°)     | Sabik        |  -43.239° | Markab       |  +47.569° |  4.331° | 0.8894
+Q5   | Diphda (-0.2°)     | Altair       |  -72.768° | Rigel        |  +68.573° |  4.194° | 0.9116
+
+
+NORTH / SOUTH MERIDIONAL GEOMETRICAL RE-CANDIDATE SHORTLIST (Quintant midpoint meridian +/-18° RA)
+Q     |  MIDPOINT | NORTH                  |        ΔN |     DEC N | SOUTH                  |        ΔS |     DEC S
+-------------------------------------------------------------------------------------
+Q1    |    36.000° | Menkalinan             |   +0.118° |  +43.569° | None                   |       N/A |       N/A
+Q2    |   108.000° | Merak                  |   +4.576° |  +68.066° | None                   |       N/A |       N/A
+Q3    |   180.000° | Alphecca               |   +9.320° |  +31.486° | Alpha Centauri A       |  -10.452° |  -55.048°
+Q4    |   252.000° | Sadr                   |  +11.214° |  +36.780° | None                   |       N/A |       N/A
+Q5    |   324.000° | Polaris                |   -0.481° |  +82.400° | Achernar               |  +17.098° |  -63.825°
+
+
+=====================================================================================
+WEIGHT-SENSITIVITY & FRAMEWORK-ROTATION PERMUTATION ANALYSIS
+=====================================================================================
+RNG Seeds: Horizon=2026 | Bootstrap=2027 | Framework=2028
+Weight grid: 0.10 intervals | 66 admissible combinations
+Rotational null: Δθ ~ U[-36°, +36°) | N=10,000
+
+
+1. ORIGINAL CANDIDATE-RANKING MODEL
+   Weights: Brightness=0.40 | Symmetry=0.35 | Declination=0.25
+   Observed framework score: 5.1869
+
+
+2. WEIGHT-SPACE ROBUSTNESS
+   ≥90% identity retention: 26/66 (39.4%)
+   Median identity retention: 85.0%
+   Minimum identity retention: 70.0%
+   Median positional retention: 85.0%
+   Minimum positional retention: 65.0%
+
+
+3. WEIGHT-SPACE STELLAR CANDIDATE STABILITY
+   Candidate                         P(selection)   Class
+   Achernar                             1.000        Core Anchor
+   Shaula                               1.000        Core Anchor
+   Acrux                                1.000        Core Anchor
+   Deneb                                1.000        Core Anchor
+   Mirfak                               1.000        Core Anchor
+   Kochab                               1.000        Core Anchor
+   Fomalhaut                            1.000        Core Anchor
+   Regulus                              1.000        Core Anchor
+   Alioth                               1.000        Core Anchor
+   Canopus                              1.000        Core Anchor
+   Pollux                               1.000        Core Anchor
+   Hamal                                0.909        Core Anchor
+   Procyon                              0.894        Stable Candidate
+   Rasalhague                           0.879        Stable Candidate
+   Aldebaran                            0.773        Stable Candidate
+   Altair                               0.697        Stable Candidate
+   Enif                                 0.636        Stable Candidate
+   Sabik                                0.606        Stable Candidate
+   Spica                                0.591        Stable Candidate
+   Sirius                               0.470        Weight-Sensitive
+   Arcturus                             0.409        Weight-Sensitive
+   Antares                              0.273        Weight-Sensitive
+   Markab                               0.242        Weight-Sensitive
+   Elnath                               0.227        Weight-Sensitive
+   Nunki                                0.091        Weight-Sensitive
+   Mirach                               0.091        Weight-Sensitive
+   Alphard                              0.076        Weight-Sensitive
+   Mintaka                              0.061        Weight-Sensitive
+   Alpheratz                            0.061        Weight-Sensitive
+   Scheat                               0.061        Weight-Sensitive
+   Gienah                               0.045        Weight-Sensitive
+   Mirzam                               0.045        Weight-Sensitive
+   Adhara                               0.030        Weight-Sensitive
+   Betelgeuse                           0.030        Weight-Sensitive
+   Alnilam                              0.015        Weight-Sensitive
+   Rigel                                0.015        Weight-Sensitive
+
+
+4. FRAMEWORK-ROTATION PERMUTATION
+   Completed rotations 1-250/10,000
+   Completed rotations 251-500/10,000
+   Completed rotations 501-750/10,000
+   Completed rotations 751-1,000/10,000
+   Completed rotations 1,001-1,250/10,000
+   Completed rotations 1,251-1,500/10,000
+   Completed rotations 1,501-1,750/10,000
+   Completed rotations 1,751-2,000/10,000
+   Completed rotations 2,001-2,250/10,000
+   Completed rotations 2,251-2,500/10,000
+   Completed rotations 2,501-2,750/10,000
+   Completed rotations 2,751-3,000/10,000
+   Completed rotations 3,001-3,250/10,000
+   Completed rotations 3,251-3,500/10,000
+   Completed rotations 3,501-3,750/10,000
+   Completed rotations 3,751-4,000/10,000
+   Completed rotations 4,001-4,250/10,000
+   Completed rotations 4,251-4,500/10,000
+   Completed rotations 4,501-4,750/10,000
+   Completed rotations 4,751-5,000/10,000
+   Completed rotations 5,001-5,250/10,000
+   Completed rotations 5,251-5,500/10,000
+   Completed rotations 5,501-5,750/10,000
+   Completed rotations 5,751-6,000/10,000
+   Completed rotations 6,001-6,250/10,000
+   Completed rotations 6,251-6,500/10,000
+   Completed rotations 6,501-6,750/10,000
+   Completed rotations 6,751-7,000/10,000
+   Completed rotations 7,001-7,250/10,000
+   Completed rotations 7,251-7,500/10,000
+   Completed rotations 7,501-7,750/10,000
+   Completed rotations 7,751-8,000/10,000
+   Completed rotations 8,001-8,250/10,000
+   Completed rotations 8,251-8,500/10,000
+   Completed rotations 8,501-8,750/10,000
+   Completed rotations 8,751-9,000/10,000
+   Completed rotations 9,001-9,250/10,000
+   Completed rotations 9,251-9,500/10,000
+   Completed rotations 9,501-9,750/10,000
+   Completed rotations 9,751-10,000/10,000
+
+
+5. PRIMARY MODEL & CONTROL MODELS
+
+
+   Original 40/35/25
+      Weights: 0.40/0.35/0.25
+      Observed score: 5.1869
+      Random mean ± SD: 5.0230 ± 0.1749
+      Empirical p: 0.22148 | MC SE: ±0.00415
+      Observed percentile: 77.86%
+
+
+   Geometry (.0/.5/.5)
+      Weights: 0.00/0.50/0.50
+      Observed score: 3.9313
+      Random mean ± SD: 3.9992 ± 0.0947
+      Empirical p: 0.80082 | MC SE: ±0.00399
+      Observed percentile: 19.92%
+
+
+   Brightness (1/0/0)
+      Weights: 1.00/0.00/0.00
+      Observed score: 6.0504
+      Random mean ± SD: 5.7597 ± 0.3037
+      Empirical p: 0.19298 | MC SE: ±0.00395
+      Observed percentile: 80.71%
+
+
+   Symmetry (0/1/0)
+      Weights: 0.00/1.00/0.00
+      Observed score: 4.9268
+      Random mean ± SD: 4.8971 ± 0.0451
+      Empirical p: 0.28037 | MC SE: ±0.00449
+      Observed percentile: 71.97%
+
+
+   Declination (0/0/1)
+      Weights: 0.00/0.00/1.00
+      Observed score: 3.4344
+      Random mean ± SD: 3.6257 ± 0.1587
+      Empirical p: 0.76002 | MC SE: ±0.00427
+      Observed percentile: 24.00%
+
+
+   Equal Weights (1/3,1/3,1/3)
+      Observed score: 5.0492
+      Random mean ± SD: 4.9140 ± 0.1538
+      Empirical p: 0.26147
+
+
+6. DESCRIPTIVE HORIZON STATISTIC: ANGULAR CONCENTRATION
+   - Resultant-length concentration statistic (R): 0.7986
+
+
+   SUPPLEMENTARY BASELINE HORIZON NULL: MONTE CARLO AZIMUTH SIMULATION
+   * Status: Baseline horizon diagnostic (Not primary evidence for the fivefold framework).
+   * Null Model: Uniform random emergence across eastern horizon (Ai ~ U(0°, 180°)).
+   - Independent Seed: rng_horizon (Seed 2026)
+   - Iterations (N): 10,000
+   - Exceedances (k >= R): 19
+   - Empirical P-Value: 0.00200 [(k + 1) / (N + 1)]
+
+
+   SUPPLEMENTARY DIAGNOSTIC A: BOOTSTRAP AZIMUTH RESAMPLING (N = 5,000)
+   * Status: Secondary descriptive confidence check (Demoted from primary inference)
+   - Independent Seed: rng_boot (Seed 2027)
+   - Observed Mean Azimuth: 90.45°
+   - Nonparametric 95% CI: [77.50°, 103.65°]
+
+
+   SUPPLEMENTARY DIAGNOSTIC B: ILLUSTRATIVE FALSE-MATCH BASELINE
+   * Status: Illustrative upper-bound diagnostic (Permissive analytic model)
+   - Expected Accidental Alignments: 62.69 stars
+   - Probability of >= 1 Accidental Match: 1.0000 (100.00%)
+
+
+7. INFERENTIAL METRIC: E/W STRUCTURAL EFFICIENCY
+Executing 10,000 geometrical spatial randomizations [-36°, +36°)...
+  - Observed E/W Structural Score:         4.1357
+  - Mean Simulated E/W Score:              3.9896 (±0.0943)
+  - Exceedances (k >= Observed Score):     694
+  - Primary Empirical P-Value:             0.06949 [(k + 1) / (N + 1)]
+
+
+8. SECONDARY DESCRIPTIVE BRIGHTNESS CHARACTERIZATION:
+  * Status: Post-selection descriptive characterization (Not an inferential test).
+  - Observed Candidates Mean V_app:        2.20 mag
+  - Simulated Candidates Mean V_app:       1.94 mag
+  - Delta Magnitude (Observed - Random):   +0.27 mag
+  - Interpretation:                        The geometrically selected candidates are, on average,
+                                           0.27 mag FAINTER than candidates selected
+                                           under randomized framework rotations.
+  - Scientific Synthesis:                  Provides no independent brightness enhancement/advantage.
+
+
+9. SECONDARY DIAGNOSTIC: SEQUENCE IDENTITY RECURRENCE
+  * Status: Descriptive identity-recurrence diagnostic. NOT the pre-specified primary test statistic.
+  - Full-Sequence Recurrence Count:         The exact 20-star identity sequence was reproduced in
+                                           160 of 10,000 randomized orientations (1.60%).
+  - Descriptive Interpretation:            Exact full-sequence recurrence occurred in 1.60% of randomized
+                                           orientations, demonstrating that sequence identity is not unique to one rotation.
+
+
+10. MODEL ROBUSTNESS: STAGE-II INTEGRATED VISIBILITY SENSITIVITY
+   * Pipeline: Strict rerun of true first-emergence visibility procedure across shifted thresholds.
+   - Naked-Eye Limit Shifted to 4.5 mag:
+     -> Identity Retention:                  18 / 18 unique stars (100.0%)
+     -> Exact Positional Identity Retention: 19 / 19 exact positional slots (100.0%)
+   - Naked-Eye Limit Shifted to 5.5 mag:
+     -> Identity Retention:                  18 / 18 unique stars (100.0%)
+     -> Exact Positional Identity Retention: 19 / 19 exact positional slots (100.0%)
+
+
+SYNTHESIS & INTERPRETATION:
+  * Result: The observed framework did not significantly exceed the geometric efficiency
+    produced by equivalent random framework rotations (p = 0.069).
+  * Conclusion: The proposed framework provides a deterministic and reproducible procedure
+    for prioritizing stellar candidates within a visibility-constrained fivefold celestial geometry.
+    Its geometric efficiency, however, is not statistically exceptional relative to equivalent
+    rotations of the same reconstructed stellar population (p = 0.069). The robustness analysis
+    indicates that the resulting candidate configuration is insensitive to moderate changes in the
+    adopted apparent-visibility threshold, while post-selection brightness does not show an
+    enhancement relative to randomized orientations. Exact recurrence of the stellar identity sequence
+    is relatively uncommon (1.60%) but not unique to the proposed orientation.
+________________
+
+
+DETAILED OUTPUT FOR Tenochtitlan (1500 CE)
+=====================================================================================
+
+
+GEOMETRIC GRID POOL (PANORAMIC CANDIDATES: UP TO 5 STARS PER SUB-SECTOR | Vmag < 2.5)
+-------------------------------------------------------------------------------------
+
+
+==================== QUINTANT 1 ====================
+
+
+--- EAST ---
+  [HIP 24436] Rigel                  | V Base: 0.18 | Culm Alt:  61.9° | Culm V_App: 0.35  | Rise Az: 100.29°        | H_Vis: 2.2°
+  [HIP 21421] Aldebaran              | V Base: 0.87 | Culm Alt:  86.2° | Culm V_App: 1.02  | Rise Az: 74.52°         | H_Vis: 2.1°
+  [HIP 25336] Bellatrix              | V Base: 1.64 | Culm Alt:  76.6° | Culm V_App: 1.79  | Rise Az: 84.71°         | H_Vis: 2.4°
+  [HIP 25930] Mintaka                | V Base: 2.25 | Culm Alt:  70.0° | Culm V_App: 2.41  | Rise Az: 91.67°         | H_Vis: 2.1°
+
+
+--- NORTHEAST ---
+  [HIP 25428] Elnath                 | V Base: 1.65 | Culm Alt:  81.7° | Culm V_App: 1.80  | Rise Az: 61.03°         | H_Vis: 2.2°
+
+
+--- NORTH ---
+  [HIP 24608] Capella                | V Base: 0.08 | Culm Alt:  64.4° | Culm V_App: 0.25  | Rise Az: 42.26°         | H_Vis: 2.2°
+  [HIP 36850] Castor                 | V Base: 1.58 | Culm Alt:  76.9° | Culm V_App: 1.73  | Rise Az: 55.87°         | H_Vis: 2.2°
+  [HIP 15863] Mirfak                 | V Base: 1.79 | Culm Alt:  61.7° | Culm V_App: 1.96  | Rise Az: 39.32°         | H_Vis: 2.5°
+  [HIP 28360] Menkalinan             | V Base: 1.90 | Culm Alt:  65.0° | Culm V_App: 2.07  | Rise Az: 42.93°         | H_Vis: 2.5°
+
+
+--- NORTHWEST ---
+  [HIP 37826] Pollux                 | V Base: 1.16 | Culm Alt:  80.6° | Culm V_App: 1.31  | Rise Az: 59.90°         | H_Vis: 2.4°
+  [HIP 31681] Alhena                 | V Base: 1.93 | Culm Alt:  87.5° | Culm V_App: 2.08  | Rise Az: 73.13°         | H_Vis: 2.3°
+
+
+--- WEST ---
+  [HIP 37279] Procyon                | V Base: 0.40 | Culm Alt:  77.2° | Culm V_App: 0.55  | Rise Az: 84.05°         | H_Vis: 2.1°
+  [HIP 27989] Betelgeuse             | V Base: 0.45 | Culm Alt:  78.0° | Culm V_App: 0.60  | Rise Az: 83.21°         | H_Vis: 2.0°
+  [HIP 26311] Alnilam                | V Base: 1.69 | Culm Alt:  69.2° | Culm V_App: 1.85  | Rise Az: 92.58°         | H_Vis: 2.2°
+  [HIP 26727] Alnitak                | V Base: 1.74 | Culm Alt:  68.5° | Culm V_App: 1.90  | Rise Az: 93.31°         | H_Vis: 2.3°
+  [HIP 27366] Saiph                  | V Base: 2.07 | Culm Alt:  60.9° | Culm V_App: 2.24  | Rise Az: 101.43°        | H_Vis: 2.4°
+
+
+--- SOUTHWEST ---
+  [HIP 32349] Sirius                 | V Base: -1.44 | Culm Alt:  54.7° | Culm V_App: -1.26 | Rise Az: 108.03°        | H_Vis: 2.4°
+  [HIP 33579] Adhara                 | V Base: 1.50 | Culm Alt:  42.5° | Culm V_App: 1.72  | Rise Az: 121.27°        | H_Vis: 2.1°
+  [HIP 34444] Wezen                  | V Base: 1.83 | Culm Alt:  45.2° | Culm V_App: 2.04  | Rise Az: 118.34°        | H_Vis: 2.1°
+  [HIP 30324] Mirzam                 | V Base: 1.98 | Culm Alt:  53.0° | Culm V_App: 2.17  | Rise Az: 109.83°        | H_Vis: 2.3°
+  [HIP 35904] Aludra                 | V Base: 2.45 | Culm Alt:  42.4° | Culm V_App: 2.67  | Rise Az: 121.31°        | H_Vis: 2.2°
+
+
+--- SOUTH ---
+  [HIP 30438] Canopus                | V Base: -0.62 | Culm Alt:  18.4° | Culm V_App: -0.15 | Rise Az: 148.90°        | H_Vis: 2.5°
+
+
+==================== QUINTANT 2 ====================
+
+
+--- EAST ---
+  [HIP 49669] Regulus                | V Base: 1.36 | Culm Alt:  85.2° | Culm V_App: 1.51  | Rise Az: 75.62°         | H_Vis: 2.5°
+  [HIP 46390] Alphard                | V Base: 1.99 | Culm Alt:  64.3° | Culm V_App: 2.16  | Rise Az: 97.82°         | H_Vis: 2.2°
+
+
+--- NORTHEAST ---
+  [HIP 50583] Algieba                | V Base: 2.01 | Culm Alt:  87.4° | Culm V_App: 2.16  | Rise Az: 67.15°         | H_Vis: 2.4°
+
+
+--- NORTH ---
+  [HIP 54061] Merak                  | V Base: 1.81 | Culm Alt:  45.3° | Culm V_App: 2.02  | Rise Az: 19.52°         | H_Vis: 2.4°
+  [HIP 53910] Megrez                 | V Base: 2.34 | Culm Alt:  50.7° | Culm V_App: 2.53  | Rise Az: 26.46°         | H_Vis: 2.4°
+  [HIP 58001] Phecda                 | V Base: 2.41 | Culm Alt:  53.3° | Culm V_App: 2.60  | Rise Az: 29.54°         | H_Vis: 2.3°
+
+
+--- NORTHWEST ---
+  [HIP 57632] Denebola               | V Base: 2.14 | Culm Alt:  88.2° | Culm V_App: 2.29  | Rise Az: 72.42°         | H_Vis: 2.3°
+
+
+--- SOUTH ---
+  [HIP 60718] Acrux                  | V Base: 0.77 | Culm Alt:  10.6° | Culm V_App: 1.57  | Rise Az: 159.49°        | H_Vis: 2.4°
+  [HIP 61084] Gacrux                 | V Base: 1.59 | Culm Alt:  16.6° | Culm V_App: 2.11  | Rise Az: 151.22°        | H_Vis: 2.3°
+  [HIP 45238] Avior                  | V Base: 1.67 | Culm Alt:   3.3° | Culm V_App: 3.79  | Rise Az: 175.10°        | H_Vis: 2.5°
+  [HIP 39953] Gamma Velorum          | V Base: 1.75 | Culm Alt:  24.9° | Culm V_App: 2.11  | Rise Az: 140.99°        | H_Vis: 2.5°
+  [HIP 41037] Miaplacidus            | V Base: 1.86 | Culm Alt:  12.9° | Culm V_App: 2.52  | Rise Az: 156.07°        | H_Vis: 2.4°
+
+
+==================== QUINTANT 3 ====================
+
+
+--- EAST ---
+  [HIP 65474] Spica                  | V Base: 0.98 | Culm Alt:  62.3° | Culm V_App: 1.15  | Rise Az: 99.88°         | H_Vis: 2.2°
+
+
+--- NORTHEAST ---
+  [HIP 69673] Arcturus               | V Base: -0.05 | Culm Alt:  87.9° | Culm V_App: 0.10  | Rise Az: 67.65°         | H_Vis: 2.3°
+  [HIP 72105] Izar                   | V Base: 2.35 | Culm Alt:  80.5° | Culm V_App: 2.50  | Rise Az: 59.74°         | H_Vis: 2.3°
+
+
+--- NORTH ---
+  [HIP 62956] Alioth                 | V Base: 1.76 | Culm Alt:  51.0° | Culm V_App: 1.95  | Rise Az: 26.85°         | H_Vis: 2.4°
+  [HIP 67301] Mizar                  | V Base: 1.85 | Culm Alt:  57.9° | Culm V_App: 2.03  | Rise Az: 34.92°         | H_Vis: 2.4°
+  [HIP 72607] Kochab                 | V Base: 2.07 | Culm Alt:  33.5° | Culm V_App: 2.34  | Rise Az: CIRCUMPOLAR    | H_Vis: N/A
+  [HIP 65378] Porrima                | V Base: 2.23 | Culm Alt:  52.2° | Culm V_App: 2.42  | Rise Az: 28.22°         | H_Vis: 2.4°
+
+
+--- NORTHWEST ---
+  [HIP 76267] Alphecca               | V Base: 2.22 | Culm Alt:  81.2° | Culm V_App: 2.37  | Rise Az: 60.57°         | H_Vis: 2.4°
+
+
+--- WEST ---
+  [HIP 84012] Sabik                  | V Base: 2.43 | Culm Alt:  55.9° | Culm V_App: 2.61  | Rise Az: 106.79°        | H_Vis: 2.3°
+
+
+--- SOUTHWEST ---
+  [HIP 80763] Antares                | V Base: 1.06 | Culm Alt:  45.7° | Culm V_App: 1.27  | Rise Az: 117.79°        | H_Vis: 2.2°
+  [HIP 78401] Dschubba               | V Base: 2.29 | Culm Alt:  49.8° | Culm V_App: 2.49  | Rise Az: 113.35°        | H_Vis: 2.4°
+
+
+--- SOUTH ---
+  [HIP 71683] Alpha Centauri A       | V Base: -0.01 | Culm Alt:  12.2° | Culm V_App: 0.69  | Rise Az: 157.07°        | H_Vis: 2.5°
+  [HIP 68702] Hadar                  | V Base: 0.61 | Culm Alt:  13.0° | Culm V_App: 1.27  | Rise Az: 155.99°        | H_Vis: 2.3°
+  [HIP 62434] Mimosa                 | V Base: 1.25 | Culm Alt:  14.0° | Culm V_App: 1.87  | Rise Az: 154.69°        | H_Vis: 2.4°
+  [HIP 71681] Alpha Centauri B       | V Base: 1.35 | Culm Alt:  12.2° | Culm V_App: 2.05  | Rise Az: 157.17°        | H_Vis: 2.5°
+  [HIP 85927] Shaula                 | V Base: 1.62 | Culm Alt:  34.3° | Culm V_App: 1.89  | Rise Az: 130.32°        | H_Vis: 2.5°
+
+
+==================== QUINTANT 4 ====================
+
+
+--- SOUTHEAST ---
+  [HIP 92855] Nunki                  | V Base: 2.05 | Culm Alt:  44.1° | Culm V_App: 2.27  | Rise Az: 119.51°        | H_Vis: 2.3°
+
+
+--- EAST ---
+  [HIP 97649] Altair                 | V Base: 0.76 | Culm Alt:  78.5° | Culm V_App: 0.91  | Rise Az: 82.71°         | H_Vis: 2.0°
+  [HIP 86032] Rasalhague             | V Base: 2.08 | Culm Alt:  83.9° | Culm V_App: 2.23  | Rise Az: 77.01°         | H_Vis: 2.4°
+
+
+--- NORTH ---
+  [HIP 91262] Vega                   | V Base: 0.03 | Culm Alt:  71.3° | Culm V_App: 0.19  | Rise Az: 49.86°         | H_Vis: 2.3°
+  [HIP 102098] Deneb                  | V Base: 1.25 | Culm Alt:  66.1° | Culm V_App: 1.41  | Rise Az: 44.21°         | H_Vis: 2.3°
+  [HIP 100453] Sadr                   | V Base: 2.23 | Culm Alt:  71.0° | Culm V_App: 2.39  | Rise Az: 49.50°         | H_Vis: 2.5°
+  [HIP 87833] Rastaban               | V Base: 2.24 | Culm Alt:  58.1° | Culm V_App: 2.42  | Rise Az: 35.19°         | H_Vis: 2.5°
+  [HIP 105199] Alderamin              | V Base: 2.45 | Culm Alt:  49.2° | Culm V_App: 2.65  | Rise Az: 24.60°         | H_Vis: 2.3°
+
+
+--- WEST ---
+  [HIP 107315] Enif                   | V Base: 2.38 | Culm Alt:  78.5° | Culm V_App: 2.53  | Rise Az: 82.72°         | H_Vis: 2.3°
+
+
+--- SOUTH ---
+  [HIP 109268] Alnair                 | V Base: 1.73 | Culm Alt:  21.6° | Culm V_App: 2.14  | Rise Az: 145.01°        | H_Vis: 2.3°
+  [HIP 90185] Kaus Australis         | V Base: 1.79 | Culm Alt:  36.4° | Culm V_App: 2.04  | Rise Az: 127.96°        | H_Vis: 2.5°
+  [HIP 100751] Peacock                | V Base: 1.94 | Culm Alt:  12.7° | Culm V_App: 2.61  | Rise Az: 156.40°        | H_Vis: 2.4°
+  [HIP 86670] Kaus Borealis          | V Base: 2.39 | Culm Alt:  32.2° | Culm V_App: 2.67  | Rise Az: 132.60°        | H_Vis: 2.2°
+
+
+==================== QUINTANT 5 ====================
+
+
+--- SOUTHEAST ---
+  [HIP 3419 ] Diphda                 | V Base: 2.04 | Culm Alt:  50.1° | Culm V_App: 2.24  | Rise Az: 112.99°        | H_Vis: 2.3°
+
+
+--- EAST ---
+  [HIP 113963] Markab                 | V Base: 2.49 | Culm Alt:  83.4° | Culm V_App: 2.64  | Rise Az: 77.52°         | H_Vis: 2.5°
+
+
+--- NORTHEAST ---
+  [HIP 677  ] Alpheratz              | V Base: 2.07 | Culm Alt:  83.4° | Culm V_App: 2.22  | Rise Az: 62.86°         | H_Vis: 2.2°
+  [HIP 113881] Scheat                 | V Base: 2.44 | Culm Alt:  84.3° | Culm V_App: 2.59  | Rise Az: 63.85°         | H_Vis: 2.5°
+
+
+--- NORTH ---
+  [HIP 11767] Polaris                | V Base: 1.97 | Culm Alt:  23.1° | Culm V_App: 2.35  | Rise Az: CIRCUMPOLAR    | H_Vis: N/A
+  [HIP 5447 ] Mirach                 | V Base: 2.07 | Culm Alt:  76.8° | Culm V_App: 2.22  | Rise Az: 55.77°         | H_Vis: 2.3°
+  [HIP 14576] Algol                  | V Base: 2.09 | Culm Alt:  70.8° | Culm V_App: 2.25  | Rise Az: 49.29°         | H_Vis: 2.5°
+  [HIP 9640 ] Almach                 | V Base: 2.10 | Culm Alt:  69.8° | Culm V_App: 2.26  | Rise Az: 48.26°         | H_Vis: 2.2°
+  [HIP 4427 ] Tiansi                 | V Base: 2.15 | Culm Alt:  51.7° | Culm V_App: 2.34  | Rise Az: 27.71°         | H_Vis: 2.5°
+
+
+--- NORTHWEST ---
+  [HIP 9884 ] Hamal                  | V Base: 2.01 | Culm Alt:  88.7° | Culm V_App: 2.16  | Rise Az: 68.51°         | H_Vis: 2.1°
+
+
+--- SOUTH ---
+  [HIP 7588 ] Achernar               | V Base: 0.45 | Culm Alt:  11.1° | Culm V_App: 1.22  | Rise Az: 158.75°        | H_Vis: 2.4°
+  [HIP 113368] Fomalhaut              | V Base: 1.17 | Culm Alt:  38.6° | Culm V_App: 1.41  | Rise Az: 125.49°        | H_Vis: 2.4°
+  [HIP 112122] Tiaki                  | V Base: 2.07 | Culm Alt:  21.4° | Culm V_App: 2.48  | Rise Az: 145.18°        | H_Vis: 2.2°
+  [HIP 2081 ] Ankaa                  | V Base: 2.40 | Culm Alt:  25.8° | Culm V_App: 2.74  | Rise Az: 139.96°        | H_Vis: 2.5°
+
+
+FINAL REFINED ANCHOR LIST [Primary Anchor per Active Sub-Quadrant | Sorted by: DECLINATION]:
+Q  | SECTOR     | HIP ID  | STAR NAME              | V BASE | DEC (EPOCH) | CULM ALT  | CULM V_APP | CALCULATED RISE AZ
+-------------------------------------------------------------------------------------
+5  | NORTH      | HIP 11767 | Polaris                | 1.97   | 86.588     ° | 23.1     ° | 2.35       | CIRCUMPOLAR
+2  | NORTH      | HIP 54061 | Merak                  | 1.81   | 64.399     ° | 45.3     ° | 2.02       | 19.52°
+3  | NORTH      | HIP 62956 | Alioth                 | 1.76   | 58.693     ° | 51.0     ° | 1.95       | 26.85°
+1  | NORTH      | HIP 24608 | Capella                | 0.08   | 45.318     ° | 64.4     ° | 0.25       | 42.26°
+4  | NORTH      | HIP 91262 | Vega                   | 0.03   | 38.400     ° | 71.3     ° | 0.19       | 49.86°
+1  | NORTHWEST  | HIP 37826 | Pollux                 | 1.16   | 29.098     ° | 80.6     ° | 1.31       | 59.90°
+3  | NORTHWEST  | HIP 76267 | Alphecca               | 2.22   | 28.476     ° | 81.2     ° | 2.37       | 60.57°
+1  | NORTHEAST  | HIP 25428 | Elnath                 | 1.65   | 28.037     ° | 81.7     ° | 1.80       | 61.03°
+5  | NORTHEAST  | HIP 677   | Alpheratz              | 2.07   | 26.334     ° | 83.4     ° | 2.22       | 62.86°
+2  | NORTHEAST  | HIP 50583 | Algieba                | 2.01   | 22.306     ° | 87.4     ° | 2.16       | 67.15°
+3  | NORTHEAST  | HIP 69673 | Arcturus               | -0.05  | 21.839     ° | 87.9     ° | 0.10       | 67.65°
+5  | NORTHWEST  | HIP 9884  | Hamal                  | 2.01   | 21.035     ° | 88.7     ° | 2.16       | 68.51°
+2  | NORTHWEST  | HIP 57632 | Denebola               | 2.14   | 17.353     ° | 88.2     ° | 2.29       | 72.42°
+2  | EAST       | HIP 49669 | Regulus                | 1.36   | 14.344     ° | 85.2     ° | 1.51       | 75.62°
+5  | EAST       | HIP 113963 | Markab                 | 2.49   | 12.552     ° | 83.4     ° | 2.64       | 77.52°
+4  | EAST       | HIP 97649 | Altair                 | 0.76   | 7.657      ° | 78.5     ° | 0.91       | 82.71°
+4  | WEST       | HIP 107315 | Enif                   | 2.38   | 7.655      ° | 78.5     ° | 2.53       | 82.72°
+1  | WEST       | HIP 37279 | Procyon                | 0.40   | 6.392      ° | 77.2     ° | 0.55       | 84.05°
+3  | EAST       | HIP 65474 | Spica                  | 0.98   | -8.514     ° | 62.3     ° | 1.15       | 99.88°
+1  | EAST       | HIP 24436 | Rigel                  | 0.18   | -8.891     ° | 61.9     ° | 0.35       | 100.29°
+3  | WEST       | HIP 84012 | Sabik                  | 2.43   | -14.973    ° | 55.9     ° | 2.61       | 106.79°
+1  | SOUTHWEST  | HIP 32349 | Sirius                 | -1.44  | -16.132    ° | 54.7     ° | -1.26      | 108.03°
+5  | SOUTHEAST  | HIP 3419  | Diphda                 | 2.04   | -20.746    ° | 50.1     ° | 2.24       | 112.99°
+3  | SOUTHWEST  | HIP 80763 | Antares                | 1.06   | -25.191    ° | 45.7     ° | 1.27       | 117.79°
+4  | SOUTHEAST  | HIP 92855 | Nunki                  | 2.05   | -26.769    ° | 44.1     ° | 2.27       | 119.51°
+4  | SOUTH      | HIP 109268 | Alnair                 | 1.73   | -49.299    ° | 21.6     ° | 2.14       | 145.01°
+1  | SOUTH      | HIP 30438 | Canopus                | -0.62  | -52.476    ° | 18.4     ° | -0.15      | 148.90°
+3  | SOUTH      | HIP 71683 | Alpha Centauri A       | -0.01  | -58.657    ° | 12.2     ° | 0.69       | 157.07°
+5  | SOUTH      | HIP 7588  | Achernar               | 0.45   | -59.808    ° | 11.1     ° | 1.22       | 158.75°
+2  | SOUTH      | HIP 60718 | Acrux                  | 0.77   | -60.322    ° | 10.6     ° | 1.57       | 159.49°
+-------------------------------------------------------------------------------------
+Total Active Refined Anchors Identified: 30 Stars across 5 Quintants
+
+
+INTER-QUINTANT GEOMETRICAL RE-CANDIDATE SHORTLIST (Observable horizon constraint: Quintant midpoint +/-80°)
+
+
+Primary equatorial band: +/-16°, Fallback equatorial band: +/-30°
+
+
+Pair ranking: Brightness=40% | Symmetry=35% | Equatorial centrality=25%
+-------------------------------------------------------------------------------------
+Q    | CENTRAL REFERENCE  | WEST         |        ΔW | EAST         |        ΔE |    SYM. |  SCORE
+-------------------------------------------------------------------------------------
+Q1   | Mintaka (-0.0°)    | Hamal        |  -51.803° | Regulus      |  +68.764° | 16.961° | 0.7784
+Q2   | Algieba (-0.6°)    | Procyon      |  -40.369° | Spica        |  +46.127° |  5.759° | 0.8929
+Q3   | Izar (-4.8°)       | Regulus      |  -75.236° | Altair       |  +70.959° |  4.277° | 0.8896
+Q4   | Altair (-1.0°)     | Sabik        |  -42.173° | Markab       |  +47.354° |  5.181° | 0.8626
+Q5   | Diphda (-0.0°)     | Altair       |  -73.041° | Rigel        |  +68.011° |  5.030° | 0.9090
+
+
+NORTH / SOUTH MERIDIONAL GEOMETRICAL RE-CANDIDATE SHORTLIST (Quintant midpoint meridian +/-18° RA)
+Q     |  MIDPOINT | NORTH                  |        ΔN |     DEC N | SOUTH                  |        ΔS |     DEC S
+-------------------------------------------------------------------------------------
+Q1    |    36.000° | Menkalinan             |   +4.110° |  +44.721° | Canopus                |  +16.580° |  -52.476°
+Q2    |   108.000° | Merak                  |   +9.246° |  +64.399° | None                   |       N/A |       N/A
+Q3    |   180.000° | Kochab                 |   +2.844° |  +76.188° | Alpha Centauri A       |   -8.906° |  -58.657°
+Q4    |   252.000° | Sadr                   |   +8.444° |  +38.729° | None                   |       N/A |       N/A
+Q5    |   324.000° | Polaris                |   -0.866° |  +86.588° | Achernar               |  +15.084° |  -59.808°
+
+
+=====================================================================================
+WEIGHT-SENSITIVITY & FRAMEWORK-ROTATION PERMUTATION ANALYSIS
+=====================================================================================
+RNG Seeds: Horizon=2026 | Bootstrap=2027 | Framework=2028
+Weight grid: 0.10 intervals | 66 admissible combinations
+Rotational null: Δθ ~ U[-36°, +36°) | N=10,000
+
+
+1. ORIGINAL CANDIDATE-RANKING MODEL
+   Weights: Brightness=0.40 | Symmetry=0.35 | Declination=0.25
+   Observed framework score: 5.5418
+
+
+2. WEIGHT-SPACE ROBUSTNESS
+   ≥90% identity retention: 6/66 (9.1%)
+   Median identity retention: 84.2%
+   Minimum identity retention: 63.2%
+   Median positional retention: 84.2%
+   Minimum positional retention: 63.2%
+
+
+3. WEIGHT-SPACE STELLAR CANDIDATE STABILITY
+   Candidate                         P(selection)   Class
+   Shaula                               1.000        Core Anchor
+   Hamal                                1.000        Core Anchor
+   Alderamin                            1.000        Core Anchor
+   Mirfak                               1.000        Core Anchor
+   Hadar                                1.000        Core Anchor
+   Fomalhaut                            1.000        Core Anchor
+   Alioth                               1.000        Core Anchor
+   Enif                                 1.000        Core Anchor
+   Castor                               1.000        Core Anchor
+   Gamma Velorum                        1.000        Core Anchor
+   Vega                                 1.000        Core Anchor
+   Altair                               0.939        Core Anchor
+   Spica                                0.742        Stable Candidate
+   Alphard                              0.652        Stable Candidate
+   Markab                               0.636        Stable Candidate
+   Procyon                              0.545        Stable Candidate
+   Denebola                             0.485        Weight-Sensitive
+   Sirius                               0.455        Weight-Sensitive
+   Rigel                                0.424        Weight-Sensitive
+   Arcturus                             0.409        Weight-Sensitive
+   Antares                              0.409        Weight-Sensitive
+   Regulus                              0.348        Weight-Sensitive
+   Alpheratz                            0.318        Weight-Sensitive
+   Rasalhague                           0.273        Weight-Sensitive
+   Mintaka                              0.258        Weight-Sensitive
+   Aldebaran                            0.258        Weight-Sensitive
+   Sabik                                0.182        Weight-Sensitive
+   Dschubba                             0.136        Weight-Sensitive
+   Nunki                                0.061        Weight-Sensitive
+   Alnilam                              0.061        Weight-Sensitive
+   Diphda                               0.045        Weight-Sensitive
+
+
+4. FRAMEWORK-ROTATION PERMUTATION
+   Completed rotations 1-250/10,000
+   Completed rotations 251-500/10,000
+   Completed rotations 501-750/10,000
+   Completed rotations 751-1,000/10,000
+   Completed rotations 1,001-1,250/10,000
+   Completed rotations 1,251-1,500/10,000
+   Completed rotations 1,501-1,750/10,000
+   Completed rotations 1,751-2,000/10,000
+   Completed rotations 2,001-2,250/10,000
+   Completed rotations 2,251-2,500/10,000
+   Completed rotations 2,501-2,750/10,000
+   Completed rotations 2,751-3,000/10,000
+   Completed rotations 3,001-3,250/10,000
+   Completed rotations 3,251-3,500/10,000
+   Completed rotations 3,501-3,750/10,000
+   Completed rotations 3,751-4,000/10,000
+   Completed rotations 4,001-4,250/10,000
+   Completed rotations 4,251-4,500/10,000
+   Completed rotations 4,501-4,750/10,000
+   Completed rotations 4,751-5,000/10,000
+   Completed rotations 5,001-5,250/10,000
+   Completed rotations 5,251-5,500/10,000
+   Completed rotations 5,501-5,750/10,000
+   Completed rotations 5,751-6,000/10,000
+   Completed rotations 6,001-6,250/10,000
+   Completed rotations 6,251-6,500/10,000
+   Completed rotations 6,501-6,750/10,000
+   Completed rotations 6,751-7,000/10,000
+   Completed rotations 7,001-7,250/10,000
+   Completed rotations 7,251-7,500/10,000
+   Completed rotations 7,501-7,750/10,000
+   Completed rotations 7,751-8,000/10,000
+   Completed rotations 8,001-8,250/10,000
+   Completed rotations 8,251-8,500/10,000
+   Completed rotations 8,501-8,750/10,000
+   Completed rotations 8,751-9,000/10,000
+   Completed rotations 9,001-9,250/10,000
+   Completed rotations 9,251-9,500/10,000
+   Completed rotations 9,501-9,750/10,000
+   Completed rotations 9,751-10,000/10,000
+
+
+5. PRIMARY MODEL & CONTROL MODELS
+
+
+   Original 40/35/25
+      Weights: 0.40/0.35/0.25
+      Observed score: 5.5418
+      Random mean ± SD: 5.7533 ± 0.2136
+      Empirical p: 0.87881 | MC SE: ±0.00326
+      Observed percentile: 12.12%
+
+
+   Geometry (.0/.5/.5)
+      Weights: 0.00/0.50/0.50
+      Observed score: 3.8835
+      Random mean ± SD: 3.8939 ± 0.0835
+      Empirical p: 0.55194 | MC SE: ±0.00497
+      Observed percentile: 44.81%
+
+
+   Brightness (1/0/0)
+      Weights: 1.00/0.00/0.00
+      Observed score: 6.8985
+      Random mean ± SD: 7.2216 ± 0.3474
+      Empirical p: 0.87791 | MC SE: ±0.00327
+      Observed percentile: 12.21%
+
+
+   Symmetry (0/1/0)
+      Weights: 0.00/1.00/0.00
+      Observed score: 4.8198
+      Random mean ± SD: 4.8857 ± 0.0508
+      Empirical p: 0.88291 | MC SE: ±0.00322
+      Observed percentile: 11.71%
+
+
+   Declination (0/0/1)
+      Weights: 0.00/0.00/1.00
+      Observed score: 3.4548
+      Random mean ± SD: 3.3343 ± 0.1397
+      Empirical p: 0.29157 | MC SE: ±0.00454
+      Observed percentile: 70.85%
+
+
+   Equal Weights (1/3,1/3,1/3)
+      Observed score: 5.3462
+      Random mean ± SD: 5.5278 ± 0.1929
+      Empirical p: 0.89111
+
+
+6. DESCRIPTIVE HORIZON STATISTIC: ANGULAR CONCENTRATION
+   - Resultant-length concentration statistic (R): 0.7976
+
+
+   SUPPLEMENTARY BASELINE HORIZON NULL: MONTE CARLO AZIMUTH SIMULATION
+   * Status: Baseline horizon diagnostic (Not primary evidence for the fivefold framework).
+   * Null Model: Uniform random emergence across eastern horizon (Ai ~ U(0°, 180°)).
+   - Independent Seed: rng_horizon (Seed 2026)
+   - Iterations (N): 10,000
+   - Exceedances (k >= R): 39
+   - Empirical P-Value: 0.00400 [(k + 1) / (N + 1)]
+
+
+   SUPPLEMENTARY DIAGNOSTIC A: BOOTSTRAP AZIMUTH RESAMPLING (N = 5,000)
+   * Status: Secondary descriptive confidence check (Demoted from primary inference)
+   - Independent Seed: rng_boot (Seed 2027)
+   - Observed Mean Azimuth: 89.51°
+   - Nonparametric 95% CI: [75.90°, 103.60°]
+
+
+   SUPPLEMENTARY DIAGNOSTIC B: ILLUSTRATIVE FALSE-MATCH BASELINE
+   * Status: Illustrative upper-bound diagnostic (Permissive analytic model)
+   - Expected Accidental Alignments: 60.67 stars
+   - Probability of >= 1 Accidental Match: 1.0000 (100.00%)
+
+
+7. INFERENTIAL METRIC: E/W STRUCTURAL EFFICIENCY
+Executing 10,000 geometrical spatial randomizations [-36°, +36°)...
+  - Observed E/W Structural Score:         4.0153
+  - Mean Simulated E/W Score:              3.8671 (±0.0957)
+  - Exceedances (k >= Observed Score):     809
+  - Primary Empirical P-Value:             0.08099 [(k + 1) / (N + 1)]
+
+
+8. SECONDARY DESCRIPTIVE BRIGHTNESS CHARACTERIZATION:
+  * Status: Post-selection descriptive characterization (Not an inferential test).
+  - Observed Candidates Mean V_app:        2.12 mag
+  - Simulated Candidates Mean V_app:       1.97 mag
+  - Delta Magnitude (Observed - Random):   +0.16 mag
+  - Interpretation:                        The geometrically selected candidates are, on average,
+                                           0.16 mag FAINTER than candidates selected
+                                           under randomized framework rotations.
+  - Scientific Synthesis:                  Provides no independent brightness enhancement/advantage.
+
+
+9. SECONDARY DIAGNOSTIC: SEQUENCE IDENTITY RECURRENCE
+  * Status: Descriptive identity-recurrence diagnostic. NOT the pre-specified primary test statistic.
+  - Full-Sequence Recurrence Count:         The exact 20-star identity sequence was reproduced in
+                                           244 of 10,000 randomized orientations (2.44%).
+  - Descriptive Interpretation:            Exact full-sequence recurrence occurred in 2.44% of randomized
+                                           orientations, demonstrating that sequence identity is not unique to one rotation.
+
+
+10. MODEL ROBUSTNESS: STAGE-II INTEGRATED VISIBILITY SENSITIVITY
+   * Pipeline: Strict rerun of true first-emergence visibility procedure across shifted thresholds.
+   - Naked-Eye Limit Shifted to 4.5 mag:
+     -> Identity Retention:                  19 / 19 unique stars (100.0%)
+     -> Exact Positional Identity Retention: 20 / 20 exact positional slots (100.0%)
+   - Naked-Eye Limit Shifted to 5.5 mag:
+     -> Identity Retention:                  19 / 19 unique stars (100.0%)
+     -> Exact Positional Identity Retention: 20 / 20 exact positional slots (100.0%)
+
+
+SYNTHESIS & INTERPRETATION:
+  * Result: The observed framework did not significantly exceed the geometric efficiency
+    produced by equivalent random framework rotations (p = 0.081).
+  * Conclusion: The proposed framework provides a deterministic and reproducible procedure
+    for prioritizing stellar candidates within a visibility-constrained fivefold celestial geometry.
+    Its geometric efficiency, however, is not statistically exceptional relative to equivalent
+    rotations of the same reconstructed stellar population (p = 0.081). The robustness analysis
+    indicates that the resulting candidate configuration is insensitive to moderate changes in the
+    adopted apparent-visibility threshold, while post-selection brightness does not show an
+    enhancement relative to randomized orientations. Exact recurrence of the stellar identity sequence
+    is relatively uncommon (2.44%) but not unique to the proposed orientation.
+________________
+
+
+20-STAR INTEGRATED SELECTOR: PHASE 1 (E/W) + PHASE 2 (N/S) [BRIGHTNESS ONLY]
+==============================================================================================================
+✓ Locked 10 EAST/WEST Inter-Quintant Anchors.
+
+
+==============================================================================================================
+FINAL 20 INTEGRATED UNIQUE ASTRONOMICAL ANCHORS
+==============================================================================================================
+SLOT        STAR                SOURCE                             SCORE     V_APP
+--------------------------------------------------------------------------------------------------------------
+Q1_EAST     Rigel               INTER-QUINTANT (Phase 1)          0.8624      0.34
+Q1_WEST     Procyon             INTER-QUINTANT (Phase 1)          0.7829      0.54
+Q1_NORTH    Capella             LOCAL FALLBACK (Phase 2)          0.8896      0.23
+Q1_SOUTH    Sirius              LOCAL FALLBACK (Phase 2)          1.0000     -1.27
+Q2_EAST     Alphard             INTER-QUINTANT (Phase 1)          0.1438      2.14
+Q2_WEST     Regulus             INTER-QUINTANT (Phase 1)          0.4000      1.50
+Q2_NORTH    Merak               LOCAL FALLBACK (Phase 2)          0.1544      2.02
+Q2_SOUTH    Canopus             LOCAL FALLBACK (Phase 2)          0.9600     -0.19
+Q3_EAST     Spica               INTER-QUINTANT (Phase 1)          0.5481      1.13
+Q3_WEST     Antares             INTER-QUINTANT (Phase 1)          0.5030      1.24
+Q3_NORTH    Arcturus            LOCAL FALLBACK (Phase 2)          0.9441      0.09
+Q3_SOUTH    Alpha Centauri A    LOCAL FALLBACK (Phase 2)          0.8000      0.36
+Q4_EAST     Kaus Australis      PANORAMIC (Phase 1)               0.1942      2.01
+Q4_WEST     Altair              INTER-QUINTANT (Phase 1)          0.6384      0.90
+Q4_NORTH    Vega                LOCAL FALLBACK (Phase 2)          0.9098      0.18
+Q4_SOUTH    Fomalhaut           LOCAL FALLBACK (Phase 2)          0.3428      1.41
+Q5_EAST     Alpheratz           INTER-QUINTANT (Phase 1)          0.1160      2.21
+Q5_WEST     Hamal               INTER-QUINTANT (Phase 1)          0.1398      2.15
+Q5_NORTH    Mirfak              LOCAL FALLBACK (Phase 2)          0.2038      1.94
+Q5_SOUTH    Achernar            LOCAL FALLBACK (Phase 2)          0.3421      1.22
