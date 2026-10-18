@@ -1,10 +1,9 @@
-﻿import sys
+import sys
 import subprocess
 import os
 import re
 import math
 from collections import defaultdict
-
 
 # Auto-install missing packages
 for pkg in ["pyvo", "astropy", "pandas", "numpy", "scipy", "matplotlib"]:
@@ -13,13 +12,11 @@ for pkg in ["pyvo", "astropy", "pandas", "numpy", "scipy", "matplotlib"]:
     except ImportError:
         subprocess.check_call([sys.executable, "-m", "pip", "install", pkg])
 
-
 import warnings
 from erfa import ErfaWarning
 from astropy.utils.exceptions import AstropyWarning
 warnings.simplefilter('ignore', ErfaWarning)
 warnings.simplefilter('ignore', AstropyWarning)
-
 
 import numpy as np
 import pandas as pd
@@ -31,14 +28,12 @@ from scipy.optimize import linear_sum_assignment
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 
-
 # =====================================================================
 # 1. USER CONFIGURATION & CONSTANTS
 # =====================================================================
 
-
 # Toggle which epoch gets the full detailed console printout & graph to avoid oversaturating the console.
-PRINT_DETAILED_EPOCH = 'b'
+PRINT_DETAILED_EPOCH = 'd'
 # Options:
 # 'a' = San Lorenzo (-1400 BCE),
 # 'b' = Aguada Fenix (-1000 BCE),
@@ -48,18 +43,15 @@ PRINT_DETAILED_EPOCH = 'b'
 # 'f' = Xochicalco (750 CE),
 # 'g' = Tenochtitlan (1500 CE)
 
-
 # --- OPTIONALITY TOGGLES & LIMITS ---
-EXECUTE_20_SELECTOR = False       # True = Run all 7 epochs and 20-Star Selector. False = Run ONLY the single PRINT_DETAILED_EPOCH.
-PRINT_GEOMETRIC_GRID = False      # True = Output full candidate pool (Up to 5 per sector)
-PRINT_STATISTICAL_SUITE = False      # True = Output epoch-specific statistical validation suite
+EXECUTE_20_SELECTOR = True       # True = Run all 7 epochs and 20-Star Selector. False = Run ONLY the single PRINT_DETAILED_EPOCH.
+PRINT_GEOMETRIC_GRID = True      # True = Output full candidate pool (Up to 5 per sector)
+PRINT_STATISTICAL_SUITE = True      # True = Output epoch-specific statistical validation suite
 PRINT_GRAPH_GENERATOR = True      # True = Render the quintant portrait graph for the selected site
-
 
 # Limit and sorting
 MAX_STARS_PER_SECTOR = 5
 SORT_BY = 'declination'          # Final Refined Anchors: 'sub-quadrant' OR 'declination'
-
 
 # Catalog & Visual Limits
 MAG_LIMIT = 2.5
@@ -70,17 +62,14 @@ EQUATOR_LIMIT = 16.0
 POLAR_LIMIT = 30.0
 HIP_EPOCH = Time(1991.25, format='jyear')   # Hipparcos reference epoch of the catalogue positions and proper motions
 
-
 CUSTOM_SECTOR_ORDER = [
     "SOUTHEAST", "EAST", "NORTHEAST", "NORTH",
     "NORTHWEST", "WEST", "SOUTHWEST", "SOUTH"
 ]
 
-
 # 20-Star Selector BASED ON BRIGHTNESS ONLY CONSTRAIN RULES
 # IT ASSUMES PREVIOUS INTERSECTOR_WT AND CENTRALITY_WT HAS BEEN REMOVED
 VAPP_MAX = 2.50
-
 
 SECTOR_FALLBACK = {
     "EAST": {"EAST": 1.0, "NORTHEAST": 0.9, "SOUTHEAST": 0.9},
@@ -89,13 +78,11 @@ SECTOR_FALLBACK = {
     "SOUTH": {"SOUTH": 1.0, "SOUTHEAST": 0.9, "SOUTHWEST": 0.9}
 }
 
-
 FORBIDDEN_NAMES = {
     "central reference", "midpoint", "west", "east", "north", "south",
     "northeast", "northwest", "southeast", "southwest", "score", "symmetry",
     "weight-space", "stable", "candidate", "anchor", "none"
 }
-
 
 # ARCHAEOLOGICAL SITE & EPOCH DATABASE
 EPOCH_DB = {
@@ -107,7 +94,6 @@ EPOCH_DB = {
     'f': {"year": 750, "site_name": "Xochicalco", "period": "Epiclassic Central Highlands", "lat": 17.8814, "lon": -99.2969, "elevation_asl": 1300.0, "platform_height": 12.0, "temp_c": 18.0, "pressure_hpa": 865.0, "k_v": 0.16, "terrain_mask_deg": 0.8},
     'g': {"year": 1500, "site_name": "Tenochtitlan", "period": "Late Postclassic Aztec", "lat": 19.4349, "lon": -99.1313, "elevation_asl": 2240.0, "platform_height": 60.0, "temp_c": 13.0, "pressure_hpa": 772.0, "k_v": 0.15, "terrain_mask_deg": 2.5}
 }
-
 
 HIP_NAMES = {
     3419: "Diphda", 32349: "Sirius", 30438: "Canopus", 24436: "Rigel", 27989: "Betelgeuse", 24608: "Capella",
@@ -127,26 +113,21 @@ HIP_NAMES = {
     71352: "Eta Centauri", 71860: "Alpha Lupi", 82396: "Larawag"
 }
 
-
 # =====================================================================
 # 2. HELPER FUNCTIONS
 # =====================================================================
-
 
 def normalize_name(name):
     if pd.isna(name) or not str(name).strip(): return None
     return re.sub(r'\s+', ' ', str(name).strip())
 
-
 def canonical_name(name):
     n = normalize_name(name)
     return n.casefold() if n else None
 
-
 def is_forbidden_name(name):
     c = canonical_name(name)
     return c is None or c in FORBIDDEN_NAMES
-
 
 def bce_to_jd(bce_or_ce_year, month=12, day=1, hour=0):
     year = bce_or_ce_year + 1 if bce_or_ce_year < 0 else bce_or_ce_year
@@ -157,13 +138,11 @@ def bce_to_jd(bce_or_ce_year, month=12, day=1, hour=0):
     B = 2 - A + np.floor(A / 4)
     return np.floor(365.25 * (year + 4716)) + np.floor(30.6001 * (month + 1)) + day + (hour / 24.0) - 1524.5
 
-
 def rozenberg_1966_airmass(alt_deg):
     if alt_deg <= -1.5: return 99.0
     z_deg = 90.0 - alt_deg
     z_rad = np.radians(max(z_deg, 0.0))
     return 1.0 / (np.cos(z_rad) + 0.025 * np.exp(-11.0 * np.cos(z_rad)))
-
 
 def schaefer_1993_extinction(alt_deg, pressure_hpa, site_kv):
     X = rozenberg_1966_airmass(alt_deg)
@@ -172,7 +151,6 @@ def schaefer_1993_extinction(alt_deg, pressure_hpa, site_kv):
     k_rayleigh = 0.1451 * p_ratio
     k_aerosol = max(0.01, site_kv - k_rayleigh)
     return (k_rayleigh + k_aerosol) * X
-
 
 def assign_sector(dec, delta_ra):
     abs_dec = abs(dec)
@@ -186,10 +164,8 @@ def assign_sector(dec, delta_ra):
         elif not is_north and not is_east: return "SOUTHWEST"
         else: return "SOUTHEAST"
 
-
 def angular_distance_from_midpoint(ra, midpoint):
     return ((ra - midpoint + 180.0) % 360.0) - 180.0
-
 
 def score_individual_candidates(df):
     if df.empty: return df.copy()
@@ -199,7 +175,6 @@ def score_individual_candidates(df):
     df["IQ_BRIGHTNESS_SCORE"] = (1.0 - ((df["IQ_V_APP"] - v_min) / (v_max - v_min))) if v_max > v_min else 1.0
     return df
 
-
 def safe_get_col(df, candidates):
     col_lookup = {col.lower(): col for col in df.columns}
     for cand in candidates:
@@ -208,27 +183,22 @@ def safe_get_col(df, candidates):
             return df[actual_col].values
     raise KeyError(f"None of {candidates} found in DataFrame columns: {list(df.columns)}")
 
-
 def generate_emergence_pool(df, magnitude_limit):
     v_app_emergence = safe_get_col(df, ["V_App_Emergence", "IQ_V_APP", "V_App_Culm"])
     max_alt = safe_get_col(df, ["Max_Alt"])
     mask = (v_app_emergence <= magnitude_limit) & (max_alt > 0.0)
     return df[mask].copy()
 
-
 # =====================================================================
 # 3. EPOCH GENERATOR (Runs 1 Epoch and returns in-memory data)
 # =====================================================================
-
 
 def run_epoch(epoch_key, epoch_index, base_stars_df):
     site_cfg = EPOCH_DB[epoch_key]
     year = site_cfg["year"]
     year_str = f"{abs(year)} BCE" if year < 0 else f"{year} CE"
 
-
     print(f"Processing Epoch {epoch_index}/7: {site_cfg['site_name']} ({year_str})...")
-
 
     jd = bce_to_jd(year, hour=0)
     t = Time(jd, format='jd', scale='utc')
@@ -237,23 +207,19 @@ def run_epoch(epoch_key, epoch_index, base_stars_df):
     h_total = site_cfg["elevation_asl"] + h_pyramid
     terrain_mask = site_cfg["terrain_mask_deg"]
 
-
     horizon_dip_deg = 0.0347 * np.sqrt(h_pyramid)
     effective_horizon_alt = max(terrain_mask, -horizon_dip_deg)
     location = EarthLocation(lat=site_cfg["lat"]*u.deg, lon=site_cfg["lon"]*u.deg, height=h_total*u.m)
     times_24h = t + np.linspace(0, 1, 720) * u.day
     altaz_frame = AltAz(obstime=times_24h, location=location, pressure=site_cfg["pressure_hpa"]*u.hPa, temperature=site_cfg["temp_c"]*u.deg_C)
 
-
     mintaka_icrs = SkyCoord(ra="05h32m00.40s", dec="-00d17m56.7s", pm_ra_cosdec=0.59*u.mas/u.yr, pm_dec=-0.64*u.mas/u.yr, frame='icrs', obstime=Time('J2000'))
     mintaka_epoch = mintaka_icrs.apply_space_motion(new_obstime=t).transform_to(fk5_epoch)
     mintaka_ra_epoch = mintaka_epoch.ra.deg
     dynamic_framework_offset = (mintaka_ra_epoch - HALF_WIDTH) % 360.0
 
-
     stars = base_stars_df.copy()
     epoch_coords, max_alts, v_apps_culm, h_vis_list, rise_azimuths, status_list = [], [], [], [], [], []
-
 
     for _, row in stars.iterrows():
         plx_mas = row["Plx"]
@@ -263,7 +229,6 @@ def run_epoch(epoch_key, epoch_index, base_stars_df):
         coord = SkyCoord(**coord_kwargs).apply_space_motion(new_obstime=t).transform_to(fk5_epoch)
         epoch_coords.append((coord.ra.deg, coord.dec.deg))
 
-
         star_altaz = coord.transform_to(altaz_frame)
         alts, azs = star_altaz.alt.deg, star_altaz.az.deg
         max_idx, min_idx = np.argmax(alts), np.argmin(alts)
@@ -272,12 +237,10 @@ def run_epoch(epoch_key, epoch_index, base_stars_df):
         ext_culm = schaefer_1993_extinction(max_alt_app, site_cfg["pressure_hpa"], site_cfg["k_v"])
         v_app_culm = row["Vmag"] + ext_culm if max_alt_app > 0 else 99.0
 
-
         alts_48 = np.concatenate((alts, alts))
         azs_48 = np.concatenate((azs, azs))
         d_alt_48 = np.diff(alts_48, prepend=alts_48[0])
         rising_nodes = np.where((alts_48[:720] < effective_horizon_alt) & (alts_48[1:721] >= effective_horizon_alt) & (d_alt_48[1:721] > 0))[0]
-
 
         true_rise_az, first_visible_az, first_visible_h = None, None, None
         if len(rising_nodes) > 0:
@@ -288,7 +251,6 @@ def run_epoch(epoch_key, epoch_index, base_stars_df):
             frac = (effective_horizon_alt - h1) / (h2 - h1) if (h2 - h1) != 0 else 0
             true_rise_az = (az1 + frac * (az2 - az1)) % 360.0
 
-
             max_seen_alt = -999.0
             for alt_i, az_i in zip(alts_48[idx : idx + 720], azs_48[idx : idx + 720]):
                 if alt_i < max_seen_alt: break
@@ -297,7 +259,6 @@ def run_epoch(epoch_key, epoch_index, base_stars_df):
                 if (row["Vmag"] + ext_i) <= NAKED_EYE_LIMIT_MAG:
                     first_visible_az, first_visible_h = az_i, alt_i
                     break
-
 
         if min_alt_app > 0:
             az_str, h_vis_str, status = "CIRCUMPOLAR", "N/A", "CIRCUMPOLAR"
@@ -309,19 +270,16 @@ def run_epoch(epoch_key, epoch_index, base_stars_df):
         else:
             az_str, h_vis_str, status = "Never Rises", "N/A", "SUB-HORIZON"
 
-
         max_alts.append(max_alt_app)
         v_apps_culm.append(v_app_culm)
         h_vis_list.append(h_vis_str)
         rise_azimuths.append(az_str)
         status_list.append(status)
 
-
     coords_df = pd.DataFrame(epoch_coords, columns=["RA_EPOCH", "DEC_EPOCH"])
     stars["RA_EPOCH"], stars["DEC_EPOCH"] = coords_df["RA_EPOCH"], coords_df["DEC_EPOCH"]
     stars["Max_Alt"], stars["V_App_Culm"] = max_alts, v_apps_culm
     stars["H_Vis"], stars["Rise_Azimuth"], stars["Status"] = h_vis_list, rise_azimuths, status_list
-
 
     stars["RA_FRAME"] = (stars["RA_EPOCH"] - dynamic_framework_offset) % 360
     stars["Quintant"] = (stars["RA_FRAME"] // QUINTANT_WIDTH).astype(int) + 1
@@ -329,7 +287,6 @@ def run_epoch(epoch_key, epoch_index, base_stars_df):
     stars["Delta_RA"] = (stars["RA_FRAME"] - stars["Center_RA"] + 180) % 360 - 180
     stars["Sector"] = stars.apply(lambda r: assign_sector(r["DEC_EPOCH"], r["Delta_RA"]), axis=1)
     visible_stars = stars[stars["Status"].isin(["VISIBLE BEACON", "CIRCUMPOLAR"])].copy()
-
 
     # --- Extract Active Primary Anchors & Candidate Pool ---
     final_anchor_rows = []
@@ -343,10 +300,8 @@ def run_epoch(epoch_key, epoch_index, base_stars_df):
                 top_star = sec_stars.iloc[0]
                 final_anchor_rows.append(top_star)
 
-
     final_anchors_df = pd.DataFrame(final_anchor_rows)
     candidate_pool_df = pd.DataFrame(candidate_pool_rows)
-
 
     if SORT_BY.lower() == 'declination':
         final_anchors_df = final_anchors_df.sort_values(by="DEC_EPOCH", ascending=False)
@@ -354,7 +309,6 @@ def run_epoch(epoch_key, epoch_index, base_stars_df):
         sector_rank = {sec: i for i, sec in enumerate(CUSTOM_SECTOR_ORDER)}
         final_anchors_df["Sector_Rank"] = final_anchors_df["Sector"].map(sector_rank)
         final_anchors_df = final_anchors_df.sort_values(by=["Quintant", "Sector_Rank"])
-
 
     # --- Inter-Quintant Candidates ---
     revalidation_pool = visible_stars.copy()
@@ -364,7 +318,6 @@ def run_epoch(epoch_key, epoch_index, base_stars_df):
     revalidation_pool["IQ_V_APP"] = pd.to_numeric(revalidation_pool["V_App_Culm"], errors="coerce").fillna(revalidation_pool["IQ_VMAG"])
     revalidation_pool = revalidation_pool.dropna(subset=["IQ_DEC", "IQ_RA_FRAME", "IQ_V_APP"]).copy()
 
-
     inter_quintant_rows = []
     for central_q in range(1, 6):
         previous_q, upcoming_q = ((central_q - 2) % 5) + 1, (central_q % 5) + 1
@@ -372,21 +325,17 @@ def run_epoch(epoch_key, epoch_index, base_stars_df):
         q_pool = revalidation_pool.copy()
         q_pool["IQ_DELTA_RA"] = q_pool["IQ_RA_FRAME"].apply(lambda x: angular_distance_from_midpoint(x, central_midpoint))
 
-
         central_candidates = q_pool[q_pool["IQ_DEC"].abs() <= 30.0].copy()
         central_candidates["IQ_ABS_DELTA_RA"] = central_candidates["IQ_DELTA_RA"].abs()
         central_selected = central_candidates.sort_values(by=["IQ_ABS_DELTA_RA", "IQ_V_APP"]).iloc[0] if not central_candidates.empty else None
-
 
         west_pool = q_pool[(q_pool["Quintant"] == previous_q) & (q_pool["IQ_DELTA_RA"] < 0) & (q_pool["IQ_DELTA_RA"] >= -80.0)].copy()
         west_primary = west_pool[west_pool["IQ_DEC"].abs() <= 16.0].copy()
         west_candidates = score_individual_candidates(west_primary if not west_primary.empty else west_pool[west_pool["IQ_DEC"].abs() <= 30.0].copy())
 
-
         east_pool = q_pool[(q_pool["Quintant"] == upcoming_q) & (q_pool["IQ_DELTA_RA"] > 0) & (q_pool["IQ_DELTA_RA"] <= 80.0)].copy()
         east_primary = east_pool[east_pool["IQ_DEC"].abs() <= 16.0].copy()
         east_candidates = score_individual_candidates(east_primary if not east_primary.empty else east_pool[east_pool["IQ_DEC"].abs() <= 30.0].copy())
-
 
         pair_results = []
         if not west_candidates.empty and not east_candidates.empty:
@@ -403,10 +352,8 @@ def run_epoch(epoch_key, epoch_index, base_stars_df):
                         "Pair_Brightness": pair_bright, "Pair_DEC": pair_dec, "Pair_Score": pair_score
                     })
 
-
         best_pair = sorted(pair_results, key=lambda x: (x["Pair_Score"], x["Symmetry_Score"], x["Pair_Brightness"]), reverse=True)[0] if pair_results else None
         west_selected, east_selected = (best_pair["West"], best_pair["East"]) if best_pair else (None, None)
-
 
         inter_quintant_rows.append({
             "Central_Quintant": central_q,
@@ -424,7 +371,6 @@ def run_epoch(epoch_key, epoch_index, base_stars_df):
         })
     inter_quintant_df = pd.DataFrame(inter_quintant_rows)
 
-
     # --- Meridional Candidates ---
     ns_candidates = candidate_pool_df.copy()
     ns_candidates["NS_V_APP"] = pd.to_numeric(ns_candidates["V_App_Culm"], errors="coerce")
@@ -433,14 +379,12 @@ def run_epoch(epoch_key, epoch_index, base_stars_df):
     ns_candidates = ns_candidates.dropna(subset=["NS_V_APP", "NS_DEC", "NS_RA"]).copy()
     ns_candidates = ns_candidates[ns_candidates["NS_V_APP"] <= 2.5].copy()
 
-
     mintaka_offset = mintaka_ra_epoch - 36.0
     ns_candidates["NS_RA_FRAME"] = (ns_candidates["NS_RA"] - mintaka_offset) % 360.0
     ns_candidates["NS_Quintant"] = (ns_candidates["NS_RA_FRAME"] // QUINTANT_WIDTH).astype(int) + 1
     ns_candidates["NS_Midpoint"] = (ns_candidates["NS_Quintant"] - 1) * QUINTANT_WIDTH + HALF_WIDTH
     ns_candidates["NS_DeltaRA"] = ((ns_candidates["NS_RA_FRAME"] - ns_candidates["NS_Midpoint"] + 180.0) % 360.0) - 180.0
     ns_candidates["NS_AbsDeltaRA"] = ns_candidates["NS_DeltaRA"].abs()
-
 
     ns_results = []
     for q in range(1, 6):
@@ -452,7 +396,6 @@ def run_epoch(epoch_key, epoch_index, base_stars_df):
         south = south_cands.sort_values(by=["NS_AbsDeltaRA", "NS_V_APP"]).iloc[0] if not south_cands.empty else None
         ns_results.append({"Quintant": q, "Midpoint": midpoint, "North": north, "South": south})
 
-
     # =====================================================================
     # DETAILED EPOCH PRINTOUTS & STATISTICAL SUITE (Triggered by Config)
     # =====================================================================
@@ -460,7 +403,6 @@ def run_epoch(epoch_key, epoch_index, base_stars_df):
         print("\n" + "="*85)
         print(f"DETAILED OUTPUT FOR {site_cfg['site_name']} ({year_str})")
         print("="*85)
-
 
         # 1. Geometric Grid Pool
         if PRINT_GEOMETRIC_GRID:
@@ -477,7 +419,6 @@ def run_epoch(epoch_key, epoch_index, base_stars_df):
                         v_culm_str = f"{r['V_App_Culm']:.2f}" if r['V_App_Culm'] < 90 else "EXT"
                         print(f"  [HIP {r['HIP']:<5}] {r['Star_Name']:<22} | V Base: {r['Vmag']:4.2f} | Culm Alt: {r['Max_Alt']:5.1f}° | Culm V_App: {v_culm_str:<5} | Rise Az: {r['Rise_Azimuth']:<14} | H_Vis: {r['H_Vis']}")
 
-
         # 2. Final Refined Anchor List
         print(f"\nFINAL REFINED ANCHOR LIST [Primary Anchor per Active Sub-Quadrant | Sorted by: {SORT_BY.upper()}]:")
         print(f"{'Q':<2} | {'SECTOR':<10} | {'HIP ID':<7} | {'STAR NAME':<22} | {'V BASE':<6} | {'DEC (EPOCH)':<11} | {'CULM ALT':<9} | {'CULM V_APP':<10} | {'CALCULATED RISE AZ'}")
@@ -487,7 +428,6 @@ def run_epoch(epoch_key, epoch_index, base_stars_df):
             print(f"{r['Quintant']:<2} | {r['Sector']:<10} | HIP {r['HIP']:<5} | {r['Star_Name']:<22} | {r['Vmag']:<6.2f} | {r['DEC_EPOCH']:<11.3f}° | {r['Max_Alt']:<9.1f}° | {v_culm_s:<10} | {r['Rise_Azimuth']}")
         print("-" * 85)
         print(f"Total Active Refined Anchors Identified: {len(final_anchors_df)} Stars across 5 Quintants")
-
 
         # 3. Inter-Quintant Table
         print("\nINTER-QUINTANT GEOMETRICAL RE-CANDIDATE SHORTLIST (Observable horizon constraint: Quintant midpoint +/-80°)")
@@ -501,7 +441,6 @@ def run_epoch(epoch_key, epoch_index, base_stars_df):
             w_star = f"{r['West']}" if r['West'] != "NONE" else "NONE"
             e_star = f"{r['East']}" if r['East'] != "NONE" else "NONE"
             print(f"Q{int(r['Central_Quintant']):<3} | {c_ref:<18} | {w_star:<12} | {r['West_Delta']:+8.3f}° | {e_star:<12} | {r['East_Delta']:+8.3f}° | {r['Symmetry_Error']:6.3f}° | {r['Pair_Score']:6.4f}")
-
 
         # 4. Meridional Table
         print("\nNORTH / SOUTH MERIDIONAL GEOMETRICAL RE-CANDIDATE SHORTLIST (Quintant midpoint meridian +/-18° RA)")
@@ -517,7 +456,6 @@ def run_epoch(epoch_key, epoch_index, base_stars_df):
             south_dec = f"{south['NS_DEC']:+.3f}°" if south is not None else "N/A"
             print(f"Q{q:<4} | {midpoint:9.3f}° | {north_name:<22} | {north_delta:>9} | {north_dec:>9} | {south_name:<22} | {south_delta:>9} | {south_dec:>9}")
 
-
         # 5. Statistical Suite
         if PRINT_STATISTICAL_SUITE:
             print("\n" + "="*85)
@@ -526,7 +464,6 @@ def run_epoch(epoch_key, epoch_index, base_stars_df):
             print("RNG Seeds: Horizon=2026 | Bootstrap=2027 | Framework=2028")
             print("Weight grid: 0.10 intervals | 66 admissible combinations")
             print("Rotational null: Δθ ~ U[-36°, +36°) | N=10,000")
-
 
             rng_horizon = np.random.default_rng(2026)
             rng_boot = np.random.default_rng(2027)
@@ -541,7 +478,6 @@ def run_epoch(epoch_key, epoch_index, base_stars_df):
                 "Declination (0/0/1)": np.array([0., 0., 1.])
             }
 
-
             pool = revalidation_pool.copy().dropna(subset=["IQ_RA_FRAME", "IQ_DEC", "IQ_V_APP"])
             RA = pool["IQ_RA_FRAME"].to_numpy(float)
             DEC = pool["IQ_DEC"].to_numpy(float)
@@ -549,7 +485,6 @@ def run_epoch(epoch_key, epoch_index, base_stars_df):
             NAMES = pool["Star_Name"].astype(str).to_numpy()
             B = np.clip(1 - ((pool["IQ_V_APP"].to_numpy(float) - pool["IQ_V_APP"].min()) / (pool["IQ_V_APP"].max() - pool["IQ_V_APP"].min())), 0, 1) if pool["IQ_V_APP"].max() > pool["IQ_V_APP"].min() else np.ones(len(pool))
             D = np.clip(1 - np.abs(DEC) / 30.0, 0, 1)
-
 
             def evaluate_weight_space(offset):
                 ra_frame = (RA - (mintaka_ra_epoch - HALF_WIDTH + offset)) % 360
@@ -595,17 +530,14 @@ def run_epoch(epoch_key, epoch_index, base_stars_df):
                             for r in rosters: r.append("NONE")
                 return scores, rosters
 
-
             obs_scores, obs_rosters = evaluate_weight_space(0.0)
             base_idx = np.argmin(np.linalg.norm(WEIGHT_GRID - ORIGINAL_WEIGHTS, axis=1))
             base_roster = obs_rosters[base_idx]
             base_set = set(x for x in base_roster if x != "NONE")
 
-
             print("\n1. ORIGINAL CANDIDATE-RANKING MODEL")
             print(f"   Weights: Brightness={ORIGINAL_WEIGHTS[0]:.2f} | Symmetry={ORIGINAL_WEIGHTS[1]:.2f} | Declination={ORIGINAL_WEIGHTS[2]:.2f}")
             print(f"   Observed framework score: {obs_scores[base_idx]:.4f}")
-
 
             id_ret, pos_ret = np.zeros(len(WEIGHT_GRID)), np.zeros(len(WEIGHT_GRID))
             for i, r in enumerate(obs_rosters):
@@ -614,14 +546,12 @@ def run_epoch(epoch_key, epoch_index, base_stars_df):
                 active = sum(x != "NONE" for x in base_roster)
                 pos_ret[i] = 100 * sum(a == b and a != "NONE" for a, b in zip(base_roster, r)) / active if active else 0
 
-
             print("\n2. WEIGHT-SPACE ROBUSTNESS")
             print(f"   ≥90% identity retention: {np.sum(id_ret >= 90)}/{len(WEIGHT_GRID)} ({100*np.mean(id_ret >= 90):.1f}%)")
             print(f"   Median identity retention: {np.median(id_ret):.1f}%")
             print(f"   Minimum identity retention: {np.min(id_ret):.1f}%")
             print(f"   Median positional retention: {np.median(pos_ret):.1f}%")
             print(f"   Minimum positional retention: {np.min(pos_ret):.1f}%")
-
 
             counts = {}
             for r in obs_rosters:
@@ -633,7 +563,6 @@ def run_epoch(epoch_key, epoch_index, base_stars_df):
                 cls = "Core Anchor" if p >= 0.90 else "Stable Candidate" if p >= 0.50 else "Weight-Sensitive"
                 print(f"   {s:<34} {p:>7.3f}        {cls}")
 
-
             N_PERM, CHUNK = 10000, 250
             perm_scores = np.empty((len(WEIGHT_GRID), N_PERM), dtype=np.float32)
             rotations = rng_framework.uniform(-36, 36, N_PERM)
@@ -644,7 +573,6 @@ def run_epoch(epoch_key, epoch_index, base_stars_df):
                     perm_scores[:, j], _ = evaluate_weight_space(float(rot))
                 print(f"   Completed rotations {start+1:,}-{end:,}/{N_PERM:,}", flush=True)
 
-
             def report_model(label, w):
                 idx = np.argmin(np.linalg.norm(WEIGHT_GRID - w, axis=1))
                 obs, perm = obs_scores[idx], perm_scores[idx]
@@ -652,14 +580,12 @@ def run_epoch(epoch_key, epoch_index, base_stars_df):
                 p = (k + 1) / (N_PERM + 1)
                 return idx, obs, np.mean(perm), np.std(perm), k, p, np.sqrt(p * (1 - p) / N_PERM), 100 * np.mean(perm <= obs)
 
-
             print("\n5. PRIMARY MODEL & CONTROL MODELS")
             models = {"Original 40/35/25": ORIGINAL_WEIGHTS, **CONTROL_MODELS}
             for label, w in models.items():
                 if label == "Equal (1/3)": continue
                 idx, obs, m, s, k, p, se, pct = report_model(label, w)
                 print(f"\n   {label}\n      Weights: {w[0]:.2f}/{w[1]:.2f}/{w[2]:.2f}\n      Observed score: {obs:.4f}\n      Random mean ± SD: {m:.4f} ± {s:.4f}\n      Empirical p: {p:.5f} | MC SE: ±{se:.5f}\n      Observed percentile: {pct:.2f}%")
-
 
             # Exact equal-weight control
             def evaluate_exact_weights(offset, weights):
@@ -685,7 +611,6 @@ def run_epoch(epoch_key, epoch_index, base_stars_df):
                             score += np.max((weights[0] * B[idx] + weights[2] * D[idx]) / (weights[0] + weights[2]))
                 return score
 
-
             eq_obs = evaluate_exact_weights(0.0, EQUAL_WEIGHTS)
             eq_scores = np.empty(N_PERM, dtype=np.float32)
             for start in range(0, N_PERM, CHUNK):
@@ -696,18 +621,15 @@ def run_epoch(epoch_key, epoch_index, base_stars_df):
             eq_p = (eq_k + 1) / (N_PERM + 1)
             print(f"\n   Equal Weights (1/3,1/3,1/3)\n      Observed score: {eq_obs:.4f}\n      Random mean ± SD: {np.mean(eq_scores):.4f} ± {np.std(eq_scores):.4f}\n      Empirical p: {eq_p:.5f}")
 
-
             # Observational Diagnostics
             valid_azimuths = [float(str(az).replace('°', '').strip()) for az in final_anchors_df['Rise_Azimuth'] if "°" in str(az)]
             az_array = np.array(valid_azimuths)
             n_anchors = len(az_array)
 
-
             if n_anchors >= 3:
                 az_rad = np.radians(az_array)
                 r_statistic = np.sqrt(np.sum(np.cos(az_rad))**2 + np.sum(np.sin(az_rad))**2) / n_anchors
                 print(f"\n6. DESCRIPTIVE HORIZON STATISTIC: ANGULAR CONCENTRATION\n   - Resultant-length concentration statistic (R): {r_statistic:.4f}")
-
 
         # --- B: SUPPLEMENTARY BASELINE HORIZON NULL ---
             simulations = 10000
@@ -718,11 +640,9 @@ def run_epoch(epoch_key, epoch_index, base_stars_df):
                    sim_r = np.sqrt(np.sum(np.cos(sim_rad))**2 + np.sum(np.sin(sim_rad))**2) / n_anchors
                    mc_clustering_scores.append(sim_r)
 
-
             mc_clustering_scores = np.array(mc_clustering_scores)
             k_exceedances = np.sum(mc_clustering_scores >= r_statistic)
             mc_p_value = (k_exceedances + 1) / (simulations + 1)
-
 
             print(f"\n   SUPPLEMENTARY BASELINE HORIZON NULL: MONTE CARLO AZIMUTH SIMULATION")
             print(f"   * Status: Baseline horizon diagnostic (Not primary evidence for the fivefold framework).")
@@ -732,14 +652,12 @@ def run_epoch(epoch_key, epoch_index, base_stars_df):
             print(f"   - Exceedances (k >= R): {k_exceedances}")
             print(f"   - Empirical P-Value: {mc_p_value:.5f} [(k + 1) / (N + 1)]")
 
-
             # --- D: SUPPLEMENTARY DIAGNOSTIC A: BOOTSTRAP RESAMPLING ---
             boot_iterations = 5000
             boot_means = []
             for _ in range(boot_iterations):
                    sample = rng_boot.choice(az_array, size=n_anchors, replace=True)
                    boot_means.append(np.mean(sample))
-
 
             ci_lower, ci_upper = np.percentile(boot_means, [2.5, 97.5])
             print(f"\n   SUPPLEMENTARY DIAGNOSTIC A: BOOTSTRAP AZIMUTH RESAMPLING (N = {boot_iterations:,})")
@@ -748,24 +666,20 @@ def run_epoch(epoch_key, epoch_index, base_stars_df):
             print(f"   - Observed Mean Azimuth: {np.mean(az_array):.2f}°")
             print(f"   - Nonparametric 95% CI: [{ci_lower:.2f}°, {ci_upper:.2f}°]")
 
-
             # --- E: SUPPLEMENTARY DIAGNOSTIC B: FALSE-MATCH BASELINE ---
             alignment_tolerance_deg = 2.0
             horizon_span = 180.0
             k_windows = len(final_anchors_df)
             visible_pool_size = len(stars[stars['Status'] == 'VISIBLE BEACON'])
 
-
             prob_single_match = (alignment_tolerance_deg * 2) / horizon_span
             expected_false_total = prob_single_match * visible_pool_size * k_windows
             prob_at_least_one = 1 - (1 - prob_single_match)**(visible_pool_size * k_windows)
-
 
             print(f"\n   SUPPLEMENTARY DIAGNOSTIC B: ILLUSTRATIVE FALSE-MATCH BASELINE")
             print(f"   * Status: Illustrative upper-bound diagnostic (Permissive analytic model)")
             print(f"   - Expected Accidental Alignments: {expected_false_total:.2f} stars")
             print(f"   - Probability of >= 1 Accidental Match: {prob_at_least_one:.4f} ({(prob_at_least_one*100):.2f}%)")
-
 
             # Primary Framework Permutation Test
             base_pool = generate_emergence_pool(stars, NAKED_EYE_LIMIT_MAG)
@@ -776,13 +690,11 @@ def run_epoch(epoch_key, epoch_index, base_stars_df):
             base_hip = safe_get_col(base_pool, ["HIP", "HIP_ID"])
             base_dec_scores = np.clip(1.0 - (np.abs(base_dec) / 30.0), 0.0, 1.0)
 
-
             def evaluate_framework_fast(offset, t_ra, t_dec, t_vapp, t_names, t_hip, t_dec_scores):
                 sim_x0 = (mintaka_ra_epoch + offset - 36.0) % 360.0
                 sim_ra_frame = (t_ra - sim_x0) % 360.0
                 sim_quintant = (sim_ra_frame // QUINTANT_WIDTH).astype(int) + 1
                 sequence, pure_geom_score, selected_v_mags = [], 0.0, []
-
 
                 for central_q in range(1, 6):
                     central_midpoint = (central_q - 1) * QUINTANT_WIDTH + HALF_WIDTH
@@ -790,7 +702,6 @@ def run_epoch(epoch_key, epoch_index, base_stars_df):
                     sim_delta_ra = ((sim_ra_frame - central_midpoint + 180.0) % 360.0) - 180.0
                     sim_abs_delta = np.abs(sim_delta_ra)
                     q_mask = (sim_quintant == central_q)
-
 
                     n_mask = q_mask & (t_dec >= 30.0) & (sim_abs_delta <= 18.0)
                     n_idx = np.where(n_mask)[0]
@@ -800,7 +711,6 @@ def run_epoch(epoch_key, epoch_index, base_stars_df):
                         selected_v_mags.append(t_vapp[best_n])
                     else: sim_n_name = None
 
-
                     s_mask = q_mask & (t_dec <= -30.0) & (sim_abs_delta <= 18.0)
                     s_idx = np.where(s_mask)[0]
                     if len(s_idx) > 0:
@@ -809,12 +719,10 @@ def run_epoch(epoch_key, epoch_index, base_stars_df):
                         selected_v_mags.append(t_vapp[best_s])
                     else: sim_s_name = None
 
-
                     w_mask = (sim_quintant == previous_q) & (sim_delta_ra < 0) & (sim_delta_ra >= -80.0)
                     w_idx = np.where(w_mask)[0]
                     e_mask = (sim_quintant == upcoming_q) & (sim_delta_ra > 0) & (sim_delta_ra <= 80.0)
                     e_idx = np.where(e_mask)[0]
-
 
                     best_geom_score, sim_w_name, sim_e_name, best_pair_vmag = -1.0, None, None, None
                     if len(w_idx) > 0 and len(e_idx) > 0:
@@ -823,7 +731,6 @@ def run_epoch(epoch_key, epoch_index, base_stars_df):
                         e_primary_idx = e_idx[np.abs(t_dec[e_idx]) <= 16.0]
                         e_pool_idx = e_primary_idx if len(e_primary_idx) > 0 else e_idx[np.abs(t_dec[e_idx]) <= 30.0]
 
-
                         for w in w_pool_idx:
                             for e in e_pool_idx:
                                 sym_score = max(0.0, min(1.0, 1.0 - (abs(abs(sim_delta_ra[w]) - abs(sim_delta_ra[e])) / 80.0)))
@@ -831,18 +738,14 @@ def run_epoch(epoch_key, epoch_index, base_stars_df):
                                 if geom_score > best_geom_score:
                                     best_geom_score, sim_w_name, sim_e_name, best_pair_vmag = geom_score, t_names[w], t_names[e], (t_vapp[w] + t_vapp[e]) / 2.0
 
-
                     if best_geom_score > 0:
                         pure_geom_score += best_geom_score
                         if best_pair_vmag is not None: selected_v_mags.append(best_pair_vmag)
                     sequence.extend([sim_w_name, sim_e_name, sim_n_name, sim_s_name])
 
-
                 return sequence, pure_geom_score, np.mean(selected_v_mags) if len(selected_v_mags) > 0 else np.nan
 
-
             observed_sequence, observed_score, observed_vmag = evaluate_framework_fast(0.0, base_ra, base_dec, base_v_app, base_names, base_hip, base_dec_scores)
-
 
             print("\n7. INFERENTIAL METRIC: E/W STRUCTURAL EFFICIENCY")
             print(f"Executing {N_PERM:,} geometrical spatial randomizations [-36°, +36°)...")
@@ -853,18 +756,15 @@ def run_epoch(epoch_key, epoch_index, base_stars_df):
                 sim_vmags.append(sim_vmag)
                 if sim_seq == observed_sequence: exact_matches += 1
 
-
             sim_scores = np.array(sim_scores)
             k_score_exceedances = np.sum(sim_scores >= observed_score)
             p_score = (k_score_exceedances + 1) / (N_PERM + 1)
-
 
             print(f"  - Observed E/W Structural Score:         {observed_score:.4f}")
             print(f"  - Mean Simulated E/W Score:              {np.mean(sim_scores):.4f} (±{np.std(sim_scores):.4f})")
             print(f"  - Exceedances (k >= Observed Score):     {k_score_exceedances}")
             print(f"  - Primary Empirical P-Value:             {p_score:.5f} [(k + 1) / (N + 1)]")
             print("")
-
 
             # Secondary Descriptive Brightness Characterization
             mag_diff = observed_vmag - np.nanmean(sim_vmags)
@@ -884,7 +784,6 @@ def run_epoch(epoch_key, epoch_index, base_stars_df):
             print(f"  - Scientific Synthesis:                  Provides no independent brightness enhancement/advantage.")
             print("")
 
-
             # Sequence Identity Recurrence
             exact_recurrence_pct = (exact_matches / N_PERM) * 100
             print(f"9. SECONDARY DIAGNOSTIC: SEQUENCE IDENTITY RECURRENCE")
@@ -894,7 +793,6 @@ def run_epoch(epoch_key, epoch_index, base_stars_df):
             print(f"  - Descriptive Interpretation:            Exact full-sequence recurrence occurred in {exact_recurrence_pct:.2f}% of randomized")
             print(f"                                           orientations, demonstrating that sequence identity is not unique to one rotation.")
             print("")
-
 
             # Visibility Sensitivity
             print(f"10. MODEL ROBUSTNESS: STAGE-II INTEGRATED VISIBILITY SENSITIVITY")
@@ -908,7 +806,6 @@ def run_epoch(epoch_key, epoch_index, base_stars_df):
                    print(f"   - Naked-Eye Limit Shifted to {test_limit:.1f} mag: 0% (Framework collapsed)")
                    continue
 
-
                t_ra = safe_get_col(temp_pool, ["IQ_RA", "RA_EPOCH", "RA", "RAICRS"])
                t_dec = safe_get_col(temp_pool, ["IQ_DEC", "DEC_EPOCH", "Dec", "DEICRS"])
                t_vapp = safe_get_col(temp_pool, ["V_App_Emergence", "IQ_V_APP", "V_App_Culm"])
@@ -916,24 +813,19 @@ def run_epoch(epoch_key, epoch_index, base_stars_df):
                t_hip = safe_get_col(temp_pool, ["HIP", "HIP_ID"])
                t_dec_scores = np.clip(1.0 - (np.abs(t_dec) / 30.0), 0.0, 1.0)
 
-
                sim_seq, _, _ = evaluate_framework_fast(0.0, t_ra, t_dec, t_vapp, t_names, t_hip, t_dec_scores)
                sim_set = set([s for s in sim_seq if s is not None])
 
-
                retained_id = len(baseline_set.intersection(sim_set))
                id_rate = (retained_id / len(baseline_set)) * 100
-
 
                slot_matches = sum(1 for b_item, s_item in zip(observed_sequence, sim_seq) if b_item == s_item and b_item is not None)
                active_baseline_slots = sum(1 for b_item in observed_sequence if b_item is not None)
                slot_rate = (slot_matches / active_baseline_slots) * 100 if active_baseline_slots > 0 else 0.0
 
-
                print(f"   - Naked-Eye Limit Shifted to {test_limit:.1f} mag:")
                print(f"     -> Identity Retention:                  {retained_id} / {len(baseline_set)} unique stars ({id_rate:.1f}%)")
                print(f"     -> Exact Positional Identity Retention: {slot_matches} / {active_baseline_slots} exact positional slots ({slot_rate:.1f}%)")
-
 
             # Synthesis
             print(f"\nSYNTHESIS & INTERPRETATION:")
@@ -948,13 +840,11 @@ def run_epoch(epoch_key, epoch_index, base_stars_df):
             print(f"    enhancement relative to randomized orientations. Exact recurrence of the stellar identity sequence")
             print(f"    is relatively uncommon ({exact_recurrence_pct:.2f}%) but not unique to the proposed orientation.")
 
-
         # 6. Graph Generator
         if PRINT_GRAPH_GENERATOR:
             print("\n" + "="*85)
             print("RENDERING DYNAMIC SITE PORTRAIT GRAPH...")
             print("="*85)
-
 
             df_plot = final_anchors_df.copy()
             ns_plot_rows = []
@@ -969,7 +859,6 @@ def run_epoch(epoch_key, epoch_index, base_stars_df):
                     ns_plot_rows.append(s_row)
             df_ns_plot = pd.DataFrame(ns_plot_rows) if ns_plot_rows else pd.DataFrame()
 
-
             ew_star_names = set()
             for _, r in inter_quintant_df.iterrows():
                 if pd.notnull(r['West']) and str(r['West']).strip() not in ['None', 'NaN']: ew_star_names.add(r['West'])
@@ -977,13 +866,11 @@ def run_epoch(epoch_key, epoch_index, base_stars_df):
             df_ew_plot = revalidation_pool[revalidation_pool['Star_Name'].isin(ew_star_names)].copy() if ew_star_names else pd.DataFrame()
             df_bg_plot = revalidation_pool.copy()
 
-
             x0 = dynamic_framework_offset
             df_plot['RA_NORM'] = (df_plot['RA_EPOCH'] - x0) % 360.0
             if not df_ns_plot.empty: df_ns_plot['RA_NORM'] = (df_ns_plot['RA_EPOCH'] - x0) % 360.0
             if not df_ew_plot.empty: df_ew_plot['RA_NORM'] = (df_ew_plot['RA_EPOCH'] - x0) % 360.0
             if not df_bg_plot.empty: df_bg_plot['RA_NORM'] = (df_bg_plot['RA_EPOCH'] - x0) % 360.0
-
 
             fig, ax = plt.subplots(figsize=(8, 14))
             rect_colors = ['#f0f4f8', '#e1e8ed', '#f0f4f8', '#e1e8ed', '#f0f4f8']
@@ -996,19 +883,16 @@ def run_epoch(epoch_key, epoch_index, base_stars_df):
                 ax.plot([-90, 90], [y_top, y_bottom], color='#d62728', linestyle=':', linewidth=1.2, zorder=2)
                 ax.text(-82, y_top + height/2, f"Quintant {i+1}\n({borders[i]}° - {borders[i+1]}°)", ha='center', va='center', fontsize=9, fontweight='bold', color='#333333', zorder=3)
 
-
             if not df_bg_plot.empty: ax.scatter(df_bg_plot['DEC_EPOCH'], df_bg_plot['RA_NORM'], c='#b0b0b0', alpha=0.35, s=18, marker='o', zorder=3, label='Candidate Pool')
             scatter = ax.scatter(df_plot['DEC_EPOCH'], df_plot['RA_NORM'], c=df_plot['Vmag'], cmap='viridis_r', s=70, zorder=4, label='Primary Sector Anchors')
             if not df_ns_plot.empty: ax.scatter(df_ns_plot['DEC_EPOCH'], df_ns_plot['RA_NORM'], c='tab:orange', marker='*', s=33, edgecolors='black', linewidths=0.6, zorder=6, label='N/S Meridional Anchors')
             if not df_ew_plot.empty: ax.scatter(df_ew_plot['DEC_EPOCH'], df_ew_plot['RA_NORM'], c='salmon', marker='^', s=33, edgecolors='black', linewidths=0.6, zorder=6, label='E/W Geometric Anchors')
-
 
             for _, row in df_plot.iterrows(): ax.annotate(row['Star_Name'], (row['DEC_EPOCH'], row['RA_NORM']), textcoords="offset points", xytext=(-6, 0), ha='right', va='center', fontsize=8, fontweight='semibold', zorder=5)
             if not df_ns_plot.empty:
                 for _, row in df_ns_plot.iterrows(): ax.annotate(row['Star_Name'], (row['DEC_EPOCH'], row['RA_NORM']), textcoords="offset points", xytext=(-6, 0), ha='right', va='center', fontsize=8, fontweight='bold', color='#800020', zorder=7)
             if not df_ew_plot.empty:
                 for _, row in df_ew_plot.iterrows(): ax.annotate(row['Star_Name'], (row['DEC_EPOCH'], row['RA_NORM']), textcoords="offset points", xytext=(-6, 0), ha='right', va='center', fontsize=8, fontweight='bold', color='#800020', zorder=7)
-
 
             ax.set_xlim(90, -90)
             ax.set_ylim(360, 0)
@@ -1021,10 +905,8 @@ def run_epoch(epoch_key, epoch_index, base_stars_df):
             plt.tight_layout()
             plt.show()
 
-
     # Transform to 20-Selector Schema
     panoramic_records, inter_records, meridional_records = [], [], []
-
 
     for _, r in candidate_pool_df.iterrows():
         star_name = r['Star_Name']
@@ -1035,12 +917,10 @@ def run_epoch(epoch_key, epoch_index, base_stars_df):
             "Star": star_name, "StarKey": canonical_name(star_name), "V_App_Culm": float(r['V_App_Culm'])
         })
 
-
     for r in inter_quintant_rows:
         central_q = int(r['Central_Quintant'])
         score = float(r['Pair_Score'])
         if pd.isna(score): continue
-
 
         west_name = r['West']
         if west_name != "NONE" and not is_forbidden_name(west_name):
@@ -1049,14 +929,12 @@ def run_epoch(epoch_key, epoch_index, base_stars_df):
                 "Cardinal": "WEST", "Star": west_name, "StarKey": canonical_name(west_name), "Score": score
             })
 
-
         east_name = r['East']
         if east_name != "NONE" and not is_forbidden_name(east_name):
             inter_records.append({
                 "Epoch": epoch_index, "Final_Quintant": (central_q % 5) + 1,
                 "Cardinal": "EAST", "Star": east_name, "StarKey": canonical_name(east_name), "Score": score
             })
-
 
     for res in ns_results:
         q = int(res['Quintant'])
@@ -1075,34 +953,27 @@ def run_epoch(epoch_key, epoch_index, base_stars_df):
                     "Star": s_name, "StarKey": canonical_name(s_name), "Delta": float(res['South']['NS_DeltaRA'])
                 })
 
-
     return panoramic_records, inter_records, meridional_records
-
 
 # =====================================================================
 # 4. 20-STAR SELECTOR (Phase 1 & Phase 2)
 # =====================================================================
-
 
 def run_20_selector(panoramic_df, inter_df, meridional_df, n_epochs):
     print("\n" + "=" * 110)
     print("20-STAR INTEGRATED SELECTOR: PHASE 1 (E/W) [AUTHOR'S SET UP] + PHASE 2 (N/S) [BRIGHTNESS ONLY]")
     print("=" * 110)
 
-
     brightness_lookup = defaultdict(list)
     for _, row in panoramic_df.iterrows():
         brightness_lookup[(int(row["Epoch"]), row["StarKey"])].append(float(row["V_App_Culm"]))
-
 
     def best_vapp_for_star(star_key):
         vals = [v for (ep, sk), vlist in brightness_lookup.items() if sk == star_key for v in vlist]
         return float(min(vals)) if vals else np.nan
 
-
     def brightness_score(vapp):
         return float(np.clip((VAPP_MAX - float(vapp)) / VAPP_MAX, 0.0, 1.0)) if not pd.isna(vapp) else 0.0
-
 
     # Phase 1: EAST/WEST LOCK
     p1_inter_best = {}
@@ -1110,7 +981,6 @@ def run_20_selector(panoramic_df, inter_df, meridional_df, n_epochs):
         key = (row["Final_Quintant"], row["Cardinal"], row["StarKey"])
         if key not in p1_inter_best or row["Score"] > p1_inter_best[key]["Score"]:
             p1_inter_best[key] = row.to_dict()
-
 
     p1_general_pool = defaultdict(dict)
     for _, row in panoramic_df.iterrows():
@@ -1122,12 +992,10 @@ def run_20_selector(panoramic_df, inter_df, meridional_df, n_epochs):
                 if key not in p1_general_pool or cand["V_App"] < p1_general_pool[key]["V_App"]:
                     p1_general_pool[key] = cand
 
-
     QUINTANTS = [1, 2, 3, 4, 5]
     CARDINALS = ["EAST", "WEST", "NORTH", "SOUTH"]
     slots = [f"Q{q}_{c}" for q in QUINTANTS for c in CARDINALS]
     p1_scores, p1_meta = defaultdict(dict), defaultdict(dict)
-
 
     for key, row in p1_inter_best.items():
         q, card, sk = key
@@ -1135,7 +1003,6 @@ def run_20_selector(panoramic_df, inter_df, meridional_df, n_epochs):
         score = brightness_score(best_vapp_for_star(sk))
         p1_scores[slot][sk] = score
         p1_meta[slot][sk] = {"Star": row["Star"], "Source": "INTER-QUINTANT (Phase 1)", "Score": score, "V_App": best_vapp_for_star(sk)}
-
 
     for key, row in p1_general_pool.items():
         q, card, sk = key
@@ -1145,20 +1012,16 @@ def run_20_selector(panoramic_df, inter_df, meridional_df, n_epochs):
             p1_scores[slot][sk] = score
             p1_meta[slot][sk] = {"Star": row["Star"], "Source": "PANORAMIC (Phase 1)", "Score": score, "V_App": best_vapp_for_star(sk)}
 
-
     p1_candidates = sorted(list(set(k for s in slots for k in p1_scores[s].keys())))
     p1_matrix = np.full((len(slots), len(p1_candidates)), -1e9, dtype=float)
-
 
     for i, slot in enumerate(slots):
         for j, sk in enumerate(p1_candidates):
             if sk in p1_scores[slot]:
                 p1_matrix[i, j] = p1_scores[slot][sk]
 
-
     row_ind, col_ind = linear_sum_assignment(-p1_matrix)
     locked_assignments, locked_stars = {}, set()
-
 
     for i, j in zip(row_ind, col_ind):
         slot = slots[i]
@@ -1172,13 +1035,10 @@ def run_20_selector(panoramic_df, inter_df, meridional_df, n_epochs):
             }
             locked_stars.add(sk)
 
-
     print(f"✓ Locked {len(locked_assignments)} EAST/WEST Inter-Quintant Anchors.")
-
 
     # Phase 2: NORTH/SOUTH / VACANT LOCAL FALLBACK
     vacant_slots = [s for s in slots if s not in locked_assignments]
-
 
     p2_local_candidates = defaultdict(list)
     for _, row in panoramic_df.iterrows():
@@ -1189,7 +1049,6 @@ def run_20_selector(panoramic_df, inter_df, meridional_df, n_epochs):
                     "Star": row["Star"], "StarKey": sk, "V_App": float(row["V_App_Culm"])
                 })
 
-
     def fallback_global_score(q, cardinal, star_key):
         records = []
         for ep in range(1, n_epochs + 1):
@@ -1198,7 +1057,6 @@ def run_20_selector(panoramic_df, inter_df, meridional_df, n_epochs):
                     records.append(brightness_score(c["V_App"]))
         if not records: return None
         return float(np.mean(records))
-
 
     p2_fallback_scores, p2_valid_stars = {}, set()
     for slot in vacant_slots:
@@ -1212,16 +1070,13 @@ def run_20_selector(panoramic_df, inter_df, meridional_df, n_epochs):
                 p2_fallback_scores[(slot, sk)] = score
                 p2_valid_stars.add(sk)
 
-
     p2_stars_list = sorted(list(p2_valid_stars))
     p2_matrix = np.full((len(vacant_slots), len(p2_stars_list)), -1e9, dtype=float)
-
 
     for i, slot in enumerate(vacant_slots):
         for j, sk in enumerate(p2_stars_list):
             if (slot, sk) in p2_fallback_scores:
                 p2_matrix[i, j] = p2_fallback_scores[(slot, sk)]
-
 
     row_ind2, col_ind2 = linear_sum_assignment(-p2_matrix)
     phase2_assignments = {}
@@ -1235,14 +1090,11 @@ def run_20_selector(panoramic_df, inter_df, meridional_df, n_epochs):
             "Source": "LOCAL FALLBACK (Phase 2)", "V_App": best_vapp_for_star(sk)
         }
 
-
     final_selection = {**locked_assignments, **phase2_assignments}
-
 
     print("=" * 110)
     print(f"{'SLOT':<12}{'STAR':<20}{'SOURCE':<30}{'SCORE':>10}{'V_APP':>10}")
     print("-" * 110)
-
 
     for slot in slots:
         if slot in final_selection:
@@ -1251,24 +1103,19 @@ def run_20_selector(panoramic_df, inter_df, meridional_df, n_epochs):
         else:
             print(f"{slot:<12}{'VACANT':<20}")
 
-
     selected_keys = [x["StarKey"] for x in final_selection.values()]
     if len(selected_keys) != len(set(selected_keys)):
         raise RuntimeError(f"UNIQUENESS FAILURE! Duplicates found: {[k for k in set(selected_keys) if selected_keys.count(k)>1]}")
-
 
 # =====================================================================
 # 5. MAIN EXECUTION WRAPPER
 # =====================================================================
 
-
 import io
 import requests
 
-
 def fetch_star_catalog(mag_limit):
    cols = ["HIP", "RAICRS", "DEICRS", "Vmag", "Plx", "pmRA", "pmDE"]
-
 
    # -------------------------------------------------------------
    # Attempt 1: TAPVizieR (Strasbourg) via PyVO
@@ -1287,7 +1134,6 @@ def fetch_star_catalog(mag_limit):
    except Exception as e:
        print(f"-> Attempt 1 failed: {e}")
 
-
    # -------------------------------------------------------------
    # Attempt 2: Direct CDS ASU-TSV Stream (Primary URL)
    # -------------------------------------------------------------
@@ -1296,16 +1142,13 @@ def fetch_star_catalog(mag_limit):
        col_str = ",".join(cols)
        url = f"https://cdsarc.cds.unistra.fr/viz-bin/asu-tsv?-source=I/239/hip_main&-out={col_str}&Vmag=<{mag_limit}&-out.max=unlimited"
 
-
        resp = requests.get(url, timeout=30)
        resp.raise_for_status()
-
 
        lines = resp.text.splitlines()
        data_lines = []
        header_found = False
        header_cols = []
-
 
        for line in lines:
            if line.startswith("#"):
@@ -1320,12 +1163,10 @@ def fetch_star_catalog(mag_limit):
                continue
            data_lines.append(line)
 
-
        if not header_cols:
            header_cols = cols
 
-
-       df = pd.read_csv(io.StringIO("\n".join(data_lines)), sep="|", names=header_cols, header=None, skipinitialspace=True)
+       df = pd.read_csv(io.StringIO("\n".join(data_lines)), sep="\t", skipinitialspace=True)
        df.columns = df.columns.str.strip()
       
        rename_map = {
@@ -1335,19 +1176,15 @@ def fetch_star_catalog(mag_limit):
        }
        df = df.rename(columns=rename_map)
 
-
        if "HIP" not in df.columns:
            raise KeyError("Column 'HIP' not found in parsed ASU-TSV stream.")
-
 
        for col in cols:
            if col in df.columns:
                df[col] = pd.to_numeric(df[col], errors="coerce")
 
-
        df = df.dropna(subset=["HIP", "RAICRS", "DEICRS", "Vmag"]).copy()
        df["HIP"] = df["HIP"].astype(int)
-
 
        df = df[[c for c in cols if c in df.columns]].copy()
       
@@ -1355,12 +1192,10 @@ def fetch_star_catalog(mag_limit):
        if df.empty:
            raise ValueError("Direct CDS ASU-TSV stream returned 0 valid rows.")
 
-
        print(f"-> Success via ASU-TSV Stream! Rows loaded: {len(df)}")
        return df
    except Exception as e:
        print(f"-> Attempt 2 failed: {e}")
-
 
    # -------------------------------------------------------------
    # Attempt 3: VizieR Harvard Mirror ASU-TSV Stream
@@ -1370,16 +1205,13 @@ def fetch_star_catalog(mag_limit):
        col_str = ",".join(cols)
        url = f"https://vizier.cfa.harvard.edu/viz-bin/asu-tsv?-source=I/239/hip_main&-out={col_str}&Vmag=<{mag_limit}&-out.max=unlimited"
 
-
        resp = requests.get(url, timeout=30)
        resp.raise_for_status()
-
 
        lines = resp.text.splitlines()
        data_lines = [line for line in lines if not line.startswith("#") and line.strip()]
 
-
-       df = pd.read_csv(io.StringIO("\n".join(data_lines)), sep="|", skipinitialspace=True)
+       df = pd.read_csv(io.StringIO("\n".join(data_lines)), sep="\t", skipinitialspace=True)
        df.columns = df.columns.str.strip()
       
        rename_map = {
@@ -1389,15 +1221,12 @@ def fetch_star_catalog(mag_limit):
        }
        df = df.rename(columns=rename_map)
 
-
        for col in cols:
            if col in df.columns:
                df[col] = pd.to_numeric(df[col], errors="coerce")
 
-
        df = df.dropna(subset=["HIP", "RAICRS", "DEICRS", "Vmag"]).copy()
        df["HIP"] = df["HIP"].astype(int)
-
 
        df = df[[c for c in cols if c in df.columns]].copy()
       
@@ -1405,12 +1234,10 @@ def fetch_star_catalog(mag_limit):
        if df.empty:
            raise ValueError("Harvard Mirror stream returned 0 valid rows.")
 
-
        print(f"-> Success via Harvard Mirror ASU-TSV Stream! Rows loaded: {len(df)}")
        return df
    except Exception as e:
        print(f"-> Attempt 3 failed: {e}")
-
 
    # -------------------------------------------------------------
    # Attempt 4: Local Cache Fallback (/content/sample_data/hip_bright_cache.csv)
@@ -1426,7 +1253,6 @@ def fetch_star_catalog(mag_limit):
            "RAJ2000": "RAICRS", "DEJ2000": "DEICRS"
        }
        df = df.rename(columns=rename_map)
-
 
        for col in cols:
            if col in df.columns:
@@ -1444,28 +1270,23 @@ def fetch_star_catalog(mag_limit):
        if df.empty:
            raise ValueError("Local cache file is empty or yielded no rows matching mag_limit.")
 
-
        print(f"-> Success via Local Cache File! Rows loaded: {len(df)}")
        return df
    except Exception as e:
        raise RuntimeError(f"All catalog fetch endpoints and local cache failed. Last error: {e}")
-
 
 # Usage inside main():
 def main():
     base_stars_df = fetch_star_catalog(MAG_LIMIT)
     base_stars_df["Star_Name"] = base_stars_df["HIP"].map(HIP_NAMES).fillna("HIP " + base_stars_df["HIP"].astype(str))
 
-
     if not EXECUTE_20_SELECTOR:
         print(f"\n[EXECUTE_20_SELECTOR = False] -> Running ONLY the selected detailed epoch: '{PRINT_DETAILED_EPOCH}'")
         run_epoch(PRINT_DETAILED_EPOCH, 1, base_stars_df)
         return
 
-
     all_panoramic, all_inter, all_meridional = [], [], []
     epoch_keys = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
-
 
     for i, key in enumerate(epoch_keys, start=1):
         pan, inter, mer = run_epoch(key, i, base_stars_df)
@@ -1473,11 +1294,9 @@ def main():
         all_inter.extend(inter)
         all_meridional.extend(mer)
 
-
     panoramic_df = pd.DataFrame(all_panoramic)
     inter_df = pd.DataFrame(all_inter)
     meridional_df = pd.DataFrame(all_meridional)
-
 
     print("\n" + "=" * 85)
     print("DATA HANDOFF: 7-EPOCH INTEGRATION COMPLETE")
@@ -1487,9 +1306,7 @@ def main():
     print(f"✓ Inter-Quintant Candidates Generated: {len(inter_df)}")
     print(f"✓ Meridional Candidates Generated: {len(meridional_df)}")
 
-
     run_20_selector(panoramic_df, inter_df, meridional_df, n_epochs=len(epoch_keys))
-
 
 if __name__ == "__main__":
     main()
